@@ -16,15 +16,15 @@
 package org.kuali.kra.irb.actions.submit;
 
 import org.apache.commons.lang.StringUtils;
+import org.kuali.coeus.common.protocol.impl.ProtocolDocumentBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ExecuteProtocolSubmitActionRule;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolReviewerBeanBase;
 import org.kuali.kra.committee.bo.CommitteeMembership;
 import org.kuali.kra.committee.service.CommitteeService;
 import org.kuali.kra.infrastructure.Constants;
 import org.kuali.kra.infrastructure.KeyConstants;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.irb.ProtocolDocument;
-import org.kuali.kra.protocol.ProtocolDocumentBase;
-import org.kuali.kra.protocol.actions.submit.ExecuteProtocolSubmitActionRule;
-import org.kuali.kra.protocol.actions.submit.ProtocolReviewerBeanBase;
 import org.kuali.kra.rules.ResearchDocumentRuleBase;
 import org.kuali.rice.coreservice.framework.parameter.ParameterService;
 import org.kuali.rice.krad.bo.BusinessObject;
@@ -52,7 +52,7 @@ public class ProtocolSubmitActionRule extends ResearchDocumentRuleBase implement
      * @see org.kuali.kra.irb.actions.submit.ExecuteProtocolSubmitActionRule#processSubmitAction(org.kuali.kra.irb.ProtocolDocument,
      *      org.kuali.kra.irb.actions.submit.ProtocolSubmitAction)
      */
-    public boolean processSubmitAction(ProtocolDocumentBase document, org.kuali.kra.protocol.actions.submit.ProtocolSubmitAction submitAction) {
+    public boolean processSubmitAction(ProtocolDocumentBase document, org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmitAction submitAction) {
 
         boolean isValid = validateSubmissionType((ProtocolDocument)document, (ProtocolSubmitAction) submitAction);
         isValid &= validateProtocolReviewType((ProtocolSubmitAction) submitAction);

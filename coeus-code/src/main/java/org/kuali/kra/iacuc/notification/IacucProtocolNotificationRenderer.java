@@ -16,7 +16,9 @@
 package org.kuali.kra.iacuc.notification;
 
 import org.apache.commons.collections.CollectionUtils;
-import org.kuali.kra.common.committee.bo.CommitteeBase;
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeBase;
+import org.kuali.coeus.common.protocol.impl.notification.ProtocolNotificationRendererBase;
+import org.kuali.coeus.common.protocol.impl.notification.ProtocolReplacementParameters;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.iacuc.actions.IacucProtocolAction;
 import org.kuali.kra.iacuc.actions.IacucProtocolActionType;
@@ -25,8 +27,6 @@ import org.kuali.kra.iacuc.actions.submit.IacucProtocolSubmission;
 import org.kuali.kra.iacuc.actions.submit.IacucProtocolSubmissionQualifierType;
 import org.kuali.kra.iacuc.actions.submit.IacucProtocolSubmissionType;
 import org.kuali.kra.iacuc.committee.bo.IacucCommittee;
-import org.kuali.kra.protocol.notification.ProtocolNotificationRendererBase;
-import org.kuali.kra.protocol.notification.ProtocolReplacementParameters;
 
 import java.util.HashMap;
 import java.util.List;

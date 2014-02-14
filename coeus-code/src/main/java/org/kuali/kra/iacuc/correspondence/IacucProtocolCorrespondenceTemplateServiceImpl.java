@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.correspondence;
 
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceTemplateBase;
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceTemplateServiceImpl;
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceTemplateBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceTemplateServiceImpl;
 
 public class IacucProtocolCorrespondenceTemplateServiceImpl extends ProtocolCorrespondenceTemplateServiceImpl implements IacucProtocolCorrespondenceTemplateService {
 

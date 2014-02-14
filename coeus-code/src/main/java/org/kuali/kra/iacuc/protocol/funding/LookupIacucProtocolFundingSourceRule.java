@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.protocol.funding;
 
-import org.kuali.kra.protocol.protocol.funding.LookupProtocolFundingSourceRule;
+import org.kuali.coeus.common.protocol.impl.protocol.funding.LookupProtocolFundingSourceRule;
 
 public class LookupIacucProtocolFundingSourceRule extends LookupProtocolFundingSourceRule {
 

@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.actions.print;
 
-import org.kuali.kra.protocol.actions.print.ProtocolPrintHelper;
-import org.kuali.kra.protocol.actions.print.ProtocolPrintType;
-import org.kuali.kra.protocol.actions.print.ProtocolPrintingServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.actions.print.ProtocolPrintHelper;
+import org.kuali.coeus.common.protocol.impl.actions.print.ProtocolPrintType;
+import org.kuali.coeus.common.protocol.impl.actions.print.ProtocolPrintingServiceImplBase;
 
 import java.util.HashMap;
 

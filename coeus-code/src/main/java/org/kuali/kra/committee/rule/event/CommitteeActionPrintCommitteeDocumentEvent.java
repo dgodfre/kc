@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.committee.rule.event;
 
+import org.kuali.coeus.common.protocol.impl.committee.event.CommitteeActionsEventBase;
 import org.kuali.kra.committee.rules.CommitteeActionPrintCommitteeDocumentRule;
-import org.kuali.kra.common.committee.rule.event.CommitteeActionsEventBase;
 import org.kuali.kra.rule.BusinessRuleInterface;
 import org.kuali.rice.krad.document.Document;
 

@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc;
 
-import org.kuali.kra.protocol.ProtocolJavaFunctionKrmsTermService;
+import org.kuali.coeus.common.protocol.impl.ProtocolJavaFunctionKrmsTermService;
 
 
 public interface IacucJavaFunctionKrmsTermService extends ProtocolJavaFunctionKrmsTermService{

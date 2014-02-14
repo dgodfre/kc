@@ -16,7 +16,7 @@
 package org.kuali.kra.irb.summary;
 
 
-public class OrganizationSummary extends org.kuali.kra.protocol.summary.OrganizationSummary {
+public class OrganizationSummary extends org.kuali.coeus.common.protocol.impl.summary.OrganizationSummary {
 
   private static final long serialVersionUID = -774036516393407380L;
     

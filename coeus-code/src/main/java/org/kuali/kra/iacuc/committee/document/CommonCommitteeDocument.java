@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.committee.document;
 
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeDocumentBase;
 import org.kuali.kra.bo.DocumentCustomData;
-import org.kuali.kra.common.committee.document.CommitteeDocumentBase;
 import org.kuali.kra.iacuc.committee.bo.IacucCommittee;
 import org.kuali.kra.iacuc.committee.bo.IacucCommitteeSchedule;
 import org.kuali.kra.iacuc.committee.service.IacucCommitteeService;

@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.protocol.participant;
 
-import org.kuali.kra.protocol.ProtocolAssociateBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolAssociateBase;
 
 /**
  * 

@@ -16,6 +16,14 @@
 package org.kuali.kra.irb;
 
 import org.apache.commons.lang.StringUtils;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolStatusBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionStatusBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionTypeBase;
+import org.kuali.coeus.common.protocol.impl.noteattachment.ProtocolAttachmentFilterBase;
+import org.kuali.coeus.common.protocol.impl.noteattachment.ProtocolAttachmentProtocolBase;
+import org.kuali.coeus.common.protocol.impl.protocol.research.ProtocolResearchAreaBase;
 import org.kuali.kra.common.notification.bo.KcNotification;
 import org.kuali.kra.common.permissions.Permissionable;
 import org.kuali.kra.infrastructure.Constants;
@@ -37,14 +45,6 @@ import org.kuali.kra.irb.questionnaire.ProtocolModuleQuestionnaireBean;
 import org.kuali.kra.irb.summary.ParticipantSummary;
 import org.kuali.kra.irb.summary.ProtocolSummary;
 import org.kuali.kra.krms.KrmsRulesContext;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.actions.ProtocolStatusBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionStatusBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionTypeBase;
-import org.kuali.kra.protocol.noteattachment.ProtocolAttachmentFilterBase;
-import org.kuali.kra.protocol.noteattachment.ProtocolAttachmentProtocolBase;
-import org.kuali.kra.protocol.protocol.research.ProtocolResearchAreaBase;
 import org.kuali.kra.questionnaire.answer.AnswerHeader;
 import org.kuali.kra.questionnaire.answer.ModuleQuestionnaireBean;
 

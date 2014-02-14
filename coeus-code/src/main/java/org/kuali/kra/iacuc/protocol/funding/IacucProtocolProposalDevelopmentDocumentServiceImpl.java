@@ -15,10 +15,10 @@
  */
 package org.kuali.kra.iacuc.protocol.funding;
 
+import org.kuali.coeus.common.protocol.impl.protocol.funding.impl.ProtocolProposalDevelopmentDocumentServiceImplBase;
 import org.kuali.kra.bo.SpecialReviewType;
 import org.kuali.kra.iacuc.IacucProtocolDocument;
 import org.kuali.kra.infrastructure.KraServiceLocator;
-import org.kuali.kra.protocol.protocol.funding.impl.ProtocolProposalDevelopmentDocumentServiceImplBase;
 import org.kuali.rice.coreservice.framework.parameter.ParameterService;
 
 /**

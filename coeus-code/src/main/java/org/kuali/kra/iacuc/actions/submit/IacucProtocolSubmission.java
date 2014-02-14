@@ -15,10 +15,10 @@
  */
 package org.kuali.kra.iacuc.actions.submit;
 
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionQualifierTypeBase;
 import org.kuali.kra.iacuc.committee.bo.IacucCommittee;
 import org.kuali.kra.iacuc.committee.bo.IacucCommitteeSchedule;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionQualifierTypeBase;
 
 /**
  * 

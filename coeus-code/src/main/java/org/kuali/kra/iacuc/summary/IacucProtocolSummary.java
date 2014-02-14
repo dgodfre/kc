@@ -16,7 +16,7 @@
 package org.kuali.kra.iacuc.summary;
 
 import org.apache.commons.lang.StringUtils;
-import org.kuali.kra.protocol.summary.ProtocolSummary;
+import org.kuali.coeus.common.protocol.impl.summary.ProtocolSummary;
 
 import java.util.ArrayList;
 import java.util.List;

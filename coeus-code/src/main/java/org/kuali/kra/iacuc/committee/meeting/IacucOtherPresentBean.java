@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.committee.meeting;
 
-import org.kuali.kra.common.committee.meeting.CommitteeScheduleAttendanceBase;
-import org.kuali.kra.common.committee.meeting.OtherPresentBeanBase;
+import org.kuali.coeus.common.protocol.impl.committee.meeting.OtherPresentBeanBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommitteeScheduleAttendanceBase;
 
 public class IacucOtherPresentBean extends OtherPresentBeanBase {
 

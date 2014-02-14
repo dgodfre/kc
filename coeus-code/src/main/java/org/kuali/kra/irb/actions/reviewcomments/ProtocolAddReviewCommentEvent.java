@@ -15,10 +15,10 @@
  */
 package org.kuali.kra.irb.actions.reviewcomments;
 
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ProtocolAddReviewCommentEventBase;
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ProtocolAddReviewCommentRuleBase;
 import org.kuali.kra.irb.ProtocolDocument;
 import org.kuali.kra.meeting.CommitteeScheduleMinute;
-import org.kuali.kra.protocol.actions.reviewcomments.ProtocolAddReviewCommentEventBase;
-import org.kuali.kra.protocol.actions.reviewcomments.ProtocolAddReviewCommentRuleBase;
 
 /**
  * Encapsulates a validation event for a Reviewer Comment add action.

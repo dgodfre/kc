@@ -15,14 +15,14 @@
  */
 package org.kuali.kra.committee.service.impl;
 
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
+import org.kuali.coeus.common.protocol.impl.committee.membership.CommitteeMembershipExpertiseBase;
+import org.kuali.coeus.common.protocol.impl.committee.membership.CommitteeMembershipServiceImplBase;
 import org.kuali.kra.committee.bo.Committee;
 import org.kuali.kra.committee.bo.CommitteeMembershipExpertise;
 import org.kuali.kra.committee.service.CommitteeMembershipService;
 import org.kuali.kra.committee.service.CommitteeService;
-import org.kuali.kra.common.committee.bo.CommitteeMembershipExpertiseBase;
-import org.kuali.kra.common.committee.service.impl.CommitteeMembershipServiceImplBase;
 import org.kuali.kra.irb.actions.submit.ProtocolSubmission;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
 
 /**
  * This class...

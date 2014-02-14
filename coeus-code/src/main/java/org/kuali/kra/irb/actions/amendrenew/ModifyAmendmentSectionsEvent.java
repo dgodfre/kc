@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.irb.actions.amendrenew;
 
-import org.kuali.kra.protocol.ProtocolDocumentBase;
-import org.kuali.kra.protocol.actions.amendrenew.ModifyAmendmentSectionsEventBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolDocumentBase;
+import org.kuali.coeus.common.protocol.impl.actions.amendrenew.ModifyAmendmentSectionsEventBase;
 
 /**
  * When amendment sections are modified, this event is generated.

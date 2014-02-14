@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.irb.personnel;
 
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolAttachmentPersonnelRuleBase;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.irb.noteattachment.ProtocolAttachmentService;
-import org.kuali.kra.protocol.personnel.ProtocolAttachmentPersonnelRuleBase;
 
 
 public class ProtocolAttachmentPersonnelRule extends ProtocolAttachmentPersonnelRuleBase {

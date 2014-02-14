@@ -16,6 +16,8 @@
 package org.kuali.kra.irb.actions.amendrenew;
 
 import org.junit.Test;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.noteattachment.ProtocolAttachmentPersonnelBase;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.irb.Protocol;
 import org.kuali.kra.irb.actions.ProtocolAction;
@@ -29,8 +31,6 @@ import org.kuali.kra.irb.protocol.participant.ProtocolParticipant;
 import org.kuali.kra.irb.protocol.reference.ProtocolReference;
 import org.kuali.kra.irb.protocol.research.ProtocolResearchArea;
 import org.kuali.kra.irb.specialreview.ProtocolSpecialReview;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.noteattachment.ProtocolAttachmentPersonnelBase;
 import org.kuali.kra.test.infrastructure.KcIntegrationTestBase;
 
 import java.sql.Date;

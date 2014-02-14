@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.onlinereview;
 
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewBase;
-import org.kuali.kra.protocol.onlinereview.ProtocolReviewAttachmentBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolReviewAttachmentBase;
 
 public class IacucProtocolReviewAttachment extends ProtocolReviewAttachmentBase {
 

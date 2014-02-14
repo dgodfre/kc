@@ -19,7 +19,7 @@ package org.kuali.kra.irb.actions.notifyirb;
  * 
  * This class is an attachment bean for action attachment. these information will be saved to ProtocolSubmissionDoc
  */
-public class ProtocolActionAttachment extends org.kuali.kra.protocol.actions.notify.ProtocolActionAttachment {
+public class ProtocolActionAttachment extends org.kuali.coeus.common.protocol.impl.actions.notify.ProtocolActionAttachment {
     
     private static final long serialVersionUID = -2626638393031365683L;
     

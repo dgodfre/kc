@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.actions.amendrenew;
 
-import org.kuali.kra.protocol.actions.amendrenew.ModifyAmendmentSectionsRuleBase;
+import org.kuali.coeus.common.protocol.impl.actions.amendrenew.ModifyAmendmentSectionsRuleBase;
 
 /**
  * Business rule for modifying  amendment sections.  The user is required to enter a summary.

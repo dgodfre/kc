@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.protocol.funding;
 
-import org.kuali.kra.protocol.protocol.funding.ProtocolFundingSourceAuditRuleBase;
+import org.kuali.coeus.common.protocol.impl.protocol.funding.ProtocolFundingSourceAuditRuleBase;
 
 public class ProtocolFundingSourceAuditRule extends ProtocolFundingSourceAuditRuleBase {
     

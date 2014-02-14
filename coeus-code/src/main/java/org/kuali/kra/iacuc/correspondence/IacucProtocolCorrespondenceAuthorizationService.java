@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.correspondence;
 
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceAuthorizationService;
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceAuthorizationService;
 
 public interface IacucProtocolCorrespondenceAuthorizationService extends ProtocolCorrespondenceAuthorizationService {
 

@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.personnel;
 
-import org.kuali.kra.protocol.personnel.ProtocolPersonTrainingServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonTrainingServiceImplBase;
 
 
 public class ProtocolPersonTrainingServiceImpl extends ProtocolPersonTrainingServiceImplBase implements ProtocolPersonTrainingService {

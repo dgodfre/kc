@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.correspondence;
 
-import org.kuali.kra.protocol.correspondence.BatchCorrespondenceDetailService;
+import org.kuali.coeus.common.protocol.impl.correspondence.BatchCorrespondenceDetailService;
 
 public interface IacucBatchCorrespondenceDetailService extends BatchCorrespondenceDetailService {
 

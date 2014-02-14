@@ -115,7 +115,7 @@ public class IrbCorrespondentDerivedRoleTypeServiceImpl extends DerivedRoleTypeS
         ProtocolSummary protocolSummary = protocol.getProtocolSummary();
         List<RoleMembership> members = new ArrayList<RoleMembership>();
         
-        for (org.kuali.kra.protocol.summary.OrganizationSummary orgSummary: protocolSummary.getOrganizations()) {
+        for (org.kuali.coeus.common.protocol.impl.summary.OrganizationSummary orgSummary: protocolSummary.getOrganizations()) {
             String organizationId = orgSummary.getId();
             if (StringUtils.isNotBlank(organizationId)) {
                 List<OrganizationCorrespondent> organizationCorrespondents = getOrganizationService().retrieveOrganizationCorrespondentsByOrganizationId(organizationId);

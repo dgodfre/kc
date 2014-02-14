@@ -15,18 +15,18 @@
  */
 package org.kuali.kra.irb.actions.genericactions;
 
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewAttachmentsBeanBase;
 import org.kuali.kra.irb.actions.ActionHelper;
 import org.kuali.kra.irb.actions.ProtocolActionBean;
 import org.kuali.kra.irb.actions.reviewcomments.ReviewAttachmentsBean;
 import org.kuali.kra.irb.actions.reviewcomments.ReviewCommentsBean;
-import org.kuali.kra.protocol.actions.reviewcomments.ReviewAttachmentsBeanBase;
 
 import java.sql.Date;
 
 /**
  * This class is really just a "form" for generic actions.
  */
-public class ProtocolGenericActionBean extends ProtocolActionBean implements org.kuali.kra.protocol.actions.genericactions.ProtocolGenericActionBean {
+public class ProtocolGenericActionBean extends ProtocolActionBean implements org.kuali.coeus.common.protocol.impl.actions.genericactions.ProtocolGenericActionBean {
 
     private static final long serialVersionUID = 1098390205989217539L;
     

@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.actions.submit;
 
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolActionUpdateMapping;
 import org.kuali.kra.iacuc.actions.IacucProtocolAction;
-import org.kuali.kra.protocol.actions.submit.ProtocolActionUpdateMapping;
 
 /*
  * This is the post condition attributes for a protocol action

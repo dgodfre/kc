@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb;
 
-import org.kuali.kra.protocol.ProtocolJavaFunctionKrmsTermService;
+import org.kuali.coeus.common.protocol.impl.ProtocolJavaFunctionKrmsTermService;
 
 
 public interface IrbJavaFunctionKrmsTermService extends ProtocolJavaFunctionKrmsTermService{

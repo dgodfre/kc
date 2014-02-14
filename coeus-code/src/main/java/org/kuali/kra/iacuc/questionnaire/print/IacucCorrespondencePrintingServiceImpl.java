@@ -15,11 +15,11 @@
  */
 package org.kuali.kra.iacuc.questionnaire.print;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
 import org.kuali.kra.common.printing.CorrespondencePrintingServiceImpl;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.iacuc.actions.submit.IacucProtocolSubmission;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
 
 public class IacucCorrespondencePrintingServiceImpl extends CorrespondencePrintingServiceImpl implements IacucCorrespondencePrintingService{
 

@@ -19,6 +19,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.actions.copy.ProtocolCopyServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.iacuc.IacucProtocolDocument;
 import org.kuali.kra.iacuc.actions.IacucProtocolAction;
@@ -35,10 +39,6 @@ import org.kuali.kra.iacuc.threers.IacucAlternateSearch;
 import org.kuali.kra.iacuc.threers.IacucPrinciples;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.infrastructure.RoleConstants;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.actions.copy.ProtocolCopyServiceImplBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
 
 public class IacucProtocolCopyServiceImpl extends ProtocolCopyServiceImplBase<IacucProtocolDocument> implements IacucProtocolCopyService{
 

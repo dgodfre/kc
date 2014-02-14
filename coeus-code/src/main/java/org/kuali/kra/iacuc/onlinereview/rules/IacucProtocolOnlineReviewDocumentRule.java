@@ -16,17 +16,17 @@
 package org.kuali.kra.iacuc.onlinereview.rules;
 
 import org.apache.commons.lang.StringUtils;
-import org.kuali.kra.common.committee.meeting.CommitteeScheduleMinuteBase;
 import org.kuali.kra.iacuc.onlinereview.IacucProtocolOnlineReview;
 import org.kuali.kra.infrastructure.KeyConstants;
 import org.kuali.kra.infrastructure.KraServiceLocator;
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewBase;
-import org.kuali.kra.protocol.onlinereview.ProtocolReviewAttachmentBase;
-import org.kuali.kra.protocol.onlinereview.event.*;
-import org.kuali.kra.protocol.onlinereview.rules.*;
 import org.kuali.kra.rule.BusinessRuleInterface;
 import org.kuali.kra.rule.event.KraDocumentEventBaseExtension;
 import org.kuali.kra.rules.ResearchDocumentRuleBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommitteeScheduleMinuteBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolReviewAttachmentBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.event.*;
+import org.kuali.coeus.common.protocol.impl.onlinereview.rules.*;
 import org.kuali.coeus.sys.framework.util.DateUtils;
 import org.kuali.rice.krad.service.KualiRuleService;
 import org.kuali.rice.krad.util.GlobalVariables;

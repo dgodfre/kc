@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.irb.actions.reviewcomments;
 
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewAttachmentsBeanBase;
 import org.kuali.kra.irb.onlinereview.ProtocolReviewAttachment;
-import org.kuali.kra.protocol.actions.reviewcomments.ReviewAttachmentsBeanBase;
 
 /**
  * 

@@ -16,7 +16,7 @@
 package org.kuali.kra.irb.correspondence;
 
 
-public class ValidProtoActionCoresp extends org.kuali.kra.protocol.correspondence.ValidProtoActionCoresp {
+public class ValidProtoActionCoresp extends org.kuali.coeus.common.protocol.impl.correspondence.ValidProtoActionCoresp {
 
     /**
      * Comment for <code>serialVersionUID</code>

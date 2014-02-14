@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.personnel;
 
-import org.kuali.kra.protocol.personnel.ProtocolPersonRoleBase;
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonRoleBase;
 
 public class ProtocolPersonRole extends ProtocolPersonRoleBase {
 

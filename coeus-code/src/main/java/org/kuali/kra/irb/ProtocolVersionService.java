@@ -19,6 +19,6 @@ package org.kuali.kra.irb;
 /**
  * The Protocol Version Service.
  */
-public interface ProtocolVersionService extends org.kuali.kra.protocol.ProtocolVersionService {
+public interface ProtocolVersionService extends org.kuali.coeus.common.protocol.impl.ProtocolVersionService {
 
 }

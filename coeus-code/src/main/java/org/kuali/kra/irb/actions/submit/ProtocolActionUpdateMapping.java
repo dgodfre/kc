@@ -18,7 +18,7 @@ package org.kuali.kra.irb.actions.submit;
 /*
  * This is the post condition attributes for a protocol action
  */
-public class ProtocolActionUpdateMapping extends org.kuali.kra.protocol.actions.submit.ProtocolActionUpdateMapping {
+public class ProtocolActionUpdateMapping extends org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolActionUpdateMapping {
 
     public ProtocolActionUpdateMapping(String actionTypeCode, String submissionTypeCode, String protocolStatusCode, String specialCondition) {
         super(actionTypeCode, submissionTypeCode, protocolStatusCode, specialCondition);

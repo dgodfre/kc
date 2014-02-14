@@ -15,6 +15,7 @@
  */
 package org.kuali.kra.iacuc.actions.assignagenda;
 
+import org.kuali.coeus.common.protocol.impl.actions.assignagenda.ProtocolAssignToAgendaBean;
 import org.kuali.kra.iacuc.actions.IacucActionHelper;
 import org.kuali.kra.iacuc.actions.IacucProtocolActionType;
 import org.kuali.kra.iacuc.actions.genericactions.IacucProtocolGenericActionBean;
@@ -23,7 +24,6 @@ import org.kuali.kra.infrastructure.Constants;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.infrastructure.TaskName;
 import org.kuali.kra.printing.Printable;
-import org.kuali.kra.protocol.actions.assignagenda.ProtocolAssignToAgendaBean;
 
 /**
  * This class is really just a "form" for assigning a protocol to an agenda.

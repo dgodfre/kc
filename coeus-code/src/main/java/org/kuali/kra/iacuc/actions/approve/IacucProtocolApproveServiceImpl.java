@@ -15,17 +15,17 @@
  */
 package org.kuali.kra.iacuc.actions.approve;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.actions.approve.ProtocolApproveBean;
+import org.kuali.coeus.common.protocol.impl.actions.approve.ProtocolApproveServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.actions.correspondence.ProtocolActionsCorrespondenceBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.iacuc.actions.IacucProtocolAction;
 import org.kuali.kra.iacuc.actions.IacucProtocolActionType;
 import org.kuali.kra.iacuc.actions.submit.IacucProtocolSubmission;
 import org.kuali.kra.iacuc.correspondence.IacucProtocolActionsCorrespondence;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.actions.approve.ProtocolApproveBean;
-import org.kuali.kra.protocol.actions.approve.ProtocolApproveServiceImplBase;
-import org.kuali.kra.protocol.actions.correspondence.ProtocolActionsCorrespondenceBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
 
 public class IacucProtocolApproveServiceImpl extends ProtocolApproveServiceImplBase implements IacucProtocolApproveService {
 
@@ -34,8 +34,8 @@ public class IacucProtocolApproveServiceImpl extends ProtocolApproveServiceImplB
     
     /**
      * {@inheritDoc}
-     * @see org.kuali.kra.protocol.actions.approve.ProtocolApproveService#grantFullApproval(org.kuali.kra.protocol.ProtocolBase, 
-     *      org.kuali.kra.protocol.actions.approve.ProtocolApproveBean)
+     * @see org.kuali.coeus.common.protocol.impl.actions.approve.ProtocolApproveService#grantFullApproval(org.kuali.coeus.common.protocol.impl.ProtocolBase, 
+     *      org.kuali.coeus.common.protocol.impl.actions.approve.ProtocolApproveBean)
      */
     public void grantFullApproval(ProtocolBase protocol, ProtocolApproveBean actionBean) throws Exception {
         generateProtocolActionAndAttach(protocol, actionBean, IacucProtocolActionType.IACUC_APPROVED);   

@@ -15,10 +15,10 @@
  */
 package org.kuali.kra.irb.personnel;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.personnel.*;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.infrastructure.RoleConstants;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.personnel.*;
 import org.kuali.kra.service.KcAuthorizationService;
 
 

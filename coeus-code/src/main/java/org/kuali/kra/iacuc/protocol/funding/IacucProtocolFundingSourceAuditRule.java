@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.protocol.funding;
 
-import org.kuali.kra.protocol.protocol.funding.ProtocolFundingSourceAuditRuleBase;
+import org.kuali.coeus.common.protocol.impl.protocol.funding.ProtocolFundingSourceAuditRuleBase;
 
 public class IacucProtocolFundingSourceAuditRule extends ProtocolFundingSourceAuditRuleBase {
 

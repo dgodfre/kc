@@ -15,11 +15,11 @@
  */
 package org.kuali.kra.irb.questionnaire.print;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
 import org.kuali.kra.common.printing.CorrespondencePrintingServiceImpl;
 import org.kuali.kra.irb.Protocol;
 import org.kuali.kra.irb.actions.submit.ProtocolSubmission;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
 
 public class IrbCorrespondencePrintingServiceImpl extends CorrespondencePrintingServiceImpl implements IrbCorrespondencePrintingService {
 

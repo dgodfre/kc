@@ -16,12 +16,12 @@
 package org.kuali.kra.irb.notification;
 
 
+import org.kuali.coeus.common.protocol.impl.notification.ProtocolNotificationContextBase;
 import org.kuali.kra.bo.CoeusModule;
 import org.kuali.kra.common.notification.NotificationRenderer;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.irb.Protocol;
 import org.kuali.kra.irb.onlinereview.ProtocolOnlineReview;
-import org.kuali.kra.protocol.notification.ProtocolNotificationContextBase;
 
 /**
  * This class extends the notification context base and provides some helpful functions for

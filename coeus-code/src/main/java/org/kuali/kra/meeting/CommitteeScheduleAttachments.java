@@ -19,7 +19,7 @@ package org.kuali.kra.meeting;
  *  this is BO for committee schedule attachments
  */
 
-import org.kuali.kra.common.committee.meeting.CommitteeScheduleAttachmentsBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommitteeScheduleAttachmentsBase;
 
 public class CommitteeScheduleAttachments extends CommitteeScheduleAttachmentsBase {
 

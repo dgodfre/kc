@@ -25,7 +25,7 @@ import org.kuali.kra.printing.Printable;
 /**
  * This class is really just a "form" for assigning a protocol to an agenda.
  */
-public class ProtocolAssignToAgendaBean extends ProtocolGenericActionBean implements org.kuali.kra.protocol.actions.assignagenda.ProtocolAssignToAgendaBean {
+public class ProtocolAssignToAgendaBean extends ProtocolGenericActionBean implements org.kuali.coeus.common.protocol.impl.actions.assignagenda.ProtocolAssignToAgendaBean {
 
     private static final long serialVersionUID = -1671485882883282877L;
     

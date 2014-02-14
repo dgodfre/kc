@@ -16,14 +16,14 @@
 package org.kuali.kra.iacuc.actions.submit;
 
 import org.apache.commons.lang.StringUtils;
+import org.kuali.coeus.common.protocol.impl.ProtocolDocumentBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolReviewTypeBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionTypeBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmitAction;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmitActionRuleBase;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.iacuc.IacucProtocolDocument;
 import org.kuali.kra.infrastructure.KeyConstants;
-import org.kuali.kra.protocol.ProtocolDocumentBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolReviewTypeBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionTypeBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmitAction;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmitActionRuleBase;
 import org.kuali.rice.kns.util.AuditCluster;
 import org.kuali.rice.kns.util.AuditError;
 import org.kuali.rice.kns.util.KNSGlobalVariables;

@@ -15,15 +15,15 @@
  */
 package org.kuali.kra.irb.actions.print;
 
+import org.kuali.coeus.common.protocol.impl.actions.print.ProtocolPrintType;
 import org.kuali.kra.printing.Printable;
-import org.kuali.kra.protocol.actions.print.ProtocolPrintType;
 
 
 /**
  * 
  * This class is for Protocol print in protocol actions page
  */
-public interface ProtocolPrintingService extends org.kuali.kra.protocol.actions.print.ProtocolPrintingService {
+public interface ProtocolPrintingService extends org.kuali.coeus.common.protocol.impl.actions.print.ProtocolPrintingService {
 
 
     /**

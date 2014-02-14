@@ -15,14 +15,14 @@
  */
 package org.kuali.kra.iacuc.actions.abandon;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.actions.abandon.ProtocolAbandonServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.actions.correspondence.ProtocolActionsCorrespondenceBase;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.iacuc.actions.IacucProtocolAction;
 import org.kuali.kra.iacuc.actions.IacucProtocolActionType;
 import org.kuali.kra.iacuc.correspondence.IacucProtocolActionsCorrespondence;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.actions.abandon.ProtocolAbandonServiceImplBase;
-import org.kuali.kra.protocol.actions.correspondence.ProtocolActionsCorrespondenceBase;
 
 public class IacucProtocolAbandonServiceImpl extends ProtocolAbandonServiceImplBase implements IacucProtocolAbandonService {
 

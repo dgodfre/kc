@@ -16,7 +16,7 @@
 package org.kuali.kra.irb.actions.submit;
 
 
-public class ProtocolReviewer extends org.kuali.kra.protocol.actions.submit.ProtocolReviewer {
+public class ProtocolReviewer extends org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolReviewer {
 
     /**
      * Comment for <code>serialVersionUID</code>

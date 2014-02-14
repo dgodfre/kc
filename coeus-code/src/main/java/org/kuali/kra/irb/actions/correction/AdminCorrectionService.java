@@ -16,6 +16,6 @@
 package org.kuali.kra.irb.actions.correction;
 
 
-public interface AdminCorrectionService extends org.kuali.kra.protocol.actions.correction.AdminCorrectionService {
+public interface AdminCorrectionService extends org.kuali.coeus.common.protocol.impl.actions.correction.AdminCorrectionService {
 
 }

@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.actions.approve;
 
-import org.kuali.kra.protocol.actions.approve.ProtocolApproveService;
+import org.kuali.coeus.common.protocol.impl.actions.approve.ProtocolApproveService;
 
 public interface IacucProtocolApproveService extends ProtocolApproveService {
 

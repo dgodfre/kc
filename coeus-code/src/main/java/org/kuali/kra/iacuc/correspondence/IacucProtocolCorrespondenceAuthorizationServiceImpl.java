@@ -15,11 +15,11 @@
  */
 package org.kuali.kra.iacuc.correspondence;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.auth.ProtocolTaskBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceAuthorizationServiceImplBase;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.iacuc.auth.IacucProtocolTask;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.auth.ProtocolTaskBase;
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceAuthorizationServiceImplBase;
 
 public class IacucProtocolCorrespondenceAuthorizationServiceImpl extends ProtocolCorrespondenceAuthorizationServiceImplBase
         implements IacucProtocolCorrespondenceAuthorizationService {

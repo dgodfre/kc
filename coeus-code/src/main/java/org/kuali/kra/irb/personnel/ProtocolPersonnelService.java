@@ -16,6 +16,6 @@
 package org.kuali.kra.irb.personnel;
 
 
-public interface ProtocolPersonnelService extends org.kuali.kra.protocol.personnel.ProtocolPersonnelService {
+public interface ProtocolPersonnelService extends org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonnelService {
 
 }

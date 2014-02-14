@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.protocol;
 
-import org.kuali.kra.protocol.protocol.ProtocolNumberServiceBase;
+import org.kuali.coeus.common.protocol.impl.protocol.ProtocolNumberServiceBase;
 
 /**
  * ProtocolNumberService.

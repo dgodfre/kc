@@ -19,6 +19,6 @@ package org.kuali.kra.irb.actions.reviewcomments;
  * 
  * This class is validating the description of review attachments is not empty 
  */
-public class ProtocolManageReviewAttachmentRule extends org.kuali.kra.protocol.actions.reviewcomments.ProtocolManageReviewAttachmentRule<ProtocolManageReviewAttachmentEvent> {
+public class ProtocolManageReviewAttachmentRule extends org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ProtocolManageReviewAttachmentRule<ProtocolManageReviewAttachmentEvent> {
 
 }

@@ -15,20 +15,20 @@
  */
 package org.kuali.kra.irb;
 
+import org.kuali.coeus.common.protocol.impl.CriteriaFieldHelper;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolDaoOjbBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolLookupConstants;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonBase;
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolUnitBase;
 import org.kuali.kra.irb.actions.submit.ProtocolSubmission;
 import org.kuali.kra.irb.personnel.ProtocolPerson;
 import org.kuali.kra.irb.personnel.ProtocolUnit;
 import org.kuali.kra.irb.protocol.funding.ProtocolFundingSource;
 import org.kuali.kra.irb.protocol.location.ProtocolLocation;
 import org.kuali.kra.irb.protocol.research.ProtocolResearchArea;
-import org.kuali.kra.protocol.CriteriaFieldHelper;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.ProtocolDaoOjbBase;
-import org.kuali.kra.protocol.ProtocolLookupConstants;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
-import org.kuali.kra.protocol.personnel.ProtocolPersonBase;
-import org.kuali.kra.protocol.personnel.ProtocolUnitBase;
 import org.kuali.rice.krad.service.util.OjbCollectionAware;
 
 import java.util.ArrayList;

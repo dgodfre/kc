@@ -15,8 +15,14 @@
  */
 package org.kuali.kra.irb.actions.reviewcomments;
 
-import org.kuali.kra.common.committee.meeting.CommitteeScheduleMinuteBase;
-import org.kuali.kra.common.committee.meeting.MinuteEntryType;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolDocumentBase;
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewCommentsServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
+import org.kuali.coeus.common.protocol.impl.committee.meeting.minute.MinuteEntryType;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommitteeScheduleMinuteBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolReviewableBase;
 import org.kuali.kra.infrastructure.Constants;
 import org.kuali.kra.infrastructure.RoleConstants;
 import org.kuali.kra.irb.ProtocolDocument;
@@ -26,12 +32,6 @@ import org.kuali.kra.irb.actions.submit.ProtocolSubmissionStatus;
 import org.kuali.kra.irb.onlinereview.ProtocolOnlineReview;
 import org.kuali.kra.irb.onlinereview.ProtocolReviewAttachment;
 import org.kuali.kra.meeting.CommitteeScheduleMinute;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.ProtocolDocumentBase;
-import org.kuali.kra.protocol.actions.reviewcomments.ReviewCommentsServiceImplBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewBase;
-import org.kuali.kra.protocol.onlinereview.ProtocolReviewableBase;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -102,7 +102,7 @@ public class ReviewCommentsServiceImpl extends ReviewCommentsServiceImplBase<Pro
     }
 
     @Override
-    protected Class<? extends org.kuali.kra.protocol.actions.submit.ProtocolReviewer> getProtocolReviewClassHook() {
+    protected Class<? extends org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolReviewer> getProtocolReviewClassHook() {
         return ProtocolReviewer.class;
     }
 

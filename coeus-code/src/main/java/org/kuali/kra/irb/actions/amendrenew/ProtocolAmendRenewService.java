@@ -18,6 +18,6 @@ package org.kuali.kra.irb.actions.amendrenew;
 /**
  * Protocol Amendment/Renewal Service.
  */
-public interface ProtocolAmendRenewService extends org.kuali.kra.protocol.actions.amendrenew.ProtocolAmendRenewService {
+public interface ProtocolAmendRenewService extends org.kuali.coeus.common.protocol.impl.actions.amendrenew.ProtocolAmendRenewService {
 
 }

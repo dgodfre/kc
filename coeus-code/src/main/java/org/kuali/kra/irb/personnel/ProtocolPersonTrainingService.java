@@ -21,6 +21,6 @@ package org.kuali.kra.irb.personnel;
  * training. Each institution can customize this interface to deal
  * with person training.
  */
-public interface ProtocolPersonTrainingService extends org.kuali.kra.protocol.personnel.ProtocolPersonTrainingService {
+public interface ProtocolPersonTrainingService extends org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonTrainingService {
 
 }

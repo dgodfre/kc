@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.actions.assignreviewers;
 
-import org.kuali.kra.protocol.actions.assignreviewers.ProtocolAssignReviewersService;
+import org.kuali.coeus.common.protocol.impl.actions.assignreviewers.ProtocolAssignReviewersService;
 
 public interface IacucProtocolAssignReviewersService extends ProtocolAssignReviewersService{
 

@@ -22,6 +22,6 @@ import org.kuali.kra.irb.ProtocolDocument;
  *
  * @author Kuali Research Administration Team (kualidev@oncourse.iu.edu)
  */
-public interface ProtocolCopyService extends org.kuali.kra.protocol.actions.copy.ProtocolCopyService<ProtocolDocument> {
+public interface ProtocolCopyService extends org.kuali.coeus.common.protocol.impl.actions.copy.ProtocolCopyService<ProtocolDocument> {
     
 }

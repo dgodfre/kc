@@ -15,10 +15,10 @@
  */
 package org.kuali.kra.irb.correspondence;
 
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceTemplateActionBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceTemplateAuthorizationService;
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceTemplateFormBase;
 import org.kuali.kra.infrastructure.PermissionConstants;
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceTemplateActionBase;
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceTemplateAuthorizationService;
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceTemplateFormBase;
 
 /**
  * 

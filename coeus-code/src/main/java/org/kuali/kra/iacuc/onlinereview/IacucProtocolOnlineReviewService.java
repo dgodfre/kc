@@ -15,10 +15,10 @@
  */
 package org.kuali.kra.iacuc.onlinereview;
 
-import org.kuali.kra.protocol.ProtocolOnlineReviewDocumentBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolReviewer;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewService;
+import org.kuali.coeus.common.protocol.impl.ProtocolOnlineReviewDocumentBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolReviewer;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewService;
 import org.kuali.rice.kew.api.exception.WorkflowException;
 
 import java.sql.Date;

@@ -16,6 +16,13 @@
 package org.kuali.kra.iacuc.actions.genericactions;
 
 import org.apache.commons.lang.StringUtils;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolDocumentBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.actions.correspondence.ProtocolActionsCorrespondenceBase;
+import org.kuali.coeus.common.protocol.impl.actions.genericactions.ProtocolGenericActionBean;
+import org.kuali.coeus.common.protocol.impl.actions.genericactions.ProtocolGenericActionServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.iacuc.actions.IacucProtocolAction;
 import org.kuali.kra.iacuc.actions.IacucProtocolActionType;
@@ -23,13 +30,6 @@ import org.kuali.kra.iacuc.actions.IacucProtocolStatus;
 import org.kuali.kra.iacuc.actions.submit.IacucProtocolSubmission;
 import org.kuali.kra.iacuc.actions.submit.IacucProtocolSubmissionStatus;
 import org.kuali.kra.iacuc.correspondence.IacucProtocolActionsCorrespondence;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.ProtocolDocumentBase;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.actions.correspondence.ProtocolActionsCorrespondenceBase;
-import org.kuali.kra.protocol.actions.genericactions.ProtocolGenericActionBean;
-import org.kuali.kra.protocol.actions.genericactions.ProtocolGenericActionServiceImplBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
 
 /**
  * This class handles the generic actions that can be made to a protocol.  A generic action contain a comment, action date, and a 

@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.actions;
 
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.actions.ActionHelperBase;
-import org.kuali.kra.protocol.actions.ProtocolActionBean;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.actions.ActionHelperBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBean;
 
 /**
  * Defines the superclass of all ProtocolBase action beans.

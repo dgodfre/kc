@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.actions;
 
-import org.kuali.kra.protocol.actions.ProtocolSubmissionDocBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolSubmissionDocBase;
 
 public class IacucProtocolSubmissionDoc extends ProtocolSubmissionDocBase {
 

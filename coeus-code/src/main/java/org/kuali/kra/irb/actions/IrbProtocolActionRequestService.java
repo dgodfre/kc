@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.irb.actions;
 
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionRequestService;
 import org.kuali.kra.irb.ProtocolForm;
-import org.kuali.kra.protocol.actions.ProtocolActionRequestService;
 
 public interface IrbProtocolActionRequestService extends ProtocolActionRequestService {
     

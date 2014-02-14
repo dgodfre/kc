@@ -15,10 +15,10 @@
  */
 package org.kuali.kra.iacuc.actions.decision;
 
-import org.kuali.kra.common.committee.service.CommitteeScheduleAttendanceServiceBase;
+import org.kuali.coeus.common.protocol.impl.actions.decision.CommitteeDecisionRuleBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommitteeScheduleAttendanceServiceBase;
 import org.kuali.kra.iacuc.committee.service.IacucCommitteeScheduleAttendanceService;
 import org.kuali.kra.infrastructure.KeyConstants;
-import org.kuali.kra.protocol.actions.decision.CommitteeDecisionRuleBase;
 
 public class IacucCommitteeDecisionRule extends CommitteeDecisionRuleBase<IacucCommitteeDecision> {
 

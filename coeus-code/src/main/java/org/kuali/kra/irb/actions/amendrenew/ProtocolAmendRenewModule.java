@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.actions.amendrenew;
 
-import org.kuali.kra.protocol.actions.amendrenew.ProtocolAmendRenewModuleBase;
+import org.kuali.coeus.common.protocol.impl.actions.amendrenew.ProtocolAmendRenewModuleBase;
 
 public class ProtocolAmendRenewModule extends ProtocolAmendRenewModuleBase {
 

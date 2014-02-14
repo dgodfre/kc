@@ -15,12 +15,12 @@
  */
 package org.kuali.kra.irb.questionnaire;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.questionnaire.ProtocolModuleQuestionnaireBeanBase;
+import org.kuali.coeus.common.protocol.impl.questionnaire.ProtocolQuestionnaireAuditRuleBase;
 import org.kuali.kra.bo.CoeusModule;
 import org.kuali.kra.irb.Protocol;
 import org.kuali.kra.irb.actions.amendrenew.ProtocolModule;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.questionnaire.ProtocolModuleQuestionnaireBeanBase;
-import org.kuali.kra.protocol.questionnaire.ProtocolQuestionnaireAuditRuleBase;
 
 public class ProtocolQuestionnaireAuditRule extends ProtocolQuestionnaireAuditRuleBase {
 

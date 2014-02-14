@@ -15,9 +15,11 @@
  */
 package org.kuali.kra.meeting;
 
+import org.kuali.coeus.common.protocol.impl.committee.meeting.*;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommScheduleMinuteDocBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommitteeScheduleAttendanceBase;
 import org.kuali.kra.committee.bo.Committee;
 import org.kuali.kra.committee.bo.CommitteeSchedule;
-import org.kuali.kra.common.committee.meeting.*;
 import org.kuali.kra.irb.correspondence.ProtocolCorrespondence;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -35,7 +37,7 @@ public class MeetingServiceImpl extends MeetingServiceImplBase<CommitteeSchedule
     }
 
     @Override
-    protected Class<? extends org.kuali.kra.protocol.correspondence.ProtocolCorrespondence> getProtocolCorrespondenceBOClassHook() {
+    protected Class<? extends org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondence> getProtocolCorrespondenceBOClassHook() {
         return ProtocolCorrespondence.class;
     }
 

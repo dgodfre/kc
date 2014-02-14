@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.actions.reviewcomments;
 
-import org.kuali.kra.protocol.actions.reviewcomments.ProtocolAddReviewCommentRuleBase;
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ProtocolAddReviewCommentRuleBase;
 
 /**
  * Validates the rules for a Protocol Risk Level add action.

@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.actions.submit;
 
-import org.kuali.kra.protocol.actions.submit.ProtocolReviewer;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolReviewer;
 
 public class IacucProtocolReviewer extends ProtocolReviewer {
 

@@ -17,9 +17,9 @@ package org.kuali.kra.iacuc.actions;
 
 import java.util.List;
 
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionRequestService;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolReviewerBeanBase;
 import org.kuali.kra.iacuc.IacucProtocolForm;
-import org.kuali.kra.protocol.actions.ProtocolActionRequestService;
-import org.kuali.kra.protocol.actions.submit.ProtocolReviewerBeanBase;
 
 public interface IacucProtocolActionRequestService extends ProtocolActionRequestService {
 

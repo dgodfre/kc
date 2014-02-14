@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.irb.protocol.research;
 
-import org.kuali.kra.protocol.protocol.research.ProtocolResearchAreaBase;
-import org.kuali.kra.protocol.protocol.research.ProtocolResearchAreaServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.protocol.research.ProtocolResearchAreaBase;
+import org.kuali.coeus.common.protocol.impl.protocol.research.ProtocolResearchAreaServiceImplBase;
 
 
 public class ProtocolResearchAreaServiceImpl extends ProtocolResearchAreaServiceImplBase implements ProtocolResearchAreaService {

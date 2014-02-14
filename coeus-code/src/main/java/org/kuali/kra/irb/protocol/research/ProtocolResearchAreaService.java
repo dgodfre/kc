@@ -16,6 +16,6 @@
 package org.kuali.kra.irb.protocol.research;
 
 
-public interface ProtocolResearchAreaService extends org.kuali.kra.protocol.protocol.research.ProtocolResearchAreaService {
+public interface ProtocolResearchAreaService extends org.kuali.coeus.common.protocol.impl.protocol.research.ProtocolResearchAreaService {
 
 }

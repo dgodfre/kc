@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.actions.submit;
 
-import org.kuali.kra.protocol.actions.submit.ProtocolReviewTypeBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolReviewTypeBase;
 
 /**
  * A Protocol Review Type refers to the type of review that an

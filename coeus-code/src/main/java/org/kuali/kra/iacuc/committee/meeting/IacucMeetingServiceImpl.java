@@ -15,11 +15,13 @@
  */
 package org.kuali.kra.iacuc.committee.meeting;
 
-import org.kuali.kra.common.committee.meeting.*;
+import org.kuali.coeus.common.protocol.impl.committee.meeting.*;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommScheduleMinuteDocBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommitteeScheduleAttendanceBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondence;
 import org.kuali.kra.iacuc.committee.bo.IacucCommittee;
 import org.kuali.kra.iacuc.committee.bo.IacucCommitteeSchedule;
 import org.kuali.kra.iacuc.correspondence.IacucProtocolCorrespondence;
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondence;
 
 public class IacucMeetingServiceImpl extends MeetingServiceImplBase<IacucCommitteeSchedule, IacucCommitteeScheduleMinute, IacucCommittee> implements IacucMeetingService {
 

@@ -15,12 +15,12 @@
  */
 package org.kuali.kra.irb.specialreview;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.specialreview.impl.ProtocolSpecialReviewServiceImplBase;
 import org.kuali.kra.bo.SpecialReviewApprovalType;
 import org.kuali.kra.common.specialreview.bo.SpecialReview;
 import org.kuali.kra.irb.Protocol;
 import org.kuali.kra.irb.actions.submit.ProtocolExemptStudiesCheckListItem;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.specialreview.impl.ProtocolSpecialReviewServiceImplBase;
 
 import java.util.ArrayList;
 import java.util.List;

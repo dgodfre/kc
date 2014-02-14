@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.personnel;
 
-import org.kuali.kra.protocol.personnel.ProtocolPersonRolodexBase;
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonRolodexBase;
 
 /**
  * This class represents Rolodex contact details

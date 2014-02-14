@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.irb.personnel;
 
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolUnitRuleBase;
 import org.kuali.kra.infrastructure.KraServiceLocator;
-import org.kuali.kra.protocol.personnel.ProtocolUnitRuleBase;
 
 /**
  * This class contains rules to validate protocol units for each protocol personnel.

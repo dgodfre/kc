@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.personnel;
 
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonTrainingService;
 import org.kuali.kra.iacuc.IacucPersonTraining;
-import org.kuali.kra.protocol.personnel.ProtocolPersonTrainingService;
 
 import java.util.List;
 

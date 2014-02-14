@@ -15,12 +15,12 @@
  */
 package org.kuali.kra.committee.rules;
 
-import org.kuali.kra.common.committee.rules.CommitteeActionGenerateBatchCorrespondenceRuleBase;
+import org.kuali.coeus.common.protocol.impl.committee.corresp.rule.CommitteeActionGenerateBatchCorrespondenceRuleBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.BatchCorrespondenceBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceTypeBase;
 import org.kuali.kra.irb.correspondence.BatchCorrespondence;
 import org.kuali.kra.irb.correspondence.ProtocolCorrespondenceTemplateService;
 import org.kuali.kra.irb.correspondence.ProtocolCorrespondenceType;
-import org.kuali.kra.protocol.correspondence.BatchCorrespondenceBase;
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceTypeBase;
 
 /**
  * 
@@ -34,7 +34,7 @@ public class CommitteeActionGenerateBatchCorrespondenceRule extends CommitteeAct
     }
 
     @Override
-    protected Class<? extends org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceTemplateService> getProtocolCorrespondenceTemplateServiceClassHook() {
+    protected Class<? extends org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceTemplateService> getProtocolCorrespondenceTemplateServiceClassHook() {
         return ProtocolCorrespondenceTemplateService.class;
     }
 

@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.actions.genericactions;
 
-import org.kuali.kra.protocol.actions.genericactions.ProtocolGenericActionRuleBase;
+import org.kuali.coeus.common.protocol.impl.actions.genericactions.ProtocolGenericActionRuleBase;
 
 public class IacucProtocolGenericActionRule extends ProtocolGenericActionRuleBase<IacucProtocolGenericActionEvent> {
 

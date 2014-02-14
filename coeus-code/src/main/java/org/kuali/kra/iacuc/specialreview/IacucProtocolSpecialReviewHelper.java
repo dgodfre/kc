@@ -15,13 +15,13 @@
  */
 package org.kuali.kra.iacuc.specialreview;
 
+import org.kuali.coeus.common.protocol.impl.auth.ProtocolTaskBase;
+import org.kuali.coeus.common.protocol.impl.specialreview.ProtocolSpecialReviewBase;
+import org.kuali.coeus.common.protocol.impl.specialreview.ProtocolSpecialReviewHelperBase;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.iacuc.IacucProtocolForm;
 import org.kuali.kra.iacuc.auth.IacucProtocolTask;
 import org.kuali.kra.infrastructure.TaskName;
-import org.kuali.kra.protocol.auth.ProtocolTaskBase;
-import org.kuali.kra.protocol.specialreview.ProtocolSpecialReviewBase;
-import org.kuali.kra.protocol.specialreview.ProtocolSpecialReviewHelperBase;
 
 import java.util.ArrayList;
 import java.util.List;

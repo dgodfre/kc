@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.actions.submit;
 
-public class ValidProtoSubRevType extends org.kuali.kra.protocol.actions.submit.ValidProtoSubRevType {
+public class ValidProtoSubRevType extends org.kuali.coeus.common.protocol.impl.actions.submit.ValidProtoSubRevType {
 
     /**
      * Comment for <code>serialVersionUID</code>

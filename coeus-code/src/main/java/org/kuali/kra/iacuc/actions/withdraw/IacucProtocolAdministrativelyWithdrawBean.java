@@ -15,10 +15,10 @@
  */
 package org.kuali.kra.iacuc.actions.withdraw;
 
+import org.kuali.coeus.common.protocol.impl.actions.withdraw.ProtocolAdministrativelyWithdrawBean;
 import org.kuali.kra.iacuc.actions.IacucActionHelper;
 import org.kuali.kra.iacuc.actions.IacucProtocolActionType;
 import org.kuali.kra.iacuc.correspondence.IacucProtocolActionsCorrespondence;
-import org.kuali.kra.protocol.actions.withdraw.ProtocolAdministrativelyWithdrawBean;
 
 public class IacucProtocolAdministrativelyWithdrawBean extends IacucProtocolWithdrawBean implements ProtocolAdministrativelyWithdrawBean {
 

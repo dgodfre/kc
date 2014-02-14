@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.irb.actions.notification;
 
+import org.kuali.coeus.common.protocol.impl.notification.ProtocolNotificationRequestBeanBase;
 import org.kuali.kra.irb.Protocol;
 import org.kuali.kra.irb.onlinereview.ProtocolOnlineReview;
-import org.kuali.kra.protocol.notification.ProtocolNotificationRequestBeanBase;
 
 public class ProtocolNotificationRequestBean extends ProtocolNotificationRequestBeanBase {
     

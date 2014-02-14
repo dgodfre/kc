@@ -15,17 +15,20 @@
  */
 package org.kuali.kra.iacuc.committee.meeting;
 
-import org.kuali.kra.common.committee.bo.CommitteeScheduleBase;
-import org.kuali.kra.common.committee.document.CommitteeDocumentBase;
-import org.kuali.kra.common.committee.meeting.*;
-import org.kuali.kra.common.committee.meeting.MeetingEventBase.ErrorType;
-import org.kuali.kra.common.committee.service.CommitteeScheduleServiceBase;
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewCommentsService;
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeDocumentBase;
+import org.kuali.coeus.common.protocol.impl.committee.meeting.*;
+import org.kuali.coeus.common.protocol.impl.committee.meeting.event.MeetingAddMinuteEventBase;
+import org.kuali.coeus.common.protocol.impl.committee.meeting.event.MeetingEventBase.ErrorType;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommScheduleActItemBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommitteeScheduleAttachmentsBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommitteeScheduleBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommitteeScheduleServiceBase;
 import org.kuali.kra.iacuc.actions.reviewcomments.IacucReviewCommentsService;
 import org.kuali.kra.iacuc.committee.bo.IacucCommitteeSchedule;
 import org.kuali.kra.iacuc.committee.document.CommonCommitteeDocument;
 import org.kuali.kra.iacuc.committee.service.IacucCommitteeScheduleService;
 import org.kuali.kra.infrastructure.KraServiceLocator;
-import org.kuali.kra.protocol.actions.reviewcomments.ReviewCommentsService;
 
 public class IacucMeetingManagementAction extends MeetingManagementActionBase {
 

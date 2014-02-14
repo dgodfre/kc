@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.correspondence;
 
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceAuthorizationService;
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceAuthorizationService;
 
 public interface IrbProtocolCorrespondenceAuthorizationService extends ProtocolCorrespondenceAuthorizationService {
 

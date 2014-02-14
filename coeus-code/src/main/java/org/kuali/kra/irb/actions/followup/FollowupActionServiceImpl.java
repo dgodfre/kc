@@ -17,9 +17,9 @@ package org.kuali.kra.irb.actions.followup;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.kuali.coeus.common.protocol.impl.actions.followup.FollowupActionServiceImplBase;
 import org.kuali.kra.irb.actions.ProtocolActionType;
 import org.kuali.kra.irb.actions.submit.ValidProtocolActionAction;
-import org.kuali.kra.protocol.actions.followup.FollowupActionServiceImplBase;
 
 
 public class FollowupActionServiceImpl extends FollowupActionServiceImplBase<ValidProtocolActionAction> implements FollowupActionService {

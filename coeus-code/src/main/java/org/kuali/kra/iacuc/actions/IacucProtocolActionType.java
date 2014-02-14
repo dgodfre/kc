@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.actions;
 
-import org.kuali.kra.protocol.actions.ProtocolActionTypeBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionTypeBase;
 
 public class IacucProtocolActionType extends ProtocolActionTypeBase { 
     /**

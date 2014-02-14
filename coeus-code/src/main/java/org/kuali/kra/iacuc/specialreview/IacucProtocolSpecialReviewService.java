@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.specialreview;
 
-import org.kuali.kra.protocol.specialreview.ProtocolSpecialReviewService;
+import org.kuali.coeus.common.protocol.impl.specialreview.ProtocolSpecialReviewService;
 
 
 public interface IacucProtocolSpecialReviewService extends ProtocolSpecialReviewService {

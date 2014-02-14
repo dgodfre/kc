@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.actions.submit;
 
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionQualifierTypeBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionTypeBase;
-import org.kuali.kra.protocol.actions.submit.ValidProtoSubTypeQualMaintenanceDocumentRuleBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionQualifierTypeBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionTypeBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ValidProtoSubTypeQualMaintenanceDocumentRuleBase;
 
 public class IacucValidProtoSubTypeQualMaintenanceDocumentRule extends ValidProtoSubTypeQualMaintenanceDocumentRuleBase {
 

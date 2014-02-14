@@ -15,17 +15,17 @@
  */
 package org.kuali.kra.irb.questionnaire;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolFinderDao;
+import org.kuali.coeus.common.protocol.impl.ProtocolFormBase;
+import org.kuali.coeus.common.protocol.impl.auth.ProtocolTaskBase;
+import org.kuali.coeus.common.protocol.impl.questionnaire.ProtocolModuleQuestionnaireBeanBase;
+import org.kuali.coeus.common.protocol.impl.questionnaire.QuestionnaireHelperBase;
 import org.kuali.kra.bo.CoeusModule;
 import org.kuali.kra.infrastructure.TaskName;
 import org.kuali.kra.irb.Protocol;
 import org.kuali.kra.irb.actions.amendrenew.ProtocolModule;
 import org.kuali.kra.irb.auth.ProtocolTask;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.ProtocolFinderDao;
-import org.kuali.kra.protocol.ProtocolFormBase;
-import org.kuali.kra.protocol.auth.ProtocolTaskBase;
-import org.kuali.kra.protocol.questionnaire.ProtocolModuleQuestionnaireBeanBase;
-import org.kuali.kra.protocol.questionnaire.QuestionnaireHelperBase;
 
 /**
  * 

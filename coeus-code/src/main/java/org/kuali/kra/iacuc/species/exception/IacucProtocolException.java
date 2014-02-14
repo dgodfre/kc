@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.species.exception;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolAssociateBase;
 import org.kuali.kra.iacuc.IacucExceptionCategory;
 import org.kuali.kra.iacuc.IacucSpecies;
-import org.kuali.kra.protocol.ProtocolAssociateBase;
 
 public class IacucProtocolException extends ProtocolAssociateBase { 
     

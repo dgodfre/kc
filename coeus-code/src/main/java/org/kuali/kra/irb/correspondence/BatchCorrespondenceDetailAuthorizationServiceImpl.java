@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.correspondence;
 
-import org.kuali.kra.protocol.correspondence.BatchCorrespondenceDetailAuthorizationServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.BatchCorrespondenceDetailAuthorizationServiceImplBase;
 
 /**
  * 

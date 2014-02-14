@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.irb.specialreview;
 
+import org.kuali.coeus.common.protocol.impl.specialreview.ProtocolSpecialReviewBase;
+import org.kuali.coeus.common.protocol.impl.specialreview.ProtocolSpecialReviewExemption;
 import org.kuali.kra.irb.Protocol;
-import org.kuali.kra.protocol.specialreview.ProtocolSpecialReviewBase;
-import org.kuali.kra.protocol.specialreview.ProtocolSpecialReviewExemption;
 
 /**
  * Defines a Special Review for a Protocol.

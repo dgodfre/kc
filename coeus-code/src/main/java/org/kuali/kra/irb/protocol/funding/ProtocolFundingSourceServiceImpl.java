@@ -15,10 +15,10 @@
  */
 package org.kuali.kra.irb.protocol.funding;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolDocumentBase;
+import org.kuali.coeus.common.protocol.impl.protocol.funding.ProtocolFundingSourceBase;
+import org.kuali.coeus.common.protocol.impl.protocol.funding.ProtocolFundingSourceServiceImplBase;
 import org.kuali.kra.irb.ProtocolDocument;
-import org.kuali.kra.protocol.ProtocolDocumentBase;
-import org.kuali.kra.protocol.protocol.funding.ProtocolFundingSourceBase;
-import org.kuali.kra.protocol.protocol.funding.ProtocolFundingSourceServiceImplBase;
 
 /**
  * Implements ProtocolFundingSource.

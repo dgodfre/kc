@@ -16,6 +16,6 @@
 package org.kuali.kra.irb.protocol.location;
 
 
-public interface ProtocolLocationService extends org.kuali.kra.protocol.protocol.location.ProtocolLocationService {
+public interface ProtocolLocationService extends org.kuali.coeus.common.protocol.impl.protocol.location.ProtocolLocationService {
 
 }

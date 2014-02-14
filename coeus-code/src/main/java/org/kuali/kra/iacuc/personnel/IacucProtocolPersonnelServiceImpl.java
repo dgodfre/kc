@@ -15,11 +15,11 @@
  */
 package org.kuali.kra.iacuc.personnel;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.personnel.*;
 import org.kuali.kra.iacuc.procedures.IacucProtocolProcedureService;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.infrastructure.RoleConstants;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.personnel.*;
 import org.kuali.kra.service.KcAuthorizationService;
 
 public class IacucProtocolPersonnelServiceImpl extends ProtocolPersonnelServiceImplBase implements IacucProtocolPersonnelService {
@@ -49,8 +49,8 @@ public class IacucProtocolPersonnelServiceImpl extends ProtocolPersonnelServiceI
     @Override
     /**
      * {@inheritDoc}
-     * @see org.kuali.kra.protocol.personnel.ProtocolPersonnelService#setPrincipalInvestigator(org.kuali.kra.protocol.personnel.ProtocolPersonBase, 
-     *                                                                                    org.kuali.kra.protocol.ProtocolBase)
+     * @see org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonnelService#setPrincipalInvestigator(org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonBase, 
+     *                                                                                    org.kuali.coeus.common.protocol.impl.ProtocolBase)
      */
     public void setPrincipalInvestigator(ProtocolPersonBase newPrincipalInvestigator, ProtocolBase protocol) {
         if (protocol != null) {

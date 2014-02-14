@@ -17,6 +17,6 @@ package org.kuali.kra.irb.actions.followup;
 
 import org.kuali.kra.irb.actions.submit.ValidProtocolActionAction;
 
-public interface FollowupActionService extends org.kuali.kra.protocol.actions.followup.FollowupActionService<ValidProtocolActionAction> {
+public interface FollowupActionService extends org.kuali.coeus.common.protocol.impl.actions.followup.FollowupActionService<ValidProtocolActionAction> {
 
 }

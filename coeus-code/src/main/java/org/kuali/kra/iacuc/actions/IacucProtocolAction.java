@@ -15,15 +15,15 @@
  */
 package org.kuali.kra.iacuc.actions;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeServiceBase;
+import org.kuali.coeus.common.protocol.impl.questionnaire.ProtocolSubmissionQuestionnaireHelper;
 import org.kuali.kra.bo.CoeusModule;
-import org.kuali.kra.common.committee.service.CommitteeServiceBase;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.iacuc.actions.submit.IacucProtocolSubmission;
 import org.kuali.kra.iacuc.committee.service.IacucCommitteeService;
 import org.kuali.kra.iacuc.questionnaire.IacucSubmissionQuestionnaireHelper;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.questionnaire.ProtocolSubmissionQuestionnaireHelper;
 
 /**
  * 

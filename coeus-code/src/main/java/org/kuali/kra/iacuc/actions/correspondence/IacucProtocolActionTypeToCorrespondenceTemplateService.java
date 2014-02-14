@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.actions.correspondence;
 
-import org.kuali.kra.protocol.actions.correspondence.ProtocolActionTypeToCorrespondenceTemplateService;
+import org.kuali.coeus.common.protocol.impl.actions.correspondence.ProtocolActionTypeToCorrespondenceTemplateService;
 
 public interface IacucProtocolActionTypeToCorrespondenceTemplateService extends ProtocolActionTypeToCorrespondenceTemplateService {
 

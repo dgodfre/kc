@@ -16,10 +16,10 @@
 package org.kuali.kra.irb.noteattachment;
 
 import org.apache.commons.lang.StringUtils;
+import org.kuali.coeus.common.protocol.impl.noteattachment.ProtocolAttachmentBase;
 import org.kuali.kra.lookup.keyvalue.ConditionValuesFinder;
 import org.kuali.kra.lookup.keyvalue.PrefixValuesFinder;
 import org.kuali.kra.lookup.keyvalue.SortedValuesFinder;
-import org.kuali.kra.protocol.noteattachment.ProtocolAttachmentBase;
 import org.kuali.rice.core.api.util.KeyValue;
 import org.kuali.rice.krad.keyvalues.KeyValuesFinder;
 import org.kuali.rice.krad.uif.control.UifKeyValuesFinderBase;
@@ -54,7 +54,7 @@ import java.util.List;
  * 
  * See {@link #getKeyValues()}.
  */
-public class ProtocolAttachmentTypeByGroupValuesFinder <T extends ProtocolAttachmentBase & org.kuali.kra.protocol.noteattachment.TypedAttachment> extends UifKeyValuesFinderBase {
+public class ProtocolAttachmentTypeByGroupValuesFinder <T extends ProtocolAttachmentBase & org.kuali.coeus.common.protocol.impl.noteattachment.TypedAttachment> extends UifKeyValuesFinderBase {
     
     /**
      * Comment for <code>serialVersionUID</code>
@@ -133,7 +133,7 @@ public class ProtocolAttachmentTypeByGroupValuesFinder <T extends ProtocolAttach
             return false;
         }
         
-        for (final org.kuali.kra.protocol.noteattachment.TypedAttachment attachment : this.filterTypes) {
+        for (final org.kuali.coeus.common.protocol.impl.noteattachment.TypedAttachment attachment : this.filterTypes) {
             if (attachment.getType().getCode().equals(typeCode)) {
                 return true;
             }

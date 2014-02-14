@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.actions.withdraw;
 
-import org.kuali.kra.protocol.actions.withdraw.ProtocolWithdrawService;
+import org.kuali.coeus.common.protocol.impl.actions.withdraw.ProtocolWithdrawService;
 
 /**
  * Protocol Withdraw Service.

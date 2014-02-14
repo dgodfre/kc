@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.correspondence;
 
-public class CorrespondentType extends org.kuali.kra.protocol.correspondence.CorrespondentType {
+public class CorrespondentType extends org.kuali.coeus.common.protocol.impl.correspondence.CorrespondentType {
 
     /**
      * Comment for <code>serialVersionUID</code>

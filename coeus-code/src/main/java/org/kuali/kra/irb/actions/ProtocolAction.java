@@ -16,17 +16,17 @@
 package org.kuali.kra.irb.actions;
 
 import org.apache.commons.lang.StringUtils;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.actions.print.QuestionnairePrintOption;
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeServiceBase;
+import org.kuali.coeus.common.protocol.impl.questionnaire.ProtocolSubmissionQuestionnaireHelper;
 import org.kuali.kra.bo.CoeusModule;
 import org.kuali.kra.bo.CoeusSubModule;
 import org.kuali.kra.committee.service.CommitteeService;
-import org.kuali.kra.common.committee.service.CommitteeServiceBase;
 import org.kuali.kra.irb.Protocol;
 import org.kuali.kra.irb.actions.submit.ProtocolSubmission;
 import org.kuali.kra.irb.questionnaire.IrbSubmissionQuestionnaireHelper;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.actions.print.QuestionnairePrintOption;
-import org.kuali.kra.protocol.questionnaire.ProtocolSubmissionQuestionnaireHelper;
 
 import java.util.HashMap;
 import java.util.List;

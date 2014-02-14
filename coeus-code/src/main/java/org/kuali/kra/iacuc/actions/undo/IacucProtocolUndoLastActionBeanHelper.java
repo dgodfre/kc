@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.actions.undo;
 
+import org.kuali.coeus.common.protocol.impl.actions.undo.UndoLastActionBeanHelperBase;
 import org.kuali.kra.iacuc.actions.IacucProtocolActionType;
 import org.kuali.kra.iacuc.actions.IacucProtocolStatus;
-import org.kuali.kra.protocol.actions.undo.UndoLastActionBeanHelperBase;
 
 import java.io.Serializable;
 

@@ -5,7 +5,7 @@
 <c:set var="textAreaFieldName" value="document.protocolList[0].title" />
 <c:set var="action" value="protocolProtocol" />
 <c:set var="nonEmpFlag" value="false" />
-<c:set var="className" value="org.kuali.kra.protocol.document.ProtocolDocument" />
+<c:set var="className" value="org.kuali.coeus.common.protocol.impl.document.ProtocolDocument" />
 <c:set var="readOnly" value="${!KualiForm.protocolHelper.modifyGeneralInfo}" scope = "request"/>
 
 <kul:tab tabTitle="Required Fields for Saving Document" defaultOpen="true" tabErrorKey="document.protocolList[0].principalInvestigatorId,document.protocolList[0].protocolTypeCode,document.protocolList[0].title,document.protocolList[0].leadUnitNumber,document.protocolHelper.personId,document.protocolList[0].protocolTypeCode*,principalInvestigator*,protocolHelper.principalInvestigator*,document.protocolList[0].title*,protocolHelper.leadUnitNumber*,document.ProtocolTypeCode*,document.activityTypeCode*,document.title" >

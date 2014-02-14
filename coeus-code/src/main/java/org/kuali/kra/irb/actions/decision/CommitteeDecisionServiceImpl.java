@@ -16,8 +16,12 @@
 package org.kuali.kra.irb.actions.decision;
 
 import org.apache.commons.lang.StringUtils;
-import org.kuali.kra.common.committee.meeting.ProtocolVoteAbstaineeBase;
-import org.kuali.kra.common.committee.meeting.ProtocolVoteRecusedBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.actions.decision.CommitteeDecisionServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
+import org.kuali.coeus.common.protocol.impl.committee.meeting.ProtocolVoteAbstaineeBase;
+import org.kuali.coeus.common.protocol.impl.committee.meeting.ProtocolVoteRecusedBase;
 import org.kuali.kra.irb.Protocol;
 import org.kuali.kra.irb.actions.ProtocolAction;
 import org.kuali.kra.irb.actions.ProtocolActionType;
@@ -25,10 +29,6 @@ import org.kuali.kra.irb.actions.submit.ProtocolSubmission;
 import org.kuali.kra.irb.actions.submit.ProtocolSubmissionStatus;
 import org.kuali.kra.meeting.ProtocolVoteAbstainee;
 import org.kuali.kra.meeting.ProtocolVoteRecused;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.actions.decision.CommitteeDecisionServiceImplBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
 
 import java.util.HashMap;
 import java.util.Map;

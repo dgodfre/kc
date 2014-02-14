@@ -16,11 +16,11 @@
 
 package org.kuali.kra.committee.document;
 
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeDocumentBase;
 import org.kuali.kra.bo.DocumentCustomData;
 import org.kuali.kra.committee.bo.Committee;
 import org.kuali.kra.committee.bo.CommitteeSchedule;
 import org.kuali.kra.committee.service.CommitteeService;
-import org.kuali.kra.common.committee.document.CommitteeDocumentBase;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 
 import java.util.ArrayList;

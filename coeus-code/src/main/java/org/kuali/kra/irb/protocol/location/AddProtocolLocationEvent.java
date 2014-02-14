@@ -21,7 +21,7 @@ import org.kuali.rice.krad.document.Document;
 /**
  * This class represents the AddProtocolLocationEvent
  */
-public class AddProtocolLocationEvent extends org.kuali.kra.protocol.protocol.location.AddProtocolLocationEvent {
+public class AddProtocolLocationEvent extends org.kuali.coeus.common.protocol.impl.protocol.location.AddProtocolLocationEvent {
 
     public AddProtocolLocationEvent(String errorPathPrefix, ProtocolDocument document, ProtocolLocation protocolLocation) {
         super(errorPathPrefix, document, protocolLocation);

@@ -15,14 +15,17 @@
  */
 package org.kuali.kra.meeting;
 
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeDocumentBase;
+import org.kuali.coeus.common.protocol.impl.committee.meeting.*;
+import org.kuali.coeus.common.protocol.impl.committee.meeting.event.MeetingAddMinuteEventBase;
+import org.kuali.coeus.common.protocol.impl.committee.meeting.event.MeetingEventBase.ErrorType;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommScheduleActItemBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommitteeScheduleAttachmentsBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommitteeScheduleBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommitteeScheduleServiceBase;
 import org.kuali.kra.committee.bo.CommitteeSchedule;
 import org.kuali.kra.committee.document.CommitteeDocument;
 import org.kuali.kra.committee.service.CommitteeScheduleService;
-import org.kuali.kra.common.committee.bo.CommitteeScheduleBase;
-import org.kuali.kra.common.committee.document.CommitteeDocumentBase;
-import org.kuali.kra.common.committee.meeting.*;
-import org.kuali.kra.common.committee.meeting.MeetingEventBase.ErrorType;
-import org.kuali.kra.common.committee.service.CommitteeScheduleServiceBase;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.irb.actions.reviewcomments.ReviewCommentsService;
 
@@ -77,7 +80,7 @@ public class MeetingManagementAction extends MeetingManagementActionBase {
     }
 
     @Override
-    protected org.kuali.kra.protocol.actions.reviewcomments.ReviewCommentsService<?> getReviewerCommentsService() {
+    protected org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewCommentsService<?> getReviewerCommentsService() {
         return KraServiceLocator.getService(ReviewCommentsService.class);
     }
 }

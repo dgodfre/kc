@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.onlinereview;
 
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewBase;
 
 import java.sql.Date;
 

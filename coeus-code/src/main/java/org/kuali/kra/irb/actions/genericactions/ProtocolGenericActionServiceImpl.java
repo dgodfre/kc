@@ -15,6 +15,11 @@
  */
 package org.kuali.kra.irb.actions.genericactions;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.actions.correspondence.ProtocolActionsCorrespondenceBase;
+import org.kuali.coeus.common.protocol.impl.actions.genericactions.ProtocolGenericActionServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
 import org.kuali.kra.irb.Protocol;
 import org.kuali.kra.irb.ProtocolDocument;
 import org.kuali.kra.irb.actions.ProtocolAction;
@@ -22,11 +27,6 @@ import org.kuali.kra.irb.actions.ProtocolActionType;
 import org.kuali.kra.irb.actions.ProtocolStatus;
 import org.kuali.kra.irb.actions.submit.ProtocolSubmission;
 import org.kuali.kra.irb.actions.submit.ProtocolSubmissionStatus;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.actions.correspondence.ProtocolActionsCorrespondenceBase;
-import org.kuali.kra.protocol.actions.genericactions.ProtocolGenericActionServiceImplBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
 import org.kuali.rice.kew.api.WorkflowDocument;
 
 /**
@@ -59,13 +59,13 @@ public class ProtocolGenericActionServiceImpl extends ProtocolGenericActionServi
     }
     
     /**{@inheritDoc}**/
-    public void disapprove(ProtocolBase protocol, org.kuali.kra.protocol.actions.genericactions.ProtocolGenericActionBean actionBean) throws Exception {
+    public void disapprove(ProtocolBase protocol, org.kuali.coeus.common.protocol.impl.actions.genericactions.ProtocolGenericActionBean actionBean) throws Exception {
         performGenericAction(protocol, actionBean, ProtocolActionType.DISAPPROVED, ProtocolStatus.DISAPPROVED);
         performDisapprove(protocol);
     }
     
     /**{@inheritDoc}**/
-    public void expire(ProtocolBase protocol, org.kuali.kra.protocol.actions.genericactions.ProtocolGenericActionBean actionBean) throws Exception {
+    public void expire(ProtocolBase protocol, org.kuali.coeus.common.protocol.impl.actions.genericactions.ProtocolGenericActionBean actionBean) throws Exception {
         performGenericAction(protocol, actionBean, ProtocolActionType.EXPIRED, ProtocolStatus.EXPIRED);
     }
     
@@ -85,25 +85,25 @@ public class ProtocolGenericActionServiceImpl extends ProtocolGenericActionServi
     }
     
     /**{@inheritDoc}**/
-    public ProtocolDocument returnForSMR(ProtocolBase protocol, org.kuali.kra.protocol.actions.genericactions.ProtocolGenericActionBean actionBean) throws Exception {
+    public ProtocolDocument returnForSMR(ProtocolBase protocol, org.kuali.coeus.common.protocol.impl.actions.genericactions.ProtocolGenericActionBean actionBean) throws Exception {
         performGenericAction(protocol, actionBean, ProtocolActionType.SPECIFIC_MINOR_REVISIONS_REQUIRED, ProtocolStatus.SPECIFIC_MINOR_REVISIONS_REQUIRED);
         return getReturnedVersionedDocument(protocol);
     }
     
     /**{@inheritDoc}**/
-    public ProtocolDocument returnForSRR(ProtocolBase protocol, org.kuali.kra.protocol.actions.genericactions.ProtocolGenericActionBean actionBean) throws Exception {
+    public ProtocolDocument returnForSRR(ProtocolBase protocol, org.kuali.coeus.common.protocol.impl.actions.genericactions.ProtocolGenericActionBean actionBean) throws Exception {
         performGenericAction(protocol, actionBean, ProtocolActionType.SUBSTANTIVE_REVISIONS_REQUIRED, ProtocolStatus.SUBSTANTIVE_REVISIONS_REQUIRED);
         return getReturnedVersionedDocument(protocol);
     }
     
     /**{@inheritDoc}**/
-    public ProtocolDocument returnToPI(ProtocolBase protocol, org.kuali.kra.protocol.actions.genericactions.ProtocolGenericActionBean actionBean) throws Exception {
+    public ProtocolDocument returnToPI(ProtocolBase protocol, org.kuali.coeus.common.protocol.impl.actions.genericactions.ProtocolGenericActionBean actionBean) throws Exception {
         performGenericAction(protocol, actionBean, ProtocolActionType.RETURNED_TO_PI, ProtocolStatus.RETURN_TO_PI);
         return getReturnedVersionedDocument(protocol);
     }     
     
     /**{@inheritDoc}**/
-    public void suspend(ProtocolBase protocol, org.kuali.kra.protocol.actions.genericactions.ProtocolGenericActionBean actionBean) throws Exception {
+    public void suspend(ProtocolBase protocol, org.kuali.coeus.common.protocol.impl.actions.genericactions.ProtocolGenericActionBean actionBean) throws Exception {
         if (ProtocolActionType.REQUEST_FOR_SUSPENSION.equals(protocol.getLastProtocolAction().getProtocolActionType().getProtocolActionTypeCode())) {
             //if previous action is request to suspend then the new status is suspend by investigator
             performGenericAction(protocol, actionBean, ProtocolActionType.SUSPENDED, ProtocolStatus.SUSPENDED_BY_PI);
@@ -119,7 +119,7 @@ public class ProtocolGenericActionServiceImpl extends ProtocolGenericActionServi
     }
     
     /**{@inheritDoc}**/
-    public void terminate(ProtocolBase protocol, org.kuali.kra.protocol.actions.genericactions.ProtocolGenericActionBean actionBean) throws Exception {
+    public void terminate(ProtocolBase protocol, org.kuali.coeus.common.protocol.impl.actions.genericactions.ProtocolGenericActionBean actionBean) throws Exception {
         performGenericAction(protocol, actionBean, ProtocolActionType.TERMINATED, ProtocolStatus.TERMINATED_BY_IRB);
     }
         

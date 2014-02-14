@@ -15,6 +15,14 @@
  */
 package org.kuali.kra.iacuc.protocol;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolDocumentBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.auth.ProtocolTaskBase;
+import org.kuali.coeus.common.protocol.impl.protocol.ProtocolHelperBase;
+import org.kuali.coeus.common.protocol.impl.protocol.funding.ProtocolFundingSourceBase;
+import org.kuali.coeus.common.protocol.impl.protocol.funding.ProtocolFundingSourceService;
+import org.kuali.coeus.common.protocol.impl.protocol.location.ProtocolLocationBase;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.iacuc.IacucProtocolDocument;
 import org.kuali.kra.iacuc.IacucProtocolForm;
@@ -30,14 +38,6 @@ import org.kuali.kra.iacuc.protocol.location.IacucProtocolLocation;
 import org.kuali.kra.infrastructure.Constants;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.infrastructure.TaskName;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.ProtocolDocumentBase;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.auth.ProtocolTaskBase;
-import org.kuali.kra.protocol.protocol.ProtocolHelperBase;
-import org.kuali.kra.protocol.protocol.funding.ProtocolFundingSourceBase;
-import org.kuali.kra.protocol.protocol.funding.ProtocolFundingSourceService;
-import org.kuali.kra.protocol.protocol.location.ProtocolLocationBase;
 import org.kuali.rice.kew.api.exception.WorkflowException;
 
 public class IacucProtocolHelper extends ProtocolHelperBase {

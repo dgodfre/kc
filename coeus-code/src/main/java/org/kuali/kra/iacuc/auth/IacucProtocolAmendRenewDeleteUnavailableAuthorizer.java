@@ -16,9 +16,9 @@
 package org.kuali.kra.iacuc.auth;
 
 import org.apache.commons.lang.StringUtils;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
 import org.kuali.kra.iacuc.actions.IacucProtocolStatus;
 import org.kuali.kra.infrastructure.PermissionConstants;
-import org.kuali.kra.protocol.ProtocolBase;
 
 /**
  * Is the user allowed to delete a protocol, amendment or renewal and the action is currently not available?
@@ -26,7 +26,7 @@ import org.kuali.kra.protocol.ProtocolBase;
 public class IacucProtocolAmendRenewDeleteUnavailableAuthorizer extends IacucProtocolAuthorizer {
 
     /**
-     * @see org.kuali.kra.protocol.auth.ProtocolAuthorizer#isAuthorized(java.lang.String, org.kuali.kra.protocol.auth.ProtocolTask)
+     * @see org.kuali.coeus.common.protocol.impl.auth.ProtocolAuthorizer#isAuthorized(java.lang.String, org.kuali.coeus.common.protocol.impl.auth.ProtocolTask)
      */
     public boolean isAuthorized(String userId, IacucProtocolTask task) {
         return hasPermission(userId, task.getProtocol(), PermissionConstants.DELETE_IACUC_PROTOCOL) &&

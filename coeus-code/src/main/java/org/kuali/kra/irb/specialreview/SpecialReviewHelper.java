@@ -15,13 +15,13 @@
  */
 package org.kuali.kra.irb.specialreview;
 
+import org.kuali.coeus.common.protocol.impl.auth.ProtocolTaskBase;
+import org.kuali.coeus.common.protocol.impl.specialreview.ProtocolSpecialReviewBase;
+import org.kuali.coeus.common.protocol.impl.specialreview.ProtocolSpecialReviewHelperBase;
 import org.kuali.kra.infrastructure.TaskName;
 import org.kuali.kra.irb.Protocol;
 import org.kuali.kra.irb.ProtocolForm;
 import org.kuali.kra.irb.auth.ProtocolTask;
-import org.kuali.kra.protocol.auth.ProtocolTaskBase;
-import org.kuali.kra.protocol.specialreview.ProtocolSpecialReviewBase;
-import org.kuali.kra.protocol.specialreview.ProtocolSpecialReviewHelperBase;
 
 import java.util.ArrayList;
 import java.util.List;

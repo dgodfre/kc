@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.actions.decision;
 
-import org.kuali.kra.protocol.actions.decision.CommitteeDecisionService;
+import org.kuali.coeus.common.protocol.impl.actions.decision.CommitteeDecisionService;
 
 public interface IacucCommitteeDecisionService extends CommitteeDecisionService<IacucCommitteeDecision> {
 

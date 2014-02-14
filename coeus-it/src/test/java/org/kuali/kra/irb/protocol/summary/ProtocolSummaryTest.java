@@ -107,7 +107,7 @@ public class ProtocolSummaryTest extends KcIntegrationTestBase {
     private SpecialReviewType mySpecialReviewType;
     private Date specialReviewApplicationDate;
     private SpecialReviewApprovalType specialReviewApprovalType;
-    private List<org.kuali.kra.protocol.specialreview.ProtocolSpecialReviewExemption> specialReviewExemptions;
+    private List<org.kuali.coeus.common.protocol.impl.specialreview.ProtocolSpecialReviewExemption> specialReviewExemptions;
     
     @Before
     public void setUp() throws Exception {
@@ -148,7 +148,7 @@ public class ProtocolSummaryTest extends KcIntegrationTestBase {
         specialReviewApprovalType = new SpecialReviewApprovalType();
         specialReviewApprovalType.setDescription(SPECIAL_REVIEW_APPROVAL_TYPE_DESCRIPTION);
         
-        specialReviewExemptions = new ArrayList<org.kuali.kra.protocol.specialreview.ProtocolSpecialReviewExemption>();
+        specialReviewExemptions = new ArrayList<org.kuali.coeus.common.protocol.impl.specialreview.ProtocolSpecialReviewExemption>();
         ProtocolSpecialReviewExemption specialReviewExemption = new ProtocolSpecialReviewExemption();
         ExemptionType exemptionType = new ExemptionType();
         exemptionType.setDescription(EXEMPTION_DESCRIPTION);

@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.actions.amendrenew;
 
-import org.kuali.kra.protocol.actions.amendrenew.CreateAmendmentRuleBase;
+import org.kuali.coeus.common.protocol.impl.actions.amendrenew.CreateAmendmentRuleBase;
 
 /**
  * Business rule for creating an amendment.  The user is required to enter a summary

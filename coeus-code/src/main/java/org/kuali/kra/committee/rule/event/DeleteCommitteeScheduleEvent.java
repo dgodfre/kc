@@ -15,12 +15,12 @@
  */
 package org.kuali.kra.committee.rule.event;
 
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeDocumentBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommitteeScheduleBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.event.DeleteCommitteeScheduleEventBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.rule.DeleteCommitteeScheduleRuleBase;
+import org.kuali.coeus.common.protocol.impl.committee.web.struts.form.schedule.ScheduleData;
 import org.kuali.kra.committee.rules.DeleteCommitteeScheduleRule;
-import org.kuali.kra.common.committee.bo.CommitteeScheduleBase;
-import org.kuali.kra.common.committee.document.CommitteeDocumentBase;
-import org.kuali.kra.common.committee.rule.event.DeleteCommitteeScheduleEventBase;
-import org.kuali.kra.common.committee.rules.DeleteCommitteeScheduleRuleBase;
-import org.kuali.kra.common.committee.web.struts.form.schedule.ScheduleData;
 import org.kuali.rice.krad.document.Document;
 
 import java.util.List;

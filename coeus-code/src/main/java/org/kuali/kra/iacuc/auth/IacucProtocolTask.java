@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.auth;
 
+import org.kuali.coeus.common.protocol.impl.auth.ProtocolTaskBase;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.infrastructure.TaskGroupName;
-import org.kuali.kra.protocol.auth.ProtocolTaskBase;
 
 public final class IacucProtocolTask  extends ProtocolTaskBase {
     

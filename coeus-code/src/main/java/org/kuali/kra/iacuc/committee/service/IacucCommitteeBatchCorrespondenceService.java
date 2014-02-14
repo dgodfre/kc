@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.committee.service;
 
-import org.kuali.kra.common.committee.service.CommitteeBatchCorrespondenceServiceBase;
+import org.kuali.coeus.common.protocol.impl.committee.corresp.CommitteeBatchCorrespondenceServiceBase;
 
 public interface IacucCommitteeBatchCorrespondenceService extends CommitteeBatchCorrespondenceServiceBase {
 

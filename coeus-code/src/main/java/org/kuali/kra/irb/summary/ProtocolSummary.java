@@ -20,7 +20,7 @@ import org.apache.commons.lang.StringUtils;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProtocolSummary extends org.kuali.kra.protocol.summary.ProtocolSummary {
+public class ProtocolSummary extends org.kuali.coeus.common.protocol.impl.summary.ProtocolSummary {
     
     
 
@@ -43,7 +43,7 @@ public class ProtocolSummary extends org.kuali.kra.protocol.summary.ProtocolSumm
         participants.add(participantSummary);
     }
 
-    public void compare(org.kuali.kra.protocol.summary.ProtocolSummary other) {        
+    public void compare(org.kuali.coeus.common.protocol.impl.summary.ProtocolSummary other) {        
         super.compare(other);
         compareParticipants((ProtocolSummary) other);
     }

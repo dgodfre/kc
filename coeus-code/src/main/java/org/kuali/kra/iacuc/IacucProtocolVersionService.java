@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc;
 
-import org.kuali.kra.protocol.ProtocolVersionService;
+import org.kuali.coeus.common.protocol.impl.ProtocolVersionService;
 
 public interface IacucProtocolVersionService extends ProtocolVersionService {
 

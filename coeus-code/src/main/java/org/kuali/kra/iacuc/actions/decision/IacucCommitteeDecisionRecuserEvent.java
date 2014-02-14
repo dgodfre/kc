@@ -16,8 +16,8 @@
 package org.kuali.kra.iacuc.actions.decision;
 
 import org.apache.commons.logging.Log;
+import org.kuali.coeus.common.protocol.impl.actions.decision.CommitteeDecisionRecuserEventBase;
 import org.kuali.kra.iacuc.IacucProtocolDocument;
-import org.kuali.kra.protocol.actions.decision.CommitteeDecisionRecuserEventBase;
 
 
 public class IacucCommitteeDecisionRecuserEvent extends CommitteeDecisionRecuserEventBase<IacucCommitteeDecision> {

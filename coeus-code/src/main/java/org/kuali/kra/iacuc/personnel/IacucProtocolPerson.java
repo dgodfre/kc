@@ -18,12 +18,12 @@ package org.kuali.kra.iacuc.personnel;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonBase;
 import org.kuali.kra.iacuc.IacucPersonTraining;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.iacuc.procedures.IacucProtocolProcedureService;
 import org.kuali.kra.iacuc.procedures.IacucProtocolSpeciesStudyGroup;
 import org.kuali.kra.infrastructure.KraServiceLocator;
-import org.kuali.kra.protocol.personnel.ProtocolPersonBase;
 
 
 public class IacucProtocolPerson extends ProtocolPersonBase {

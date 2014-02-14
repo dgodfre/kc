@@ -16,6 +16,11 @@
 package org.kuali.kra.irb.actions.approve;
 
 import org.apache.commons.lang.StringUtils;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.actions.approve.ProtocolApproveServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.actions.correspondence.ProtocolActionsCorrespondenceBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
 import org.kuali.kra.infrastructure.Constants;
 import org.kuali.kra.irb.Protocol;
 import org.kuali.kra.irb.ProtocolDocument;
@@ -23,11 +28,6 @@ import org.kuali.kra.irb.actions.ProtocolAction;
 import org.kuali.kra.irb.actions.ProtocolActionType;
 import org.kuali.kra.irb.actions.genericactions.ProtocolGenericCorrespondence;
 import org.kuali.kra.irb.actions.submit.ProtocolSubmission;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.actions.approve.ProtocolApproveServiceImplBase;
-import org.kuali.kra.protocol.actions.correspondence.ProtocolActionsCorrespondenceBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
 import org.kuali.rice.coreservice.framework.parameter.ParameterService;
 
 /**
@@ -45,7 +45,7 @@ public class ProtocolApproveServiceImpl extends ProtocolApproveServiceImplBase i
      * @see org.kuali.kra.irb.actions.approve.ProtocolApproveService#grantFullApproval(org.kuali.kra.irb.Protocol, 
      *      org.kuali.kra.irb.actions.approve.ProtocolApproveBean)
      */
-    public void grantFullApproval(ProtocolBase protocol, org.kuali.kra.protocol.actions.approve.ProtocolApproveBean actionBean) throws Exception {
+    public void grantFullApproval(ProtocolBase protocol, org.kuali.coeus.common.protocol.impl.actions.approve.ProtocolApproveBean actionBean) throws Exception {
         generateProtocolActionAndAttach(protocol, actionBean, ProtocolActionType.APPROVED);   
 
         if (protocol.getApprovalDate() == null) {

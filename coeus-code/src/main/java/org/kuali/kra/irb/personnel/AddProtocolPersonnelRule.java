@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.irb.personnel;
 
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonnelRuleBase;
 import org.kuali.kra.infrastructure.KraServiceLocator;
-import org.kuali.kra.protocol.personnel.ProtocolPersonnelRuleBase;
 import org.kuali.kra.rule.BusinessRuleInterface;
 
 /**
@@ -33,7 +33,7 @@ public class AddProtocolPersonnelRule extends ProtocolPersonnelRuleBase implemen
     }
 
     @Override
-    public org.kuali.kra.protocol.personnel.ProtocolPersonnelService getProtocolPersonnelServiceHook() {
+    public org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonnelService getProtocolPersonnelServiceHook() {
         return (ProtocolPersonnelService)KraServiceLocator.getService(ProtocolPersonnelService.class);
     }
 

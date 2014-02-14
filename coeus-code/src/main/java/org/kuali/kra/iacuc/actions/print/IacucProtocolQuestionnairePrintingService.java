@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.actions.print;
 
-import org.kuali.kra.protocol.actions.print.ProtocolQuestionnairePrintingService;
+import org.kuali.coeus.common.protocol.impl.actions.print.ProtocolQuestionnairePrintingService;
 
 public interface IacucProtocolQuestionnairePrintingService extends ProtocolQuestionnairePrintingService {
 

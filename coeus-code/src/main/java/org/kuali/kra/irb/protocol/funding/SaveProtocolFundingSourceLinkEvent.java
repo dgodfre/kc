@@ -22,7 +22,7 @@ import java.util.List;
 /**
  * Represents the event for saving a Protocol Funding Source.
  */
-public class SaveProtocolFundingSourceLinkEvent extends org.kuali.kra.protocol.protocol.funding.SaveProtocolFundingSourceLinkEvent {
+public class SaveProtocolFundingSourceLinkEvent extends org.kuali.coeus.common.protocol.impl.protocol.funding.SaveProtocolFundingSourceLinkEvent {
 
     public SaveProtocolFundingSourceLinkEvent(Document document, List<ProtocolFundingSource> protocolFundingSources, List<ProtocolFundingSource> deletedProtocolFundingSources) {
         super(document, (List) protocolFundingSources, (List) deletedProtocolFundingSources);

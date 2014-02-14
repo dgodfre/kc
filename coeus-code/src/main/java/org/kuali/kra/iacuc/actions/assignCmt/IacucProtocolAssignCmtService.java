@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.actions.assignCmt;
 
-import org.kuali.kra.protocol.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
 
 
 public interface IacucProtocolAssignCmtService {

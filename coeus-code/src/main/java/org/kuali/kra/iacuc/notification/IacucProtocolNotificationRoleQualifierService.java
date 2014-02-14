@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.notification;
 
-import org.kuali.kra.protocol.notification.ProtocolNotificationRoleQualifierService;
+import org.kuali.coeus.common.protocol.impl.notification.ProtocolNotificationRoleQualifierService;
 
 public interface IacucProtocolNotificationRoleQualifierService extends ProtocolNotificationRoleQualifierService {
 

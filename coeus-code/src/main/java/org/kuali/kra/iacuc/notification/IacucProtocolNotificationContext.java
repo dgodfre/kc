@@ -15,12 +15,12 @@
  */
 package org.kuali.kra.iacuc.notification;
 
+import org.kuali.coeus.common.protocol.impl.notification.ProtocolNotificationContextBase;
+import org.kuali.coeus.common.protocol.impl.notification.ProtocolNotificationRoleQualifierService;
 import org.kuali.kra.bo.CoeusModule;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.iacuc.onlinereview.IacucProtocolOnlineReview;
 import org.kuali.kra.infrastructure.KraServiceLocator;
-import org.kuali.kra.protocol.notification.ProtocolNotificationContextBase;
-import org.kuali.kra.protocol.notification.ProtocolNotificationRoleQualifierService;
 
 
 /**

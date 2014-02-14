@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.actions.correction;
 
-import org.kuali.kra.protocol.actions.correction.AdminCorrectionServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.actions.correction.AdminCorrectionServiceImplBase;
 
 public class AdminCorrectionServiceImpl extends AdminCorrectionServiceImplBase implements AdminCorrectionService {
 

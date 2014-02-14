@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.actions.submit;
 
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionStatusBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionStatusBase;
 
 public class IacucProtocolSubmissionStatus extends ProtocolSubmissionStatusBase {
 

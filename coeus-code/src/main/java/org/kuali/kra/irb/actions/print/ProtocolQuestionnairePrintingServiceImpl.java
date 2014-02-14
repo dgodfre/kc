@@ -15,11 +15,11 @@
  */
 package org.kuali.kra.irb.actions.print;
 
+import org.kuali.coeus.common.protocol.impl.actions.print.ProtocolQuestionnairePrintingServiceImplBase;
 import org.kuali.kra.bo.CoeusModule;
 import org.kuali.kra.irb.Protocol;
 import org.kuali.kra.irb.actions.ProtocolAction;
 import org.kuali.kra.irb.actions.submit.ProtocolSubmission;
-import org.kuali.kra.protocol.actions.print.ProtocolQuestionnairePrintingServiceImplBase;
 
 
 public class ProtocolQuestionnairePrintingServiceImpl extends ProtocolQuestionnairePrintingServiceImplBase implements ProtocolQuestionnairePrintingService {

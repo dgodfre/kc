@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.actions.delete;
 
+import org.kuali.coeus.common.protocol.impl.actions.delete.ProtocolDeleteServiceImplBase;
 import org.kuali.kra.iacuc.actions.IacucProtocolStatus;
-import org.kuali.kra.protocol.actions.delete.ProtocolDeleteServiceImplBase;
 
 public class IacucProtocolDeleteServiceImpl extends ProtocolDeleteServiceImplBase implements IacucProtocolDeleteService {
 

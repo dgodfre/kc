@@ -15,18 +15,18 @@
  */
 package org.kuali.kra.iacuc.actions.amendrenew;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.actions.amendrenew.ProtocolAmendRenewModuleBase;
+import org.kuali.coeus.common.protocol.impl.actions.amendrenew.ProtocolAmendRenewServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.actions.amendrenew.ProtocolAmendRenewalBase;
+import org.kuali.coeus.common.protocol.impl.actions.amendrenew.ProtocolAmendmentBean;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.iacuc.IacucProtocolDocument;
 import org.kuali.kra.iacuc.actions.IacucProtocolAction;
 import org.kuali.kra.iacuc.actions.IacucProtocolActionType;
 import org.kuali.kra.iacuc.actions.IacucProtocolStatus;
 import org.kuali.kra.iacuc.questionnaire.IacucProtocolModuleQuestionnaireBean;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.actions.amendrenew.ProtocolAmendRenewModuleBase;
-import org.kuali.kra.protocol.actions.amendrenew.ProtocolAmendRenewServiceImplBase;
-import org.kuali.kra.protocol.actions.amendrenew.ProtocolAmendRenewalBase;
-import org.kuali.kra.protocol.actions.amendrenew.ProtocolAmendmentBean;
 import org.kuali.kra.questionnaire.answer.ModuleQuestionnaireBean;
 import org.kuali.rice.krad.util.GlobalVariables;
 

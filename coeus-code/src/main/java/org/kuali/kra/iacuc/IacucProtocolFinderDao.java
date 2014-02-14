@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc;
 
-import org.kuali.kra.protocol.ProtocolFinderDao;
+import org.kuali.coeus.common.protocol.impl.ProtocolFinderDao;
 
 /**
  * The ProtocolFinderDao is used to find protocols.

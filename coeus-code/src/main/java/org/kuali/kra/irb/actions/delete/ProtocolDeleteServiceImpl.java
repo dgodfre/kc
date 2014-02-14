@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.irb.actions.delete;
 
+import org.kuali.coeus.common.protocol.impl.actions.delete.ProtocolDeleteServiceImplBase;
 import org.kuali.kra.irb.actions.ProtocolStatus;
-import org.kuali.kra.protocol.actions.delete.ProtocolDeleteServiceImplBase;
 
 /**
  * The ProtocolDeleteService implementation.

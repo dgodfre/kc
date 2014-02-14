@@ -15,6 +15,6 @@
  */
 package org.kuali.kra.irb.noteattachment;
 
-public class ProtocolNotepadServiceImpl extends org.kuali.kra.protocol.noteattachment.ProtocolNotepadServiceImpl implements ProtocolNotepadService {
+public class ProtocolNotepadServiceImpl extends org.kuali.coeus.common.protocol.impl.noteattachment.ProtocolNotepadServiceImpl implements ProtocolNotepadService {
 
 }

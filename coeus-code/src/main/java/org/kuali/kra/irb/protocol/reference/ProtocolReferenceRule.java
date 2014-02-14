@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.protocol.reference;
 
-import org.kuali.kra.protocol.protocol.reference.ProtocolReferenceRuleBase;
+import org.kuali.coeus.common.protocol.impl.protocol.reference.ProtocolReferenceRuleBase;
 
 /**
  * This class is implementation of <code>AddProtocolReferenceRule</code> interface. Impl makes sure necessary rules are satisfied 

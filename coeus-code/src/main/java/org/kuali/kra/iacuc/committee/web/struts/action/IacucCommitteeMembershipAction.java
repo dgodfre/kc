@@ -15,15 +15,15 @@
  */
 package org.kuali.kra.iacuc.committee.web.struts.action;
 
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeBase;
+import org.kuali.coeus.common.protocol.impl.committee.member.event.DeleteCommitteeMemberEventBase;
+import org.kuali.coeus.common.protocol.impl.committee.member.event.CommitteeMemberEventBase.ErrorType;
+import org.kuali.coeus.common.protocol.impl.committee.membership.CommitteeMembershipActionBase;
+import org.kuali.coeus.common.protocol.impl.committee.membership.CommitteeMembershipBase;
+import org.kuali.coeus.common.protocol.impl.committee.membership.CommitteeMembershipServiceBase;
+import org.kuali.coeus.common.protocol.impl.committee.rule.CommitteeDocumentRuleBase;
+import org.kuali.coeus.common.protocol.impl.committee.task.CommitteeTaskBase;
 import org.kuali.kra.bo.ResearchAreaBase;
-import org.kuali.kra.common.committee.bo.CommitteeBase;
-import org.kuali.kra.common.committee.bo.CommitteeMembershipBase;
-import org.kuali.kra.common.committee.document.authorization.CommitteeTaskBase;
-import org.kuali.kra.common.committee.rule.event.CommitteeMemberEventBase.ErrorType;
-import org.kuali.kra.common.committee.rule.event.DeleteCommitteeMemberEventBase;
-import org.kuali.kra.common.committee.rules.CommitteeDocumentRuleBase;
-import org.kuali.kra.common.committee.service.CommitteeMembershipServiceBase;
-import org.kuali.kra.common.committee.web.struts.action.CommitteeMembershipActionBase;
 import org.kuali.kra.iacuc.IacucResearchArea;
 import org.kuali.kra.iacuc.committee.bo.IacucCommittee;
 import org.kuali.kra.iacuc.committee.bo.IacucCommitteeMembership;

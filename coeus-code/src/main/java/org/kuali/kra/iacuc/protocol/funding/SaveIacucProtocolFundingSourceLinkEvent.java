@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.protocol.funding;
 
+import org.kuali.coeus.common.protocol.impl.protocol.funding.ProtocolFundingSourceBase;
+import org.kuali.coeus.common.protocol.impl.protocol.funding.SaveProtocolFundingSourceLinkEvent;
 import org.kuali.kra.iacuc.IacucProtocolDocument;
-import org.kuali.kra.protocol.protocol.funding.ProtocolFundingSourceBase;
-import org.kuali.kra.protocol.protocol.funding.SaveProtocolFundingSourceLinkEvent;
 
 import java.util.List;
 

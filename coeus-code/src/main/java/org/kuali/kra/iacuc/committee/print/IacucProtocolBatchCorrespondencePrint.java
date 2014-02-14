@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.committee.print;
 
-import org.kuali.kra.common.committee.print.TemplatePrintBase;
+import org.kuali.coeus.common.protocol.impl.actions.print.ProtocolPrintWatermarkBase;
+import org.kuali.coeus.common.protocol.impl.committee.print.TemplatePrintBase;
 import org.kuali.kra.iacuc.actions.print.IacucProtocolPrintWatermark;
-import org.kuali.kra.protocol.actions.print.ProtocolPrintWatermarkBase;
 import org.kuali.kra.util.watermark.Watermarkable;
 
 /**

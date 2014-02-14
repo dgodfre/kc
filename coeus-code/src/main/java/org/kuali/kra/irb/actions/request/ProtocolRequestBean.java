@@ -15,10 +15,10 @@
  */
 package org.kuali.kra.irb.actions.request;
 
+import org.kuali.coeus.common.protocol.impl.questionnaire.ProtocolSubmissionQuestionnaireHelper;
 import org.kuali.kra.irb.actions.ActionHelper;
 import org.kuali.kra.irb.actions.ProtocolSubmissionBeanBase;
 import org.kuali.kra.irb.questionnaire.IrbSubmissionQuestionnaireHelper;
-import org.kuali.kra.protocol.questionnaire.ProtocolSubmissionQuestionnaireHelper;
 
 /**
  * The ProtocolRequestBean is used for some of the common, yet simple,
@@ -35,7 +35,7 @@ import org.kuali.kra.protocol.questionnaire.ProtocolSubmissionQuestionnaireHelpe
  * protocol action type and submission type entry in the database.  Please
  * see the ActionHelper class for how this class is used.
  */
-public class ProtocolRequestBean extends ProtocolSubmissionBeanBase implements org.kuali.kra.protocol.actions.request.ProtocolRequestBean {
+public class ProtocolRequestBean extends ProtocolSubmissionBeanBase implements org.kuali.coeus.common.protocol.impl.actions.request.ProtocolRequestBean {
     
     private static final long serialVersionUID = -4980779026132275453L;
     private String protocolActionTypeCode;

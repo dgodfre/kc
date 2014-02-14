@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.questionnaire.answer;
 
-import org.kuali.kra.protocol.questionnaire.QuestionnaireHelperBase;
+import org.kuali.coeus.common.protocol.impl.questionnaire.QuestionnaireHelperBase;
 import org.kuali.kra.questionnaire.Questionnaire;
 import org.kuali.kra.questionnaire.QuestionnaireUsage;
 

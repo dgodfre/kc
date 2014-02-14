@@ -18,6 +18,6 @@ package org.kuali.kra.irb.actions.assignreviewers;
 /**
  * Responsible for assigning reviewers to a protocol.
  */
-public interface ProtocolAssignReviewersService extends org.kuali.kra.protocol.actions.assignreviewers.ProtocolAssignReviewersService {
+public interface ProtocolAssignReviewersService extends org.kuali.coeus.common.protocol.impl.actions.assignreviewers.ProtocolAssignReviewersService {
 
 }

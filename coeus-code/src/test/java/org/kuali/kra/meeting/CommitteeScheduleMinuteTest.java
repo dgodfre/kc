@@ -17,8 +17,8 @@ package org.kuali.kra.meeting;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.kuali.kra.common.committee.meeting.MinuteEntryType;
-import org.kuali.kra.common.committee.meeting.ScheduleActItemType;
+import org.kuali.coeus.common.protocol.impl.committee.meeting.ScheduleActItemType;
+import org.kuali.coeus.common.protocol.impl.committee.meeting.minute.MinuteEntryType;
 import org.kuali.kra.irb.Protocol;
 
 

@@ -16,18 +16,18 @@
 package org.kuali.kra.iacuc.actions.submit;
 
 import org.apache.commons.logging.Log;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ActionRightMapping;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolActionMappingBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolActionServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolActionUpdateMapping;
 import org.kuali.kra.bo.CoeusModule;
 import org.kuali.kra.bo.CoeusSubModule;
 import org.kuali.kra.iacuc.actions.IacucProtocolAction;
 import org.kuali.kra.iacuc.actions.IacucProtocolActionType;
 import org.kuali.kra.iacuc.actions.IacucProtocolSubmissionDoc;
 import org.kuali.kra.infrastructure.PermissionConstants;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.actions.submit.ActionRightMapping;
-import org.kuali.kra.protocol.actions.submit.ProtocolActionMappingBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolActionServiceImplBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolActionUpdateMapping;
 import org.kuali.kra.questionnaire.answer.AnswerHeader;
 
 import java.util.HashMap;

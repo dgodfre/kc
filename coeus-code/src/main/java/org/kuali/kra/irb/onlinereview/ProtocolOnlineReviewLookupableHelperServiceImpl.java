@@ -18,9 +18,9 @@ package org.kuali.kra.irb.onlinereview;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewLookupableHelperServiceImplBase;
 import org.kuali.kra.irb.actions.submit.ProtocolSubmissionStatus;
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewBase;
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewLookupableHelperServiceImplBase;
 
 public class ProtocolOnlineReviewLookupableHelperServiceImpl extends ProtocolOnlineReviewLookupableHelperServiceImplBase {
 

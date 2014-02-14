@@ -16,9 +16,9 @@
 package org.kuali.kra.irb.actions.submit;
 
 import org.apache.commons.logging.Log;
-import org.kuali.kra.protocol.ProtocolDocumentBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmitAction;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmitActionEventBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolDocumentBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmitAction;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmitActionEventBase;
 
 public class ProtocolSubmitActionEvent extends ProtocolSubmitActionEventBase {
         

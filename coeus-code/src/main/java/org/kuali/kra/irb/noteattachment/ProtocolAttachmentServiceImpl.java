@@ -15,12 +15,12 @@
  */
 package org.kuali.kra.irb.noteattachment;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.noteattachment.*;
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonBase;
 import org.kuali.kra.irb.Protocol;
 import org.kuali.kra.irb.ProtocolDao;
 import org.kuali.kra.irb.personnel.ProtocolPerson;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.noteattachment.*;
-import org.kuali.kra.protocol.personnel.ProtocolPersonBase;
 import org.kuali.rice.krad.service.BusinessObjectService;
 
 import java.util.ArrayList;

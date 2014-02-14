@@ -20,12 +20,13 @@ import edu.mit.coeus.xml.iacuc.ProtocolSubmissionType;
 import edu.mit.coeus.xml.iacuc.ProtocolType.Submissions;
 import edu.mit.coeus.xml.iacuc.ScheduleType;
 import edu.mit.coeus.xml.iacuc.SubmissionDetailsType;
+
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommitteeScheduleBase;
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonBase;
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonRolodexBase;
 import org.kuali.kra.bo.KcPerson;
-import org.kuali.kra.common.committee.bo.CommitteeScheduleBase;
 import org.kuali.kra.iacuc.actions.submit.IacucProtocolSubmission;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
-import org.kuali.kra.protocol.personnel.ProtocolPersonBase;
-import org.kuali.kra.protocol.personnel.ProtocolPersonRolodexBase;
 
 /**
  * This class has different helper methods to populate data for Person XML data.
@@ -38,15 +39,15 @@ public interface IacucPrintXmlUtilService {
     
     public void setProtocolSubmissionAction(IacucProtocolSubmission protocolSubmission,
             SubmissionDetailsType protocolSubmissionDetail);
-    public void setSubmissionCheckListinfo(org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase protocolSubmission,
+    public void setSubmissionCheckListinfo(org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase protocolSubmission,
             SubmissionDetailsType protocolSubmissionDetail);
     public void setMinutes(CommitteeScheduleBase scheduleDetailsBean, ScheduleType schedule);
     public void setProcotolMinutes(CommitteeScheduleBase committeeSchedule, 
-            org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase protocolSubmission, ProtocolSubmissionType protocolSubmissionType);
+            org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase protocolSubmission, ProtocolSubmissionType protocolSubmissionType);
     public void setProcotolSubmissionMinutes(CommitteeScheduleBase committeeSchedule,
             ProtocolSubmissionBase protocolSubmission, Submissions submissionsType);
     
     public void setProtocolReviewMinutes(CommitteeScheduleBase committeeSchedule,
-            org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase protocolSubmission, Submissions submissionsType);
+            org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase protocolSubmission, Submissions submissionsType);
     
 }

@@ -16,13 +16,13 @@
 package org.kuali.kra.irb.actions.submit;
 
 import org.apache.commons.lang.StringUtils;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolReviewerBeanBase;
+import org.kuali.coeus.common.protocol.impl.committee.membership.CommitteeMembershipBase;
 import org.kuali.kra.committee.bo.CommitteeMembership;
 import org.kuali.kra.committee.service.CommitteeService;
-import org.kuali.kra.common.committee.bo.CommitteeMembershipBase;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.irb.actions.ActionHelper;
 import org.kuali.kra.irb.actions.ProtocolActionBean;
-import org.kuali.kra.protocol.actions.submit.ProtocolReviewerBeanBase;
 import org.springframework.util.AutoPopulatingList;
 
 import java.util.ArrayList;
@@ -32,7 +32,7 @@ import java.util.List;
  * This class is really just a "form" for submitting a protocol for review in the Submit for Review Action.
  */
 @SuppressWarnings("unchecked")
-public class ProtocolSubmitAction extends ProtocolActionBean implements org.kuali.kra.protocol.actions.submit.ProtocolSubmitAction  {
+public class ProtocolSubmitAction extends ProtocolActionBean implements org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmitAction  {
 
     private static final long serialVersionUID = -4712974868607781787L;
 

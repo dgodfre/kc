@@ -15,10 +15,10 @@
  */
 package org.kuali.kra.iacuc.actions.noreview;
 
+import org.kuali.coeus.common.protocol.impl.actions.ActionHelperBase;
+import org.kuali.coeus.common.protocol.impl.actions.noreview.ProtocolReviewNotRequiredBean;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.iacuc.actions.IacucProtocolActionBean;
-import org.kuali.kra.protocol.actions.ActionHelperBase;
-import org.kuali.kra.protocol.actions.noreview.ProtocolReviewNotRequiredBean;
 
 import java.sql.Date;
 

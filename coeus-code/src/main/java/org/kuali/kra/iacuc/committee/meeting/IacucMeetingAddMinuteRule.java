@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.committee.meeting;
 
-import org.kuali.kra.common.committee.meeting.MeetingAddMinuteRuleBase;
-import org.kuali.kra.common.committee.meeting.ProtocolContingencyBase;
+import org.kuali.coeus.common.protocol.impl.committee.meeting.ProtocolContingencyBase;
+import org.kuali.coeus.common.protocol.impl.committee.meeting.rule.MeetingAddMinuteRuleBase;
 
 public class IacucMeetingAddMinuteRule extends MeetingAddMinuteRuleBase {
 

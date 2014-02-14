@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.actions.reviewcomments;
 
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewAttachmentsBeanBase;
 import org.kuali.kra.iacuc.onlinereview.IacucProtocolReviewAttachment;
-import org.kuali.kra.protocol.actions.reviewcomments.ReviewAttachmentsBeanBase;
 
 public class IacucReviewAttachmentsBean extends ReviewAttachmentsBeanBase<IacucProtocolReviewAttachment> {
 

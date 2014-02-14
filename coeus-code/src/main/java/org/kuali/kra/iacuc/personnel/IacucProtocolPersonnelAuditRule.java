@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.personnel;
 
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonnelAuditRuleBase;
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonnelService;
 import org.kuali.kra.infrastructure.KraServiceLocator;
-import org.kuali.kra.protocol.personnel.ProtocolPersonnelAuditRuleBase;
-import org.kuali.kra.protocol.personnel.ProtocolPersonnelService;
 
 public class IacucProtocolPersonnelAuditRule extends ProtocolPersonnelAuditRuleBase {
 

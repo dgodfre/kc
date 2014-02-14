@@ -15,13 +15,13 @@
  */
 package org.kuali.kra.irb.correspondence;
 
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceTemplateBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceTemplateBase;
 
 /**
  * 
  * This class implements the ProtocolCorrespondenceTemplateService.
  */
-public class ProtocolCorrespondenceTemplateServiceImpl extends org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceTemplateServiceImpl implements ProtocolCorrespondenceTemplateService {
+public class ProtocolCorrespondenceTemplateServiceImpl extends org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceTemplateServiceImpl implements ProtocolCorrespondenceTemplateService {
 
     protected Class<? extends ProtocolCorrespondenceTemplateBase> getProtocolCorrespondenceTemplateBOClassHook() {
         return ProtocolCorrespondenceTemplate.class;

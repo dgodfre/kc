@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.personnel;
 
-import org.kuali.kra.protocol.personnel.ProtocolUnitBase;
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolUnitBase;
 
 public class IacucProtocolUnit extends ProtocolUnitBase{
 

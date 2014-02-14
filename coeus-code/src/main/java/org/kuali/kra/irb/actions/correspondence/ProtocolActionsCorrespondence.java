@@ -15,14 +15,14 @@
  */
 package org.kuali.kra.irb.actions.correspondence;
 
+import org.kuali.coeus.common.protocol.impl.actions.correspondence.ProtocolActionsCorrespondenceBase;
+import org.kuali.coeus.common.protocol.impl.actions.print.CorrespondenceXmlStreamBase;
+import org.kuali.coeus.common.protocol.impl.actions.print.ProtocolPrintWatermarkBase;
 import org.kuali.kra.infrastructure.Constants;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.infrastructure.RoleConstants;
 import org.kuali.kra.irb.actions.print.CorrespondenceXmlStream;
 import org.kuali.kra.irb.actions.print.ProtocolPrintWatermark;
-import org.kuali.kra.protocol.actions.correspondence.ProtocolActionsCorrespondenceBase;
-import org.kuali.kra.protocol.actions.print.CorrespondenceXmlStreamBase;
-import org.kuali.kra.protocol.actions.print.ProtocolPrintWatermarkBase;
 
 public class ProtocolActionsCorrespondence extends ProtocolActionsCorrespondenceBase {
 

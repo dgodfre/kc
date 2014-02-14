@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.protocol.reference;
 
-import org.kuali.kra.protocol.protocol.reference.ProtocolReferenceBeanBase;
+import org.kuali.coeus.common.protocol.impl.protocol.reference.ProtocolReferenceBeanBase;
 
 /**
  * 

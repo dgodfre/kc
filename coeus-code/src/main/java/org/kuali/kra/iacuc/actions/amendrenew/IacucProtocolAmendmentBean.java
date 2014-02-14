@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.actions.amendrenew;
 
+import org.kuali.coeus.common.protocol.impl.actions.amendrenew.ProtocolAmendmentBean;
 import org.kuali.kra.iacuc.actions.IacucActionHelper;
 import org.kuali.kra.iacuc.actions.IacucProtocolEditableBean;
-import org.kuali.kra.protocol.actions.amendrenew.ProtocolAmendmentBean;
 
 public class IacucProtocolAmendmentBean extends IacucProtocolEditableBean implements ProtocolAmendmentBean {
 

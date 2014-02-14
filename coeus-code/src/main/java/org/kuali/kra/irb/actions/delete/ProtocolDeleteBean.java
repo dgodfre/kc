@@ -22,7 +22,7 @@ import org.kuali.kra.irb.actions.ProtocolActionBean;
  * This class is really just a "form" containing the reason
  * for deleting a protocol/amendment/renewal.
  */
-public class ProtocolDeleteBean extends ProtocolActionBean implements org.kuali.kra.protocol.actions.delete.ProtocolDeleteBean {
+public class ProtocolDeleteBean extends ProtocolActionBean implements org.kuali.coeus.common.protocol.impl.actions.delete.ProtocolDeleteBean {
 
     private static final long serialVersionUID = 7654109710201779704L;
     

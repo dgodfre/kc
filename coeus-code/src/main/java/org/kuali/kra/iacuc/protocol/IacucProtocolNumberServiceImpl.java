@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.protocol;
 
+import org.kuali.coeus.common.protocol.impl.protocol.ProtocolNumberServiceImplBase;
 import org.kuali.kra.iacuc.IacucProtocol;
-import org.kuali.kra.protocol.protocol.ProtocolNumberServiceImplBase;
 
 public class IacucProtocolNumberServiceImpl extends ProtocolNumberServiceImplBase implements IacucProtocolNumberService {
 

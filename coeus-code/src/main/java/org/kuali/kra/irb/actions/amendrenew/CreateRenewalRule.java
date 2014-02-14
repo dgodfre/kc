@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.actions.amendrenew;
 
-import org.kuali.kra.protocol.actions.amendrenew.CreateRenewalRuleBase;
+import org.kuali.coeus.common.protocol.impl.actions.amendrenew.CreateRenewalRuleBase;
 
 /**
  * 

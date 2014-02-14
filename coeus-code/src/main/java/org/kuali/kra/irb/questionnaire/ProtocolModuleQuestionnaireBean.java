@@ -15,12 +15,12 @@
  */
 package org.kuali.kra.irb.questionnaire;
 
+import org.kuali.coeus.common.protocol.impl.questionnaire.ProtocolModuleQuestionnaireBeanBase;
 import org.kuali.kra.bo.CoeusModule;
 import org.kuali.kra.bo.CoeusSubModule;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.irb.Protocol;
 import org.kuali.kra.krms.KrmsRulesContext;
-import org.kuali.kra.protocol.questionnaire.ProtocolModuleQuestionnaireBeanBase;
 import org.kuali.rice.krad.service.BusinessObjectService;
 
 import java.util.HashMap;

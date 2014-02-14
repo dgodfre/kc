@@ -15,12 +15,12 @@
  */
 package org.kuali.kra.iacuc.committee.web.struts.action;
 
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeBase;
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeServiceBase;
+import org.kuali.coeus.common.protocol.impl.committee.rule.CommitteeDocumentRuleBase;
+import org.kuali.coeus.common.protocol.impl.committee.task.CommitteeTaskBase;
+import org.kuali.coeus.common.protocol.impl.committee.web.struts.action.CommitteeCommitteeActionBase;
 import org.kuali.kra.bo.ResearchAreaBase;
-import org.kuali.kra.common.committee.bo.CommitteeBase;
-import org.kuali.kra.common.committee.document.authorization.CommitteeTaskBase;
-import org.kuali.kra.common.committee.rules.CommitteeDocumentRuleBase;
-import org.kuali.kra.common.committee.service.CommitteeServiceBase;
-import org.kuali.kra.common.committee.web.struts.action.CommitteeCommitteeActionBase;
 import org.kuali.kra.iacuc.IacucResearchArea;
 import org.kuali.kra.iacuc.committee.bo.IacucCommittee;
 import org.kuali.kra.iacuc.committee.rules.IacucCommitteeDocumentRule;

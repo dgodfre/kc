@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.actions.modifysubmission;
 
-import org.kuali.kra.protocol.actions.submit.ValidProtoSubRevType;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ValidProtoSubRevType;
 
 
 public class IacucValidProtoSubRevType extends ValidProtoSubRevType{

@@ -16,7 +16,7 @@
 package org.kuali.kra.iacuc.correspondence;
 
 
-public class ValidIacucProtoActionCoresp extends org.kuali.kra.protocol.correspondence.ValidProtoActionCoresp {
+public class ValidIacucProtoActionCoresp extends org.kuali.coeus.common.protocol.impl.correspondence.ValidProtoActionCoresp {
 
     /**
      * Comment for <code>serialVersionUID</code>

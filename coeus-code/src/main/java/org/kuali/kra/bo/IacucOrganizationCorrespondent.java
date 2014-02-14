@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.bo;
 
+import org.kuali.coeus.common.protocol.impl.correspondence.CorrespondentType;
 import org.kuali.kra.iacuc.correspondence.IacucCorrespondentType;
-import org.kuali.kra.protocol.correspondence.CorrespondentType;
 
 public class IacucOrganizationCorrespondent extends Correspondent {
 

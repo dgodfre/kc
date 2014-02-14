@@ -16,10 +16,10 @@
 package org.kuali.kra.irb.noteattachment;
 
 import org.apache.commons.lang.StringUtils;
+import org.kuali.coeus.common.protocol.impl.noteattachment.ProtocolAttachmentProtocolBase;
+import org.kuali.coeus.common.protocol.impl.noteattachment.ProtocolAttachmentProtocolRuleHelperBase;
 import org.kuali.kra.infrastructure.Constants;
 import org.kuali.kra.infrastructure.KeyConstants;
-import org.kuali.kra.protocol.noteattachment.ProtocolAttachmentProtocolBase;
-import org.kuali.kra.protocol.noteattachment.ProtocolAttachmentProtocolRuleHelperBase;
 import org.kuali.rice.kns.util.AuditError;
 
 

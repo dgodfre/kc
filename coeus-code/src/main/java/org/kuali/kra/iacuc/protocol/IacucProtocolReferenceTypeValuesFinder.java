@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.protocol;
 
+import org.kuali.coeus.common.protocol.impl.protocol.ProtocolReferenceTypeValuesFinderBase;
+import org.kuali.coeus.common.protocol.impl.protocol.reference.ProtocolReferenceTypeBase;
 import org.kuali.kra.iacuc.protocol.reference.IacucProtocolReferenceType;
-import org.kuali.kra.protocol.protocol.ProtocolReferenceTypeValuesFinderBase;
-import org.kuali.kra.protocol.protocol.reference.ProtocolReferenceTypeBase;
 
 public class IacucProtocolReferenceTypeValuesFinder extends ProtocolReferenceTypeValuesFinderBase {
 

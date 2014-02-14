@@ -19,7 +19,7 @@ package org.kuali.kra.irb.correspondence;
  * 
  * This class manages the attributes needed to maintain and protocol correspondence.
  */
-public class ProtocolCorrespondence extends org.kuali.kra.protocol.correspondence.ProtocolCorrespondence {
+public class ProtocolCorrespondence extends org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondence {
 
     private static final long serialVersionUID = 8032222937155468412L;
 

@@ -20,7 +20,7 @@ package org.kuali.kra.irb.specialreview;
 /**
  * Defines a Special Review Exemption for a Protocol.
  */
-public class ProtocolSpecialReviewExemption extends org.kuali.kra.protocol.specialreview.ProtocolSpecialReviewExemption {
+public class ProtocolSpecialReviewExemption extends org.kuali.coeus.common.protocol.impl.specialreview.ProtocolSpecialReviewExemption {
 
     private static final long serialVersionUID = 5397618472812176402L;
 

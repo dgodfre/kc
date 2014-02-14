@@ -16,10 +16,10 @@
 package org.kuali.kra.irb.actions.submit;
 
 import org.apache.commons.lang.StringUtils;
-import org.kuali.kra.common.committee.bo.CommitteeMembershipBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionAjaxServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.committee.membership.CommitteeMembershipBase;
 import org.kuali.kra.irb.Protocol;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.actions.ProtocolActionAjaxServiceImplBase;
 import org.kuali.rice.core.api.util.KeyValue;
 
 import java.util.HashMap;

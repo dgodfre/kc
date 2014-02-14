@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.irb.actions.genericactions;
 
-import org.kuali.kra.protocol.ProtocolDocumentBase;
-import org.kuali.kra.protocol.actions.genericactions.ProtocolGenericActionBean;
-import org.kuali.kra.protocol.actions.genericactions.ProtocolGenericActionEventBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolDocumentBase;
+import org.kuali.coeus.common.protocol.impl.actions.genericactions.ProtocolGenericActionBean;
+import org.kuali.coeus.common.protocol.impl.actions.genericactions.ProtocolGenericActionEventBase;
 import org.kuali.kra.rule.BusinessRuleInterface;
 
 /**

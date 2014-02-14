@@ -24,7 +24,7 @@ import org.kuali.kra.infrastructure.PermissionConstants;
 public class SubmitIacucProtocolUnavailableAuthorizer extends IacucProtocolAuthorizer {
 
     /**
-     * @see org.kuali.kra.protocol.auth.ProtocolAuthorizer#isAuthorized(java.lang.String, org.kuali.kra.iacuc.auth.IacucProtocolTask)
+     * @see org.kuali.coeus.common.protocol.impl.auth.ProtocolAuthorizer#isAuthorized(java.lang.String, org.kuali.kra.iacuc.auth.IacucProtocolTask)
      */
     public boolean isAuthorized(String userId, IacucProtocolTask task) {
         

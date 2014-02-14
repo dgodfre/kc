@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.actions.decision;
 
-import org.kuali.kra.protocol.actions.decision.CommitteePersonBase;
+import org.kuali.coeus.common.protocol.impl.actions.decision.CommitteePersonBase;
 
 public class IacucCommitteePerson extends CommitteePersonBase {
 

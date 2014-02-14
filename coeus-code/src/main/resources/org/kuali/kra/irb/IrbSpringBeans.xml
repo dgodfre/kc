@@ -1058,7 +1058,7 @@
 		p:serviceInterface="org.kuali.rice.kim.framework.role.RoleTypeService"/>
 		
 		
-    <bean id="protocolJavaFunctionKrmsTermService" class="org.kuali.kra.protocol.ProtocolJavaFunctionKrmsTermServiceBase" abstract="true">
+    <bean id="protocolJavaFunctionKrmsTermService" class="org.kuali.coeus.common.protocol.impl.ProtocolJavaFunctionKrmsTermServiceBase" abstract="true">
     	<property name="businessObjectService" ref="businessObjectService" />
     	<property name="unitService" ref="unitService" />
     	<property name="parameterService" ref="parameterService" />

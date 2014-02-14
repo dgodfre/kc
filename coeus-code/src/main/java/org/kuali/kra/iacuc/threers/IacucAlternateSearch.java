@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.threers;
 
-import org.kuali.kra.protocol.ProtocolAssociateBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolAssociateBase;
 import org.kuali.rice.krad.bo.PersistableBusinessObject;
 
 import java.sql.Date;

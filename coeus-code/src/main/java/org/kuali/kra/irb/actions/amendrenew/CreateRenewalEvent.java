@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.irb.actions.amendrenew;
 
+import org.kuali.coeus.common.protocol.impl.actions.amendrenew.CreateRenewalEventBase;
 import org.kuali.kra.irb.ProtocolDocument;
-import org.kuali.kra.protocol.actions.amendrenew.CreateRenewalEventBase;
 
 /**
  * Rule Event for creating renewal without amendment.

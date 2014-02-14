@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.onlinereview;
 
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewStatus;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewStatus;
 
 public class IacucProtocolOnlineReviewStatus extends ProtocolOnlineReviewStatus {
 

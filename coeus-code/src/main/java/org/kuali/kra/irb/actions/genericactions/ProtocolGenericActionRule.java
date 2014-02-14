@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.actions.genericactions;
 
-import org.kuali.kra.protocol.actions.genericactions.ProtocolGenericActionRuleBase;
+import org.kuali.coeus.common.protocol.impl.actions.genericactions.ProtocolGenericActionRuleBase;
 
 /**
  * Encapsulates the rules for performing a generic action.

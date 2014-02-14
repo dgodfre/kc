@@ -54,7 +54,7 @@
         <property name="maxLength" value="4" />
         <property name="control" >
           <bean parent="SelectControlDefinition"
-                p:valuesFinderClass="org.kuali.kra.protocol.noteattachment.SortByValuesFinder" />
+                p:valuesFinderClass="org.kuali.coeus.common.protocol.impl.noteattachment.SortByValuesFinder" />
         </property>
     </bean>
 </beans>

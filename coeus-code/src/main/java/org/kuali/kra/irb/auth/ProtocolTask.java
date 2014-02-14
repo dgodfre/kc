@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.irb.auth;
 
+import org.kuali.coeus.common.protocol.impl.auth.ProtocolTaskBase;
 import org.kuali.kra.infrastructure.TaskGroupName;
 import org.kuali.kra.irb.Protocol;
-import org.kuali.kra.protocol.auth.ProtocolTaskBase;
 
 /**
  * A Protocol Task is a task that performs an action against a

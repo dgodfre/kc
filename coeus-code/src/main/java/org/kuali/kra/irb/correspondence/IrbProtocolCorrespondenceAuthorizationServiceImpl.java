@@ -15,11 +15,11 @@
  */
 package org.kuali.kra.irb.correspondence;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.auth.ProtocolTaskBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceAuthorizationServiceImplBase;
 import org.kuali.kra.irb.Protocol;
 import org.kuali.kra.irb.auth.ProtocolTask;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.auth.ProtocolTaskBase;
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceAuthorizationServiceImplBase;
 
 public class IrbProtocolCorrespondenceAuthorizationServiceImpl extends ProtocolCorrespondenceAuthorizationServiceImplBase implements IrbProtocolCorrespondenceAuthorizationService {
 

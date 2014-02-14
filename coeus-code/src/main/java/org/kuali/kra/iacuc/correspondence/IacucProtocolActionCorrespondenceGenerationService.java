@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.correspondence;
 
-import org.kuali.kra.protocol.actions.correspondence.ProtocolActionCorrespondenceGenerationService;
+import org.kuali.coeus.common.protocol.impl.actions.correspondence.ProtocolActionCorrespondenceGenerationService;
 
 /**
  * 

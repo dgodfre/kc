@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.actions.print;
 
-import org.kuali.kra.protocol.actions.print.ProtocolPrintWatermarkBase;
-import org.kuali.kra.protocol.actions.print.ProtocolReviewCommentsPrintBase;
+import org.kuali.coeus.common.protocol.impl.actions.print.ProtocolPrintWatermarkBase;
+import org.kuali.coeus.common.protocol.impl.actions.print.ProtocolReviewCommentsPrintBase;
 
 public class IacucProtocolReviewCommentsPrint extends ProtocolReviewCommentsPrintBase {
 

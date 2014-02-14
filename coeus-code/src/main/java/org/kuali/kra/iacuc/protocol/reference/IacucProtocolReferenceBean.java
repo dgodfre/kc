@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.protocol.reference;
 
-import org.kuali.kra.protocol.protocol.reference.ProtocolReferenceBeanBase;
+import org.kuali.coeus.common.protocol.impl.protocol.reference.ProtocolReferenceBeanBase;
 
 public class IacucProtocolReferenceBean extends ProtocolReferenceBeanBase {
 

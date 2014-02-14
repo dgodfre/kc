@@ -16,7 +16,7 @@
 package org.kuali.kra.irb.protocol.reference;
 
 
-import org.kuali.kra.protocol.protocol.reference.ProtocolReferenceServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.protocol.reference.ProtocolReferenceServiceImplBase;
 
 
 public class ProtocolReferenceServiceImpl extends ProtocolReferenceServiceImplBase implements ProtocolReferenceService {

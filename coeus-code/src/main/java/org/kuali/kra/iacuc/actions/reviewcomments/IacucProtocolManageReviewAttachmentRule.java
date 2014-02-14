@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.actions.reviewcomments;
 
-import org.kuali.kra.protocol.actions.reviewcomments.ProtocolManageReviewAttachmentRule;
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ProtocolManageReviewAttachmentRule;
 
 public class IacucProtocolManageReviewAttachmentRule extends ProtocolManageReviewAttachmentRule<IacucProtocolManageReviewAttachmentEvent> {
 

@@ -19,6 +19,6 @@ package org.kuali.kra.irb.actions.withdraw;
 /**
  * Protocol Withdraw Service.
  */
-public interface ProtocolWithdrawService extends org.kuali.kra.protocol.actions.withdraw.ProtocolWithdrawService{
+public interface ProtocolWithdrawService extends org.kuali.coeus.common.protocol.impl.actions.withdraw.ProtocolWithdrawService{
 
 }

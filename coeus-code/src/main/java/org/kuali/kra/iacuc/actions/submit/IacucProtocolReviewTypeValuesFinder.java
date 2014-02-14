@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.actions.submit;
 
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeServiceBase;
 import org.kuali.kra.authorization.KraAuthorizationConstants;
-import org.kuali.kra.common.committee.service.CommitteeServiceBase;
 import org.kuali.kra.iacuc.actions.IacucActionsKeyValuesBase;
 import org.kuali.kra.iacuc.committee.service.IacucCommitteeService;
 import org.kuali.kra.lookup.keyvalue.PrefixValuesFinder;

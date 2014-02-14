@@ -16,17 +16,17 @@
 package org.kuali.kra.irb.actions.assignreviewers;
 
 import org.apache.commons.lang.StringUtils;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolReviewerBeanBase;
+import org.kuali.coeus.common.protocol.impl.committee.membership.CommitteeMembershipBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewBase;
 import org.kuali.kra.committee.bo.CommitteeMembership;
 import org.kuali.kra.committee.service.CommitteeService;
-import org.kuali.kra.common.committee.bo.CommitteeMembershipBase;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.irb.actions.ActionHelper;
 import org.kuali.kra.irb.actions.ProtocolActionBean;
 import org.kuali.kra.irb.actions.submit.ProtocolReviewType;
 import org.kuali.kra.irb.actions.submit.ProtocolReviewerBean;
 import org.kuali.kra.irb.actions.submit.ProtocolSubmission;
-import org.kuali.kra.protocol.actions.submit.ProtocolReviewerBeanBase;
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewBase;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,7 +35,7 @@ import java.util.List;
  * This class is really just a "form" for assigning a protocol
  * to one or more reviewers.
  */
-public class ProtocolAssignReviewersBean extends ProtocolActionBean implements org.kuali.kra.protocol.actions.assignreviewers.ProtocolAssignReviewersBean {
+public class ProtocolAssignReviewersBean extends ProtocolActionBean implements org.kuali.coeus.common.protocol.impl.actions.assignreviewers.ProtocolAssignReviewersBean {
 
     private static final long serialVersionUID = -3769655019628462999L;
     

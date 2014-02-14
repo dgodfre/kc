@@ -16,7 +16,7 @@
 package org.kuali.kra.irb.correspondence;
 
 
-public interface ProtocolCorrespondenceTemplateAuthorizationService extends org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceTemplateAuthorizationService {
+public interface ProtocolCorrespondenceTemplateAuthorizationService extends org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceTemplateAuthorizationService {
 
     /**
      * 

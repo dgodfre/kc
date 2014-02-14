@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.personnel;
 
-import org.kuali.kra.protocol.personnel.ProtocolPersonRolodexBase;
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonRolodexBase;
 
 public class IacucProtocolPersonRolodex extends ProtocolPersonRolodexBase {
 

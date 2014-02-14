@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.actions;
 
-import org.kuali.kra.protocol.actions.ProtocolActionAjaxService;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionAjaxService;
 
 public interface IacucProtocolActionAjaxService extends ProtocolActionAjaxService {
     

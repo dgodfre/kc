@@ -17,13 +17,13 @@ package org.kuali.kra.irb;
 
 import org.apache.commons.lang.BooleanUtils;
 import org.apache.commons.lang.StringUtils;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolDao;
+import org.kuali.coeus.common.protocol.impl.ProtocolLookupableHelperServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.auth.ProtocolTaskBase;
 import org.kuali.kra.infrastructure.TaskName;
 import org.kuali.kra.irb.actions.ProtocolStatus;
 import org.kuali.kra.irb.auth.ProtocolTask;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.ProtocolDao;
-import org.kuali.kra.protocol.ProtocolLookupableHelperServiceImplBase;
-import org.kuali.kra.protocol.auth.ProtocolTaskBase;
 import org.kuali.rice.kns.lookup.HtmlData;
 import org.kuali.rice.krad.bo.BusinessObject;
 

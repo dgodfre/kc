@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.actions.modifysubmission;
 
-import org.kuali.kra.protocol.ProtocolDocumentBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolReviewerBeanBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolDocumentBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolReviewerBeanBase;
 
 import java.util.List;
 

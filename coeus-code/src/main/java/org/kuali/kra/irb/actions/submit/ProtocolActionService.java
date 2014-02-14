@@ -17,6 +17,6 @@ package org.kuali.kra.irb.actions.submit;
 
 
 
-public interface ProtocolActionService extends org.kuali.kra.protocol.actions.submit.ProtocolActionService {
+public interface ProtocolActionService extends org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolActionService {
 
 }

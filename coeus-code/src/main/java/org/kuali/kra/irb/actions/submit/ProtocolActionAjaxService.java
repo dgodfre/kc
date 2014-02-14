@@ -16,7 +16,7 @@
 package org.kuali.kra.irb.actions.submit;
 
 
-public interface ProtocolActionAjaxService extends org.kuali.kra.protocol.actions.ProtocolActionAjaxService {
+public interface ProtocolActionAjaxService extends org.kuali.coeus.common.protocol.impl.actions.ProtocolActionAjaxService {
     
 
     /**

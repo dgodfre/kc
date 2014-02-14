@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.protocol.reference;
 
+import org.kuali.coeus.common.protocol.impl.protocol.reference.AddProtocolReferenceEventBase;
 import org.kuali.kra.iacuc.IacucProtocolDocument;
-import org.kuali.kra.protocol.protocol.reference.AddProtocolReferenceEventBase;
 
 public class AddIacucProtocolReferenceEvent extends AddProtocolReferenceEventBase {
 

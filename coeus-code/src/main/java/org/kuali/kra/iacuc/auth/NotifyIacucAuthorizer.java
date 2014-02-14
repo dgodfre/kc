@@ -16,9 +16,9 @@
 package org.kuali.kra.iacuc.auth;
 
 import org.apache.commons.lang.StringUtils;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
 import org.kuali.kra.iacuc.actions.IacucProtocolActionType;
 import org.kuali.kra.infrastructure.PermissionConstants;
-import org.kuali.kra.protocol.ProtocolBase;
 
 /**
  * Determine if a user can assign a protocol to a committee/schedule.

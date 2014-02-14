@@ -15,11 +15,11 @@
  */
 package org.kuali.kra.irb;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolSubmissionLookupableHelperServiceImplBase;
 import org.kuali.kra.committee.bo.CommitteeSchedule;
 import org.kuali.kra.infrastructure.PermissionConstants;
 import org.kuali.kra.irb.actions.submit.ProtocolSubmission;
 import org.kuali.kra.irb.actions.submit.ProtocolSubmitActionService;
-import org.kuali.kra.protocol.ProtocolSubmissionLookupableHelperServiceImplBase;
 import org.kuali.rice.kns.lookup.HtmlData;
 import org.kuali.rice.kns.lookup.HtmlData.AnchorHtmlData;
 import org.kuali.rice.krad.bo.BusinessObject;

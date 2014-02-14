@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.auth;
 
+import org.kuali.coeus.common.protocol.impl.auth.ProtocolAuthorizerBase;
+import org.kuali.coeus.common.protocol.impl.auth.ProtocolTaskBase;
 import org.kuali.kra.infrastructure.PermissionConstants;
-import org.kuali.kra.protocol.auth.ProtocolAuthorizerBase;
-import org.kuali.kra.protocol.auth.ProtocolTaskBase;
 
 /**
  * The View Protocol Authorizer determines if a user has the right

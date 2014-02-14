@@ -16,6 +16,7 @@
 package org.kuali.kra.irb.onlinereview;
 
 import org.apache.commons.logging.Log;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewFormBase;
 import org.kuali.coeus.sys.framework.auth.task.TaskAuthorizationService;
 import org.kuali.kra.authorization.KraAuthorizationConstants;
 import org.kuali.kra.infrastructure.Constants;
@@ -23,7 +24,6 @@ import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.infrastructure.PermissionConstants;
 import org.kuali.kra.irb.ProtocolOnlineReviewDocument;
 import org.kuali.kra.irb.onlinereview.authorization.ProtocolOnlineReviewTask;
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewFormBase;
 import org.kuali.kra.service.KcAuthorizationService;
 import org.kuali.rice.core.api.CoreApiServiceLocator;
 import org.kuali.rice.kns.web.ui.ExtraButton;

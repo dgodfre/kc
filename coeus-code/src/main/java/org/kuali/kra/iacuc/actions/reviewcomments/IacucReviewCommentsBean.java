@@ -15,10 +15,10 @@
  */
 package org.kuali.kra.iacuc.actions.reviewcomments;
 
-import org.kuali.kra.common.committee.meeting.CommitteeScheduleMinuteBase;
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewCommentsBeanBase;
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewCommentsService;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommitteeScheduleMinuteBase;
 import org.kuali.kra.iacuc.committee.meeting.IacucCommitteeScheduleMinute;
-import org.kuali.kra.protocol.actions.reviewcomments.ReviewCommentsBeanBase;
-import org.kuali.kra.protocol.actions.reviewcomments.ReviewCommentsService;
 
 public class IacucReviewCommentsBean extends ReviewCommentsBeanBase {
 

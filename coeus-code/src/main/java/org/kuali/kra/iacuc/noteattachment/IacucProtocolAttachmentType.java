@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.noteattachment;
 
-import org.kuali.kra.protocol.noteattachment.ProtocolAttachmentTypeBase;
+import org.kuali.coeus.common.protocol.impl.noteattachment.ProtocolAttachmentTypeBase;
 
 /**
  * This class represents the Protocol Attachment Type.

@@ -15,10 +15,10 @@
  */
 package org.kuali.kra.iacuc.protocol.funding;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolEventBase;
+import org.kuali.coeus.common.protocol.impl.protocol.funding.LookupProtocolFundingSourceEventBase;
+import org.kuali.coeus.common.protocol.impl.protocol.funding.LookupProtocolFundingSourceRule;
 import org.kuali.kra.iacuc.IacucProtocolDocument;
-import org.kuali.kra.protocol.ProtocolEventBase;
-import org.kuali.kra.protocol.protocol.funding.LookupProtocolFundingSourceEventBase;
-import org.kuali.kra.protocol.protocol.funding.LookupProtocolFundingSourceRule;
 
 public class LookupIacucProtocolFundingSourceEvent extends LookupProtocolFundingSourceEventBase {
 

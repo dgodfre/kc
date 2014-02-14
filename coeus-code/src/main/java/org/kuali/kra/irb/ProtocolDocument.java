@@ -19,6 +19,14 @@ package org.kuali.kra.irb;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolDocumentBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.actions.genericactions.ProtocolGenericActionService;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
+import org.kuali.coeus.common.protocol.impl.noteattachment.ProtocolAttachmentProtocolBase;
+import org.kuali.coeus.common.protocol.impl.notification.ProtocolNotification;
+import org.kuali.coeus.common.protocol.impl.notification.ProtocolNotificationContextBase;
 import org.kuali.kra.bo.CustomAttributeDocValue;
 import org.kuali.kra.bo.DocumentCustomData;
 import org.kuali.kra.bo.ResearchAreaBase;
@@ -40,14 +48,6 @@ import org.kuali.kra.irb.protocol.location.ProtocolLocationService;
 import org.kuali.kra.irb.protocol.research.ProtocolResearchAreaService;
 import org.kuali.kra.krms.KcKrmsConstants;
 import org.kuali.kra.krms.service.impl.KcKrmsFactBuilderServiceHelper;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.ProtocolDocumentBase;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.actions.genericactions.ProtocolGenericActionService;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
-import org.kuali.kra.protocol.noteattachment.ProtocolAttachmentProtocolBase;
-import org.kuali.kra.protocol.notification.ProtocolNotification;
-import org.kuali.kra.protocol.notification.ProtocolNotificationContextBase;
 import org.kuali.rice.coreservice.framework.parameter.ParameterConstants;
 import org.kuali.rice.coreservice.framework.parameter.ParameterConstants.COMPONENT;
 import org.kuali.rice.coreservice.framework.parameter.ParameterConstants.NAMESPACE;
@@ -218,7 +218,7 @@ public class ProtocolDocument extends ProtocolDocumentBase {
             }
         }
         if (newDocPaToUse != null && getProtocolPaToUse != null) {
-            for (org.kuali.kra.protocol.correspondence.ProtocolCorrespondence pc : getProtocolPaToUse.getProtocolCorrespondences()) {
+            for (org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondence pc : getProtocolPaToUse.getProtocolCorrespondences()) {
                 ProtocolCorrespondence newPc = new ProtocolCorrespondence();
                 newPc.setActionId(pc.getActionId());
                 newPc.setActionIdFk(newDocPaToUse.getProtocolActionId());
@@ -241,7 +241,7 @@ public class ProtocolDocument extends ProtocolDocumentBase {
                 newPc.setRegenerateFlag(pc.isRegenerateFlag());
                 newPc.setSequenceNumber(pc.getSequenceNumber());
                 if (newDocPaToUse.getProtocolCorrespondences() == null) {
-                    newDocPaToUse.setProtocolCorrespondences(new ArrayList<org.kuali.kra.protocol.correspondence.ProtocolCorrespondence>());
+                    newDocPaToUse.setProtocolCorrespondences(new ArrayList<org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondence>());
                 }
                 newDocPaToUse.getProtocolCorrespondences().add(newPc);
                 getBusinessObjectService().save(newPc);
@@ -373,7 +373,7 @@ public class ProtocolDocument extends ProtocolDocumentBase {
 
 
     @Override
-    protected Class<? extends org.kuali.kra.protocol.protocol.research.ProtocolResearchAreaService> getProtocolResearchAreaServiceClassHook() {
+    protected Class<? extends org.kuali.coeus.common.protocol.impl.protocol.research.ProtocolResearchAreaService> getProtocolResearchAreaServiceClassHook() {
         return ProtocolResearchAreaService.class;
     }
 
@@ -391,13 +391,13 @@ public class ProtocolDocument extends ProtocolDocumentBase {
 
 
     @Override
-    protected Class<? extends org.kuali.kra.protocol.actions.submit.ProtocolActionService> getProtocolActionServiceClassHook() {
+    protected Class<? extends org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolActionService> getProtocolActionServiceClassHook() {
         return ProtocolActionService.class;
     }
 
 
     @Override
-    protected Class<? extends org.kuali.kra.protocol.protocol.location.ProtocolLocationService> getProtocolLocationServiceClassHook() {
+    protected Class<? extends org.kuali.coeus.common.protocol.impl.protocol.location.ProtocolLocationService> getProtocolLocationServiceClassHook() {
         return ProtocolLocationService.class;
     }
 

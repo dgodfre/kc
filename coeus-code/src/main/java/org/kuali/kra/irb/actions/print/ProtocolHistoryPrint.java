@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.irb.actions.print;
 
-import org.kuali.kra.protocol.actions.print.ProtocolHistoryPrintBase;
-import org.kuali.kra.protocol.actions.print.ProtocolPrintWatermarkBase;
+import org.kuali.coeus.common.protocol.impl.actions.print.ProtocolHistoryPrintBase;
+import org.kuali.coeus.common.protocol.impl.actions.print.ProtocolPrintWatermarkBase;
 
 
 /**

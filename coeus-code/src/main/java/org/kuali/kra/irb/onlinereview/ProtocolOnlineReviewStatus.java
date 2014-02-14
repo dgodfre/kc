@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.onlinereview;
 
-public class ProtocolOnlineReviewStatus extends org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewStatus {
+public class ProtocolOnlineReviewStatus extends org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewStatus {
 
     /**
      * Comment for <code>serialVersionUID</code>

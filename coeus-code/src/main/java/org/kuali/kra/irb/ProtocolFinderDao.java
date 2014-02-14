@@ -18,7 +18,7 @@ package org.kuali.kra.irb;
 /**
  * The ProtocolFinderDao is used to find protocols.
  */
-public interface ProtocolFinderDao extends org.kuali.kra.protocol.ProtocolFinderDao {
+public interface ProtocolFinderDao extends org.kuali.coeus.common.protocol.impl.ProtocolFinderDao {
 
     /**
      * This method is invoking the super, opened this to reduce the number of cast in

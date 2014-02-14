@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.correspondence;
 
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondence;
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondence;
 
 public class IacucProtocolCorrespondence  extends ProtocolCorrespondence{
 

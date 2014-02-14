@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.irb.personnel;
 
+import org.kuali.coeus.common.protocol.impl.personnel.AddProtocolPersonnelEventBase;
 import org.kuali.kra.irb.ProtocolDocument;
-import org.kuali.kra.protocol.personnel.AddProtocolPersonnelEventBase;
 import org.kuali.kra.rule.BusinessRuleInterface;
 
 /**

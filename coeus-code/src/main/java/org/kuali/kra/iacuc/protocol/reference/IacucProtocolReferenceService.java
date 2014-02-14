@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.protocol.reference;
 
-import org.kuali.kra.protocol.protocol.reference.ProtocolReferenceService;
+import org.kuali.coeus.common.protocol.impl.protocol.reference.ProtocolReferenceService;
 
 public interface IacucProtocolReferenceService extends ProtocolReferenceService {
 

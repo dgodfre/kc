@@ -18,9 +18,9 @@ package org.kuali.kra.iacuc.auth;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.actions.amendrenew.ProtocolAmendRenewService;
 import org.kuali.kra.iacuc.actions.amendrenew.IacucProtocolModule;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.actions.amendrenew.ProtocolAmendRenewService;
 
 public abstract class ModifyIacucAmendmentAuthorizer extends ModifyIacucProtocolAuthorizer {
     
@@ -32,7 +32,7 @@ public abstract class ModifyIacucAmendmentAuthorizer extends ModifyIacucProtocol
     }
 
     /**
-     * @see org.kuali.kra.protocol.auth.ProtocolAuthorizer#isAuthorized(java.lang.String, org.kuali.kra.protocol.auth.ProtocolTask)
+     * @see org.kuali.coeus.common.protocol.impl.auth.ProtocolAuthorizer#isAuthorized(java.lang.String, org.kuali.coeus.common.protocol.impl.auth.ProtocolTask)
      */
     @Override
     public boolean isAuthorized(String userId, IacucProtocolTask task) {

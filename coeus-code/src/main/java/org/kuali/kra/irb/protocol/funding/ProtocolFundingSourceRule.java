@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.protocol.funding;
 
-import org.kuali.kra.protocol.protocol.funding.ProtocolFundingSourceRuleBase;
+import org.kuali.coeus.common.protocol.impl.protocol.funding.ProtocolFundingSourceRuleBase;
 
 /**
  * 

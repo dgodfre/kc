@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.correspondence;
 
-import org.kuali.kra.protocol.correspondence.BatchCorrespondenceBase;
-import org.kuali.kra.protocol.correspondence.BatchCorrespondenceDetailBase;
-import org.kuali.kra.protocol.correspondence.BatchCorrespondenceDetailFormBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.BatchCorrespondenceBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.BatchCorrespondenceDetailBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.BatchCorrespondenceDetailFormBase;
 
 public class IacucBatchCorrespondenceDetailForm extends BatchCorrespondenceDetailFormBase {
 

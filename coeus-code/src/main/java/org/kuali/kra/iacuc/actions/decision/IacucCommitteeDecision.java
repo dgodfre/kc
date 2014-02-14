@@ -15,10 +15,13 @@
  */
 package org.kuali.kra.iacuc.actions.decision;
 
-import org.kuali.kra.common.committee.bo.CommitteeDecisionMotionType;
-import org.kuali.kra.common.committee.bo.CommitteeMembershipBase;
-import org.kuali.kra.common.committee.meeting.ProtocolVoteAbstaineeBase;
-import org.kuali.kra.common.committee.meeting.ProtocolVoteRecusedBase;
+import org.kuali.coeus.common.protocol.impl.actions.decision.CommitteeDecision;
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewAttachmentsBeanBase;
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewCommentsBeanBase;
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeDecisionMotionType;
+import org.kuali.coeus.common.protocol.impl.committee.meeting.ProtocolVoteAbstaineeBase;
+import org.kuali.coeus.common.protocol.impl.committee.meeting.ProtocolVoteRecusedBase;
+import org.kuali.coeus.common.protocol.impl.committee.membership.CommitteeMembershipBase;
 import org.kuali.kra.iacuc.actions.IacucActionHelper;
 import org.kuali.kra.iacuc.actions.IacucProtocolActionBean;
 import org.kuali.kra.iacuc.actions.reviewcomments.IacucReviewCommentsBean;
@@ -28,9 +31,6 @@ import org.kuali.kra.iacuc.committee.meeting.IacucProtocolVoteRecused;
 import org.kuali.kra.iacuc.committee.service.IacucCommitteeService;
 import org.kuali.kra.infrastructure.Constants;
 import org.kuali.kra.infrastructure.KraServiceLocator;
-import org.kuali.kra.protocol.actions.decision.CommitteeDecision;
-import org.kuali.kra.protocol.actions.reviewcomments.ReviewAttachmentsBeanBase;
-import org.kuali.kra.protocol.actions.reviewcomments.ReviewCommentsBeanBase;
 import org.kuali.rice.krad.service.BusinessObjectService;
 
 import java.util.*;

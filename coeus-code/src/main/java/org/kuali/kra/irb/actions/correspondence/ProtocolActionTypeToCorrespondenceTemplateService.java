@@ -19,6 +19,6 @@ package org.kuali.kra.irb.actions.correspondence;
  * 
  * This class simply maps a protocol action type to a protocol correspondence template, and returns a list of ProtocolCorrespondenceTemplate objects.
  */
-public interface ProtocolActionTypeToCorrespondenceTemplateService extends org.kuali.kra.protocol.actions.correspondence.ProtocolActionTypeToCorrespondenceTemplateService {
+public interface ProtocolActionTypeToCorrespondenceTemplateService extends org.kuali.coeus.common.protocol.impl.actions.correspondence.ProtocolActionTypeToCorrespondenceTemplateService {
 
 }

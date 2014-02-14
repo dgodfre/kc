@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.protocol.location;
 
+import org.kuali.coeus.common.protocol.impl.protocol.location.ProtocolLocationBase;
+import org.kuali.coeus.common.protocol.impl.protocol.location.ProtocolLocationServiceImplBase;
 import org.kuali.kra.infrastructure.Constants;
-import org.kuali.kra.protocol.protocol.location.ProtocolLocationBase;
-import org.kuali.kra.protocol.protocol.location.ProtocolLocationServiceImplBase;
 
 public class IacucProtocolLocationServiceImpl extends ProtocolLocationServiceImplBase implements IacucProtocolLocationService {
 

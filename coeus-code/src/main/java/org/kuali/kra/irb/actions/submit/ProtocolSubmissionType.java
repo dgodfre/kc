@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.actions.submit;
 
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionTypeBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionTypeBase;
 
 public class ProtocolSubmissionType extends ProtocolSubmissionTypeBase {
 

@@ -15,6 +15,6 @@
  */
 package org.kuali.kra.irb.actions.print;
 
-public interface ProtocolQuestionnairePrintingService extends org.kuali.kra.protocol.actions.print.ProtocolQuestionnairePrintingService {
+public interface ProtocolQuestionnairePrintingService extends org.kuali.coeus.common.protocol.impl.actions.print.ProtocolQuestionnairePrintingService {
 
 }

@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.actions;
 
-import org.kuali.kra.protocol.actions.ProtocolStatusBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolStatusBase;
 
 public class ProtocolStatus extends ProtocolStatusBase {
 

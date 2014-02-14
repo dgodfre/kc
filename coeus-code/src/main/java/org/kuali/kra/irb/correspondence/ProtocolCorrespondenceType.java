@@ -16,7 +16,7 @@
 package org.kuali.kra.irb.correspondence;
 
 import org.apache.commons.lang.StringUtils;
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceTypeBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceTypeBase;
 
 public class ProtocolCorrespondenceType extends ProtocolCorrespondenceTypeBase {
 

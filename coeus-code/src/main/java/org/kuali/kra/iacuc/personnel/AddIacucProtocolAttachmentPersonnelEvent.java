@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.personnel;
 
-import org.kuali.kra.protocol.ProtocolDocumentBase;
-import org.kuali.kra.protocol.noteattachment.ProtocolAttachmentPersonnelBase;
-import org.kuali.kra.protocol.personnel.AddProtocolAttachmentPersonnelEvent;
+import org.kuali.coeus.common.protocol.impl.ProtocolDocumentBase;
+import org.kuali.coeus.common.protocol.impl.noteattachment.ProtocolAttachmentPersonnelBase;
+import org.kuali.coeus.common.protocol.impl.personnel.AddProtocolAttachmentPersonnelEvent;
 
 
 public class AddIacucProtocolAttachmentPersonnelEvent extends AddProtocolAttachmentPersonnelEvent {

@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.auth;
 
+import org.kuali.coeus.common.protocol.impl.auth.ProtocolTaskBase;
 import org.kuali.kra.infrastructure.PermissionConstants;
-import org.kuali.kra.protocol.auth.ProtocolTaskBase;
 
 /**
  * 

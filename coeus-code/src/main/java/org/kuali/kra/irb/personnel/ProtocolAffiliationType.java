@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.personnel;
 
-import org.kuali.kra.protocol.personnel.ProtocolAffiliationTypeBase;
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolAffiliationTypeBase;
 
 public class ProtocolAffiliationType extends ProtocolAffiliationTypeBase {
 

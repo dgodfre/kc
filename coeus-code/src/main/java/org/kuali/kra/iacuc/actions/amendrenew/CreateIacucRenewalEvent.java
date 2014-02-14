@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.actions.amendrenew;
 
+import org.kuali.coeus.common.protocol.impl.actions.amendrenew.CreateRenewalEventBase;
 import org.kuali.kra.iacuc.IacucProtocolDocument;
-import org.kuali.kra.protocol.actions.amendrenew.CreateRenewalEventBase;
 import org.kuali.kra.rule.BusinessRuleInterface;
 
 public class CreateIacucRenewalEvent extends CreateRenewalEventBase {

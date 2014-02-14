@@ -15,10 +15,10 @@
  */
 package org.kuali.kra.irb.actions.correspondence;
 
+import org.kuali.coeus.common.protocol.impl.actions.correspondence.ProtocolActionTypeToCorrespondenceTemplateServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceTypeBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.ValidProtoActionCoresp;
 import org.kuali.kra.irb.correspondence.ProtocolCorrespondenceType;
-import org.kuali.kra.protocol.actions.correspondence.ProtocolActionTypeToCorrespondenceTemplateServiceImplBase;
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceTypeBase;
-import org.kuali.kra.protocol.correspondence.ValidProtoActionCoresp;
 
 /**
  * 

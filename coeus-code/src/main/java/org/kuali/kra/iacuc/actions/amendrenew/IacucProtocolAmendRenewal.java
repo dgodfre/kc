@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.actions.amendrenew;
 
+import org.kuali.coeus.common.protocol.impl.actions.amendrenew.ProtocolAmendRenewalBase;
 import org.kuali.kra.iacuc.IacucProtocol;
-import org.kuali.kra.protocol.actions.amendrenew.ProtocolAmendRenewalBase;
 
 public class IacucProtocolAmendRenewal extends ProtocolAmendRenewalBase {
 

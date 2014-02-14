@@ -15,14 +15,14 @@
  */
 package org.kuali.kra.iacuc.customdata;
 
+import org.kuali.coeus.common.protocol.impl.auth.ProtocolTaskBase;
+import org.kuali.coeus.common.protocol.impl.customdata.ProtocolCustomDataHelperBase;
 import org.kuali.kra.bo.CustomAttributeDocument;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.iacuc.IacucProtocolDocument;
 import org.kuali.kra.iacuc.IacucProtocolForm;
 import org.kuali.kra.iacuc.auth.IacucProtocolTask;
 import org.kuali.kra.infrastructure.TaskName;
-import org.kuali.kra.protocol.auth.ProtocolTaskBase;
-import org.kuali.kra.protocol.customdata.ProtocolCustomDataHelperBase;
 
 import java.util.List;
 import java.util.Map;

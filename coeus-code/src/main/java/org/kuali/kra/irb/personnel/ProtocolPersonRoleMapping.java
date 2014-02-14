@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.personnel;
 
-import org.kuali.kra.protocol.personnel.ProtocolPersonRoleMappingBase;
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonRoleMappingBase;
 
 /**
  * This class represents protocol person role mapping business object

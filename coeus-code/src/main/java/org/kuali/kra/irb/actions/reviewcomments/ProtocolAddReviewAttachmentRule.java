@@ -19,6 +19,6 @@ package org.kuali.kra.irb.actions.reviewcomments;
  * 
  * This class implements the business rule when adding new review attachment.  ie, validate description and file are entered.
  */
-public class ProtocolAddReviewAttachmentRule extends org.kuali.kra.protocol.actions.reviewcomments.ProtocolAddReviewAttachmentRule<ProtocolAddReviewAttachmentEvent> {
+public class ProtocolAddReviewAttachmentRule extends org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ProtocolAddReviewAttachmentRule<ProtocolAddReviewAttachmentEvent> {
 
 }

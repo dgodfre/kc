@@ -19,6 +19,6 @@ package org.kuali.kra.irb.protocol.funding;
  * Provides the required API for performing a multi-type lookup for funding sources, business rules used by the View, and business rule management for a 
  * protocol's funding source list.
  */
-public interface ProtocolFundingSourceService extends org.kuali.kra.protocol.protocol.funding.ProtocolFundingSourceService {
+public interface ProtocolFundingSourceService extends org.kuali.coeus.common.protocol.impl.protocol.funding.ProtocolFundingSourceService {
     
 }

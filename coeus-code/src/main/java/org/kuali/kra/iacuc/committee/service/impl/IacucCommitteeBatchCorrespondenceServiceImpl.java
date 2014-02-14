@@ -16,10 +16,15 @@
 package org.kuali.kra.iacuc.committee.service.impl;
 
 import org.apache.commons.lang.StringUtils;
-import org.kuali.kra.common.committee.bo.CommitteeBatchCorrespondenceBase;
-import org.kuali.kra.common.committee.bo.CommitteeBatchCorrespondenceDetailBase;
-import org.kuali.kra.common.committee.print.service.CommitteePrintingServiceBase;
-import org.kuali.kra.common.committee.service.impl.CommitteeBatchCorrespondenceServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.committee.corresp.CommitteeBatchCorrespondenceBase;
+import org.kuali.coeus.common.protocol.impl.committee.corresp.CommitteeBatchCorrespondenceDetailBase;
+import org.kuali.coeus.common.protocol.impl.committee.corresp.CommitteeBatchCorrespondenceServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.committee.print.CommitteePrintingServiceBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.BatchCorrespondenceBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondence;
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceTypeBase;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.iacuc.IacucProtocolDocument;
 import org.kuali.kra.iacuc.actions.IacucProtocolAction;
@@ -35,11 +40,6 @@ import org.kuali.kra.iacuc.notification.IacucBatchCorrespondenceNotificationRend
 import org.kuali.kra.iacuc.notification.IacucProtocolNotificationContext;
 import org.kuali.kra.infrastructure.Constants;
 import org.kuali.kra.infrastructure.KraServiceLocator;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.correspondence.BatchCorrespondenceBase;
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondence;
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceTypeBase;
 
 import java.sql.Date;
 import java.util.List;

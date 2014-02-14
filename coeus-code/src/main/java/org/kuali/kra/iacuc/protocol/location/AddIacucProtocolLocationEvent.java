@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.protocol.location;
 
+import org.kuali.coeus.common.protocol.impl.protocol.location.AddProtocolLocationEvent;
 import org.kuali.kra.iacuc.IacucProtocolDocument;
-import org.kuali.kra.protocol.protocol.location.AddProtocolLocationEvent;
 
 public class AddIacucProtocolLocationEvent extends AddProtocolLocationEvent {
 

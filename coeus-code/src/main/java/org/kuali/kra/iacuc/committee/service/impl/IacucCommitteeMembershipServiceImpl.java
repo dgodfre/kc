@@ -15,14 +15,14 @@
  */
 package org.kuali.kra.iacuc.committee.service.impl;
 
-import org.kuali.kra.common.committee.bo.CommitteeMembershipExpertiseBase;
-import org.kuali.kra.common.committee.service.impl.CommitteeMembershipServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
+import org.kuali.coeus.common.protocol.impl.committee.membership.CommitteeMembershipExpertiseBase;
+import org.kuali.coeus.common.protocol.impl.committee.membership.CommitteeMembershipServiceImplBase;
 import org.kuali.kra.iacuc.actions.submit.IacucProtocolSubmission;
 import org.kuali.kra.iacuc.committee.bo.IacucCommittee;
 import org.kuali.kra.iacuc.committee.bo.IacucCommitteeMembershipExpertise;
 import org.kuali.kra.iacuc.committee.service.IacucCommitteeMembershipService;
 import org.kuali.kra.iacuc.committee.service.IacucCommitteeService;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
 
 public class IacucCommitteeMembershipServiceImpl extends CommitteeMembershipServiceImplBase<IacucCommittee, IacucCommitteeService> implements IacucCommitteeMembershipService{
 

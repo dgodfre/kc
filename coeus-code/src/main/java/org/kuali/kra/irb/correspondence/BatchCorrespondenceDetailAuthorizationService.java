@@ -19,6 +19,6 @@ package org.kuali.kra.irb.correspondence;
  * The batch correspondence detail authorization service handles access to batch 
  * correspondence detail.
  */
-public interface BatchCorrespondenceDetailAuthorizationService extends org.kuali.kra.protocol.correspondence.BatchCorrespondenceDetailAuthorizationService {
+public interface BatchCorrespondenceDetailAuthorizationService extends org.kuali.coeus.common.protocol.impl.correspondence.BatchCorrespondenceDetailAuthorizationService {
 
 }

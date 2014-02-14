@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.actions;
 
-import org.kuali.kra.protocol.actions.ProtocolStatusBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolStatusBase;
 
 public class IacucProtocolStatus extends ProtocolStatusBase { 
     

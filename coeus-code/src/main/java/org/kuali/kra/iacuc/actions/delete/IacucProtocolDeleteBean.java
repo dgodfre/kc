@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.actions.delete;
 
+import org.kuali.coeus.common.protocol.impl.actions.delete.ProtocolDeleteBean;
 import org.kuali.kra.iacuc.actions.IacucActionHelper;
 import org.kuali.kra.iacuc.actions.IacucProtocolActionBean;
-import org.kuali.kra.protocol.actions.delete.ProtocolDeleteBean;
 
 public class IacucProtocolDeleteBean extends IacucProtocolActionBean implements ProtocolDeleteBean {
 

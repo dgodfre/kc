@@ -15,6 +15,15 @@
  */
 package org.kuali.kra.irb.protocol;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolDocumentBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.auth.ProtocolTaskBase;
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonBase;
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolUnitBase;
+import org.kuali.coeus.common.protocol.impl.protocol.ProtocolHelperBase;
+import org.kuali.coeus.common.protocol.impl.protocol.funding.ProtocolFundingSourceBase;
+import org.kuali.coeus.common.protocol.impl.protocol.location.ProtocolLocationBase;
 import org.kuali.kra.infrastructure.Constants;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.infrastructure.RoleConstants;
@@ -35,15 +44,6 @@ import org.kuali.kra.irb.protocol.funding.ProtocolFundingSourceService;
 import org.kuali.kra.irb.protocol.location.ProtocolLocation;
 import org.kuali.kra.irb.protocol.participant.ProtocolParticipant;
 import org.kuali.kra.kim.bo.KcKimAttributes;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.ProtocolDocumentBase;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.auth.ProtocolTaskBase;
-import org.kuali.kra.protocol.personnel.ProtocolPersonBase;
-import org.kuali.kra.protocol.personnel.ProtocolUnitBase;
-import org.kuali.kra.protocol.protocol.ProtocolHelperBase;
-import org.kuali.kra.protocol.protocol.funding.ProtocolFundingSourceBase;
-import org.kuali.kra.protocol.protocol.location.ProtocolLocationBase;
 import org.kuali.rice.kew.api.exception.WorkflowException;
 import org.kuali.rice.kim.api.role.Role;
 
@@ -160,7 +160,7 @@ public class ProtocolHelper extends ProtocolHelperBase {
     }
 
     @Override
-    protected Class<? extends org.kuali.kra.protocol.protocol.funding.ProtocolFundingSourceService> getProtocolFundingSourceServiceClassHook() {
+    protected Class<? extends org.kuali.coeus.common.protocol.impl.protocol.funding.ProtocolFundingSourceService> getProtocolFundingSourceServiceClassHook() {
         return ProtocolFundingSourceService.class;
     }
 

@@ -15,13 +15,13 @@
  */
 package org.kuali.kra.irb.actions;
 
+import org.kuali.coeus.common.protocol.impl.actions.ActionHelperBase;
 import org.kuali.kra.irb.Protocol;
-import org.kuali.kra.protocol.actions.ActionHelperBase;
 
 /**
  * Defines the superclass of all Protocol action beans.
  */
-public abstract class ProtocolActionBean implements org.kuali.kra.protocol.actions.ProtocolActionBean {
+public abstract class ProtocolActionBean implements org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBean {
     
     private ActionHelper actionHelper;
     

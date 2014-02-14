@@ -16,8 +16,8 @@
 package org.kuali.kra.irb.actions.decision;
 
 import org.apache.commons.logging.Log;
+import org.kuali.coeus.common.protocol.impl.actions.decision.CommitteeDecisionEventBase;
 import org.kuali.kra.irb.ProtocolDocument;
-import org.kuali.kra.protocol.actions.decision.CommitteeDecisionEventBase;
 
 
 @SuppressWarnings("unchecked")

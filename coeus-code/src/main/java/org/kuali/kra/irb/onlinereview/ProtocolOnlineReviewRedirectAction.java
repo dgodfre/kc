@@ -15,10 +15,10 @@
  */
 package org.kuali.kra.irb.onlinereview;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewRedirectActionBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewService;
 import org.kuali.kra.irb.Protocol;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewRedirectActionBase;
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewService;
 
 public class ProtocolOnlineReviewRedirectAction extends ProtocolOnlineReviewRedirectActionBase  {
 

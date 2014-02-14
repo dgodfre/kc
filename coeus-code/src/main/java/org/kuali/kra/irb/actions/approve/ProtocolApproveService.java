@@ -21,7 +21,7 @@ import org.kuali.kra.irb.Protocol;
  * 
  * This class handles the persistence of an approval action to a protocol.
  */
-public interface ProtocolApproveService extends org.kuali.kra.protocol.actions.approve.ProtocolApproveService {
+public interface ProtocolApproveService extends org.kuali.coeus.common.protocol.impl.actions.approve.ProtocolApproveService {
 
     /**
      * Approves an expedited submission to a Protocol.

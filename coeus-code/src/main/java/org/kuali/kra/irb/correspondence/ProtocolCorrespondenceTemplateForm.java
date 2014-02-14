@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.irb.correspondence;
 
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceTemplateBase;
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceTemplateFormBase;
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceTypeBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceTemplateBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceTemplateFormBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceTypeBase;
 
 /**
  * 

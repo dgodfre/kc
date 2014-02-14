@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.actions.reviewcomments;
 
-import org.kuali.kra.common.committee.meeting.CommitteeScheduleMinuteBase;
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ProtocolAddReviewCommentEventBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommitteeScheduleMinuteBase;
 import org.kuali.kra.iacuc.IacucProtocolDocument;
-import org.kuali.kra.protocol.actions.reviewcomments.ProtocolAddReviewCommentEventBase;
 
 public class IacucProtocolAddReviewCommentEvent extends ProtocolAddReviewCommentEventBase {
 

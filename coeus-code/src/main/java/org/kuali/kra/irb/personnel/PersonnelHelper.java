@@ -15,6 +15,11 @@
  */
 package org.kuali.kra.irb.personnel;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolDocumentBase;
+import org.kuali.coeus.common.protocol.impl.noteattachment.ProtocolAttachmentPersonnelBase;
+import org.kuali.coeus.common.protocol.impl.personnel.PersonnelHelperBase;
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolUnitBase;
 import org.kuali.kra.infrastructure.Constants;
 import org.kuali.kra.infrastructure.TaskName;
 import org.kuali.kra.irb.Protocol;
@@ -22,11 +27,6 @@ import org.kuali.kra.irb.ProtocolDocument;
 import org.kuali.kra.irb.ProtocolForm;
 import org.kuali.kra.irb.auth.ProtocolTask;
 import org.kuali.kra.irb.noteattachment.ProtocolAttachmentPersonnel;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.ProtocolDocumentBase;
-import org.kuali.kra.protocol.noteattachment.ProtocolAttachmentPersonnelBase;
-import org.kuali.kra.protocol.personnel.PersonnelHelperBase;
-import org.kuali.kra.protocol.personnel.ProtocolUnitBase;
 
 public class PersonnelHelper extends PersonnelHelperBase {
     

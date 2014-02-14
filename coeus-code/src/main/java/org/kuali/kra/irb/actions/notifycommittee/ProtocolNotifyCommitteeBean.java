@@ -24,7 +24,7 @@ import java.sql.Date;
 /**
  * This class is really just a "form" for notifying the Committee.
  */
-public class ProtocolNotifyCommitteeBean extends ProtocolActionBean implements org.kuali.kra.protocol.actions.notifycommittee.ProtocolNotifyCommitteeBean {
+public class ProtocolNotifyCommitteeBean extends ProtocolActionBean implements org.kuali.coeus.common.protocol.impl.actions.notifycommittee.ProtocolNotifyCommitteeBean {
     
     /**
      * Comment for <code>serialVersionUID</code>

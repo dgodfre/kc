@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.protocol.location;
 
-import org.kuali.kra.protocol.protocol.location.ProtocolOrganizationTypeBase;
+import org.kuali.coeus.common.protocol.impl.protocol.location.ProtocolOrganizationTypeBase;
 
 public class IacucProtocolOrganizationType extends ProtocolOrganizationTypeBase {
 

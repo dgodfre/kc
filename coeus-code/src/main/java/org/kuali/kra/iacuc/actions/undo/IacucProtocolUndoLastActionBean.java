@@ -15,11 +15,11 @@
  */
 package org.kuali.kra.iacuc.actions.undo;
 
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.actions.undo.UndoLastActionBean;
+import org.kuali.coeus.common.protocol.impl.actions.undo.UndoLastActionBeanHelperBase;
 import org.kuali.kra.iacuc.actions.IacucActionHelper;
 import org.kuali.kra.iacuc.actions.genericactions.IacucProtocolGenericActionBean;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.actions.undo.UndoLastActionBean;
-import org.kuali.kra.protocol.actions.undo.UndoLastActionBeanHelperBase;
 
 public class IacucProtocolUndoLastActionBean extends IacucProtocolGenericActionBean implements UndoLastActionBean {
 

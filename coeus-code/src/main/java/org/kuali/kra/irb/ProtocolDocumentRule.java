@@ -15,6 +15,14 @@
  */
 package org.kuali.kra.irb;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolDocumentBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolDocumentRuleBase;
+import org.kuali.coeus.common.protocol.impl.actions.decision.CommitteeDecisionRuleBase;
+import org.kuali.coeus.common.protocol.impl.noteattachment.SubmitProtocolAttachmentProtocolRuleImplBase;
+import org.kuali.coeus.common.protocol.impl.personnel.SaveProtocolPersonnelEventBase;
+import org.kuali.coeus.common.protocol.impl.protocol.funding.ProtocolFundingSourceAuditRuleBase;
+import org.kuali.coeus.common.protocol.impl.protocol.funding.ProtocolFundingSourceRuleBase;
+import org.kuali.coeus.common.protocol.impl.specialreview.ProtocolSpecialReviewBase;
 import org.kuali.kra.common.permissions.bo.PermissionsUser;
 import org.kuali.kra.common.permissions.bo.PermissionsUserEditRoles;
 import org.kuali.kra.common.permissions.rule.PermissionsRule;
@@ -55,14 +63,6 @@ import org.kuali.kra.irb.protocol.reference.ProtocolReferenceRule;
 import org.kuali.kra.irb.protocol.research.ProtocolResearchAreaAuditRule;
 import org.kuali.kra.irb.questionnaire.ProtocolQuestionnaireAuditRule;
 import org.kuali.kra.irb.specialreview.ProtocolSpecialReview;
-import org.kuali.kra.protocol.ProtocolDocumentBase;
-import org.kuali.kra.protocol.ProtocolDocumentRuleBase;
-import org.kuali.kra.protocol.actions.decision.CommitteeDecisionRuleBase;
-import org.kuali.kra.protocol.noteattachment.SubmitProtocolAttachmentProtocolRuleImplBase;
-import org.kuali.kra.protocol.personnel.SaveProtocolPersonnelEventBase;
-import org.kuali.kra.protocol.protocol.funding.ProtocolFundingSourceAuditRuleBase;
-import org.kuali.kra.protocol.protocol.funding.ProtocolFundingSourceRuleBase;
-import org.kuali.kra.protocol.specialreview.ProtocolSpecialReviewBase;
 import org.kuali.rice.krad.document.Document;
 
 import java.util.List;
@@ -219,12 +219,12 @@ public class ProtocolDocumentRule extends ProtocolDocumentRuleBase<CommitteeDeci
     }
 
     @Override
-    protected org.kuali.kra.protocol.actions.decision.ExecuteCommitteeDecisionAbstainerRule<CommitteeDecision> newCommitteeDecisionAbstainerRuleInstanceHook() {
+    protected org.kuali.coeus.common.protocol.impl.actions.decision.ExecuteCommitteeDecisionAbstainerRule<CommitteeDecision> newCommitteeDecisionAbstainerRuleInstanceHook() {
         return new CommitteeDecisionAbstainerRule();
     }
 
     @Override
-    protected org.kuali.kra.protocol.actions.decision.ExecuteCommitteeDecisionRecuserRule<CommitteeDecision> newCommitteeDecisionRecuserRuleInstanceHook() {
+    protected org.kuali.coeus.common.protocol.impl.actions.decision.ExecuteCommitteeDecisionRecuserRule<CommitteeDecision> newCommitteeDecisionRecuserRuleInstanceHook() {
         return new CommitteeDecisionRecuserRule();
     }
 }

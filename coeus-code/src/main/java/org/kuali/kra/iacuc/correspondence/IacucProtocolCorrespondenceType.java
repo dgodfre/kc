@@ -16,8 +16,8 @@
 package org.kuali.kra.iacuc.correspondence;
 
 import org.apache.commons.lang.StringUtils;
-import org.kuali.kra.protocol.correspondence.CorrespondenceTypeModuleIdConstants;
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceTypeBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.CorrespondenceTypeModuleIdConstants;
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceTypeBase;
 
 public class IacucProtocolCorrespondenceType extends ProtocolCorrespondenceTypeBase{
 

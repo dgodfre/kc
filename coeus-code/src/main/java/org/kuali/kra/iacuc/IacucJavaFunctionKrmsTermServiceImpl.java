@@ -15,11 +15,11 @@
  */
 package org.kuali.kra.iacuc;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolJavaFunctionKrmsTermServiceBase;
 import org.kuali.kra.iacuc.actions.IacucProtocolActionType;
 import org.kuali.kra.iacuc.actions.amendrenew.IacucProtocolModule;
 import org.kuali.kra.iacuc.actions.submit.IacucProtocolSubmissionType;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.ProtocolJavaFunctionKrmsTermServiceBase;
 import org.kuali.rice.krad.service.BusinessObjectService;
 
 import java.util.HashMap;

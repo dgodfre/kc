@@ -21,7 +21,7 @@ import org.kuali.kra.irb.ProtocolDocument;
 /**
  * Defines the functions needed for the generic action service functions.
  */
-public interface ProtocolGenericActionService extends org.kuali.kra.protocol.actions.genericactions.ProtocolGenericActionService {
+public interface ProtocolGenericActionService extends org.kuali.coeus.common.protocol.impl.actions.genericactions.ProtocolGenericActionService {
     
     /**
      * Close a protocol.

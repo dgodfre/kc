@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.actions.copy;
 
+import org.kuali.coeus.common.protocol.impl.actions.copy.ProtocolCopyService;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.iacuc.IacucProtocolDocument;
-import org.kuali.kra.protocol.actions.copy.ProtocolCopyService;
 
 public interface IacucProtocolCopyService extends ProtocolCopyService<IacucProtocolDocument>{
 

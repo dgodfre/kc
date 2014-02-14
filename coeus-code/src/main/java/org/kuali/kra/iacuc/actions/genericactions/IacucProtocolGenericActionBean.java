@@ -15,13 +15,13 @@
  */
 package org.kuali.kra.iacuc.actions.genericactions;
 
+import org.kuali.coeus.common.protocol.impl.actions.genericactions.ProtocolGenericActionBean;
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewAttachmentsBeanBase;
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewCommentsBeanBase;
 import org.kuali.kra.iacuc.actions.IacucActionHelper;
 import org.kuali.kra.iacuc.actions.IacucProtocolActionBean;
 import org.kuali.kra.iacuc.actions.reviewcomments.IacucReviewAttachmentsBean;
 import org.kuali.kra.iacuc.actions.reviewcomments.IacucReviewCommentsBean;
-import org.kuali.kra.protocol.actions.genericactions.ProtocolGenericActionBean;
-import org.kuali.kra.protocol.actions.reviewcomments.ReviewAttachmentsBeanBase;
-import org.kuali.kra.protocol.actions.reviewcomments.ReviewCommentsBeanBase;
 
 import java.sql.Date;
 

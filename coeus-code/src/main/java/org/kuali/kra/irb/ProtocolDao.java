@@ -21,7 +21,7 @@ package org.kuali.kra.irb;
  * 
  * This class is used to run ojb query directly.
  */
-public interface ProtocolDao extends org.kuali.kra.protocol.ProtocolDao<Protocol> {
+public interface ProtocolDao extends org.kuali.coeus.common.protocol.impl.ProtocolDao<Protocol> {
 
     
 }

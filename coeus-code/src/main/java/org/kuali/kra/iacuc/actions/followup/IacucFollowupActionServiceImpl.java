@@ -17,9 +17,9 @@ package org.kuali.kra.iacuc.actions.followup;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.kuali.coeus.common.protocol.impl.actions.followup.FollowupActionServiceImplBase;
 import org.kuali.kra.iacuc.actions.IacucProtocolActionType;
 import org.kuali.kra.iacuc.actions.submit.IacucValidProtocolActionAction;
-import org.kuali.kra.protocol.actions.followup.FollowupActionServiceImplBase;
 
 
 public class IacucFollowupActionServiceImpl extends FollowupActionServiceImplBase<IacucValidProtocolActionAction> implements IacucFollowupActionService {

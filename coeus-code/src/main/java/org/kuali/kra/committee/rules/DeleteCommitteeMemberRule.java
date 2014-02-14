@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.committee.rules;
 
+import org.kuali.coeus.common.protocol.impl.committee.member.rule.DeleteCommitteeMemberRuleBase;
+import org.kuali.coeus.common.protocol.impl.committee.membership.CommitteeMembershipServiceBase;
 import org.kuali.kra.committee.service.CommitteeMembershipService;
-import org.kuali.kra.common.committee.rules.DeleteCommitteeMemberRuleBase;
-import org.kuali.kra.common.committee.service.CommitteeMembershipServiceBase;
 
 /**
  * 

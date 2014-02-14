@@ -591,7 +591,7 @@
     </bean>
 
 <!-- 
-    <bean id="protocolNotificationService" class="org.kuali.kra.protocol.notification.service.impl.ProtocolNotificationServiceImpl">
+    <bean id="protocolNotificationService" class="org.kuali.coeus.common.protocol.impl.notification.service.impl.ProtocolNotificationServiceImpl">
         <property name="businessObjectService" ref="businessObjectService" />
         <property name="roleManagementService" ref="roleService" />
         <property name="kcPersonService" ref="kcPersonService" />

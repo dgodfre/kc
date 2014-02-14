@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.actions.correction;
 
+import org.kuali.coeus.common.protocol.impl.actions.correction.AdminCorrectionBean;
+import org.kuali.coeus.common.protocol.impl.actions.correction.ProtocolAdminCorrectionEventBase;
 import org.kuali.kra.iacuc.IacucProtocolDocument;
-import org.kuali.kra.protocol.actions.correction.AdminCorrectionBean;
-import org.kuali.kra.protocol.actions.correction.ProtocolAdminCorrectionEventBase;
 import org.kuali.kra.rule.BusinessRuleInterface;
 
 public class IacucProtocolAdminCorrectionEvent extends ProtocolAdminCorrectionEventBase {

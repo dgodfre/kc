@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.actions.assignagenda;
 
+import org.kuali.coeus.common.protocol.impl.actions.assignagenda.ProtocolAssignToAgendaService;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.iacuc.actions.genericactions.IacucProtocolGenericActionBean;
-import org.kuali.kra.protocol.actions.assignagenda.ProtocolAssignToAgendaService;
 
 
 /**

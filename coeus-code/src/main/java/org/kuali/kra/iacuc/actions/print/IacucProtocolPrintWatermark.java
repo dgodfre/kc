@@ -15,11 +15,11 @@
  */
 package org.kuali.kra.iacuc.actions.print;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.actions.print.ProtocolPrintWatermarkBase;
+import org.kuali.coeus.common.protocol.impl.notification.ProtocolNotificationRendererBase;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.iacuc.notification.IacucProtocolNotificationRenderer;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.actions.print.ProtocolPrintWatermarkBase;
-import org.kuali.kra.protocol.notification.ProtocolNotificationRendererBase;
 
 public class IacucProtocolPrintWatermark extends ProtocolPrintWatermarkBase implements IacucWatermarkable {
 

@@ -15,15 +15,15 @@
  */
 package org.kuali.kra.iacuc.correspondence;
 
+import org.kuali.coeus.common.protocol.impl.actions.correspondence.ProtocolActionsCorrespondenceBase;
+import org.kuali.coeus.common.protocol.impl.actions.print.CorrespondenceXmlStreamBase;
+import org.kuali.coeus.common.protocol.impl.actions.print.ProtocolPrintWatermarkBase;
 import org.kuali.kra.iacuc.actions.correspondence.IacucProtocolActionTypeToCorrespondenceTemplateService;
 import org.kuali.kra.iacuc.actions.print.IacucCorrespondenceXmlStream;
 import org.kuali.kra.iacuc.actions.print.IacucProtocolPrintWatermark;
 import org.kuali.kra.infrastructure.Constants;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.infrastructure.RoleConstants;
-import org.kuali.kra.protocol.actions.correspondence.ProtocolActionsCorrespondenceBase;
-import org.kuali.kra.protocol.actions.print.CorrespondenceXmlStreamBase;
-import org.kuali.kra.protocol.actions.print.ProtocolPrintWatermarkBase;
 
 public class IacucProtocolActionsCorrespondence extends ProtocolActionsCorrespondenceBase {
 

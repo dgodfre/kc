@@ -20,6 +20,6 @@ package org.kuali.kra.irb.onlinereview;
 /**
  * Protocol Online Review service provides all necessary functionality to manage the online reviews.
  */
-public interface ProtocolOnlineReviewService extends org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewService {
+public interface ProtocolOnlineReviewService extends org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewService {
 
 }

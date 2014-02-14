@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.correspondence;
 
-import org.kuali.kra.protocol.correspondence.BatchCorrespondenceBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.BatchCorrespondenceBase;
 
 public class BatchCorrespondence extends BatchCorrespondenceBase {
 

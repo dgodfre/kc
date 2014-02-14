@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.actions.amendrenew;
 
+import org.kuali.coeus.common.protocol.impl.actions.amendrenew.CreateAmendmentEventBase;
+import org.kuali.coeus.common.protocol.impl.actions.amendrenew.ProtocolAmendmentBean;
 import org.kuali.kra.iacuc.IacucProtocolDocument;
-import org.kuali.kra.protocol.actions.amendrenew.CreateAmendmentEventBase;
-import org.kuali.kra.protocol.actions.amendrenew.ProtocolAmendmentBean;
 import org.kuali.kra.rule.BusinessRuleInterface;
 
 public class CreateIacucAmendmentEvent extends CreateAmendmentEventBase {

@@ -16,24 +16,24 @@
 package org.kuali.kra.iacuc.actions.assignreviewers;
 
 import org.apache.commons.lang.StringUtils;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolOnlineReviewDocumentBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolReviewer;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolReviewerBeanBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewService;
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonBase;
 import org.kuali.kra.infrastructure.Constants;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.ProtocolOnlineReviewDocumentBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolReviewer;
-import org.kuali.kra.protocol.actions.submit.ProtocolReviewerBeanBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewBase;
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewService;
-import org.kuali.kra.protocol.personnel.ProtocolPersonBase;
 import org.kuali.rice.krad.service.BusinessObjectService;
 import org.kuali.rice.krad.util.GlobalVariables;
 
 import java.sql.Date;
 import java.util.List;
 
-//import org.kuali.kra.protocol.actions.notification.AssignReviewerNotificationRenderer;
-//import org.kuali.kra.protocol.actions.notification.ProtocolNotificationRequestBean;
-//import org.kuali.kra.protocol.notification.IRBNotificationContext;
+//import org.kuali.coeus.common.protocol.impl.actions.notification.AssignReviewerNotificationRenderer;
+//import org.kuali.coeus.common.protocol.impl.actions.notification.ProtocolNotificationRequestBean;
+//import org.kuali.coeus.common.protocol.impl.notification.IRBNotificationContext;
 
 public class IacucProtocolAssignReviewersServiceImpl implements IacucProtocolAssignReviewersService{
     private BusinessObjectService businessObjectService;

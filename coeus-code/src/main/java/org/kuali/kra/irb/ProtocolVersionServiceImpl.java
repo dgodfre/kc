@@ -15,11 +15,11 @@
  */
 package org.kuali.kra.irb;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolDocumentBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolVersionServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.questionnaire.ProtocolModuleQuestionnaireBeanBase;
 import org.kuali.kra.irb.questionnaire.ProtocolModuleQuestionnaireBean;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.ProtocolDocumentBase;
-import org.kuali.kra.protocol.ProtocolVersionServiceImplBase;
-import org.kuali.kra.protocol.questionnaire.ProtocolModuleQuestionnaireBeanBase;
 
 
 /**

@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.actions;
 
-import org.kuali.kra.protocol.actions.notify.ProtocolActionAttachment;
+import org.kuali.coeus.common.protocol.impl.actions.notify.ProtocolActionAttachment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +24,7 @@ import java.util.List;
  * 
  * This class for the base property of request/notify irb action
  */
-public abstract class ProtocolSubmissionBeanBase extends ProtocolActionBean implements org.kuali.kra.protocol.actions.ProtocolSubmissionBeanBase {
+public abstract class ProtocolSubmissionBeanBase extends ProtocolActionBean implements org.kuali.coeus.common.protocol.impl.actions.ProtocolSubmissionBeanBase {
     
     private String committeeId;
     private ProtocolActionAttachment newActionAttachment;
@@ -54,7 +54,7 @@ public abstract class ProtocolSubmissionBeanBase extends ProtocolActionBean impl
         return actionAttachments;
     }
 
-    public void setActionAttachments(List<org.kuali.kra.protocol.actions.notify.ProtocolActionAttachment> actionAttachments) {
+    public void setActionAttachments(List<org.kuali.coeus.common.protocol.impl.actions.notify.ProtocolActionAttachment> actionAttachments) {
         this.actionAttachments = actionAttachments;
     }
 

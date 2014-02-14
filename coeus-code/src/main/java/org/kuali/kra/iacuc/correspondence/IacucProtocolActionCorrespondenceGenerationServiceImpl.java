@@ -15,10 +15,10 @@
  */
 package org.kuali.kra.iacuc.correspondence;
 
+import org.kuali.coeus.common.protocol.impl.actions.correspondence.ProtocolActionCorrespondenceGenerationServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondence;
 import org.kuali.kra.iacuc.actions.print.IacucPersonSignatureService;
 import org.kuali.kra.printing.service.PersonSignatureService;
-import org.kuali.kra.protocol.actions.correspondence.ProtocolActionCorrespondenceGenerationServiceImplBase;
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondence;
 
 
 /**

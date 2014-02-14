@@ -15,11 +15,11 @@
  */
 package org.kuali.kra.iacuc.actions.request;
 
+import org.kuali.coeus.common.protocol.impl.actions.request.ProtocolRequestBean;
+import org.kuali.coeus.common.protocol.impl.questionnaire.ProtocolSubmissionQuestionnaireHelper;
 import org.kuali.kra.iacuc.actions.IacucActionHelper;
 import org.kuali.kra.iacuc.actions.IacucProtocolSubmissionBeanBase;
 import org.kuali.kra.iacuc.questionnaire.IacucSubmissionQuestionnaireHelper;
-import org.kuali.kra.protocol.actions.request.ProtocolRequestBean;
-import org.kuali.kra.protocol.questionnaire.ProtocolSubmissionQuestionnaireHelper;
 
 /**
  * The ProtocolRequestBean is used for some of the common, yet simple,

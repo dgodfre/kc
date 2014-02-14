@@ -23,7 +23,7 @@ import java.sql.Date;
 /**
  * This class manages the HTML Elements needed for the review not required panel.
  */
-public class ProtocolReviewNotRequiredBean extends ProtocolActionBean implements org.kuali.kra.protocol.actions.noreview.ProtocolReviewNotRequiredBean {
+public class ProtocolReviewNotRequiredBean extends ProtocolActionBean implements org.kuali.coeus.common.protocol.impl.actions.noreview.ProtocolReviewNotRequiredBean {
 
     private static final long serialVersionUID = -9057687242686885236L;
     

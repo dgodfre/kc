@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.service;
 
-import org.kuali.kra.common.committee.bo.CommitteeBase;
-import org.kuali.kra.common.committee.bo.CommitteeMembershipBase;
-import org.kuali.kra.protocol.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeBase;
+import org.kuali.coeus.common.protocol.impl.committee.membership.CommitteeMembershipBase;
 
 /**
  * This class encapsulates a current protocol, committee or committee membership (if any) that references a given research area. 

@@ -15,11 +15,11 @@
  */
 package org.kuali.kra.iacuc.noteattachment;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolFormBase;
+import org.kuali.coeus.common.protocol.impl.noteattachment.ProtocolAttachmentProtocolBase;
+import org.kuali.coeus.common.protocol.impl.noteattachment.ProtocolAttachmentService;
+import org.kuali.coeus.common.protocol.impl.noteattachment.ProtocolAttachmentVersioningUtilityBase;
 import org.kuali.kra.infrastructure.KraServiceLocator;
-import org.kuali.kra.protocol.ProtocolFormBase;
-import org.kuali.kra.protocol.noteattachment.ProtocolAttachmentProtocolBase;
-import org.kuali.kra.protocol.noteattachment.ProtocolAttachmentService;
-import org.kuali.kra.protocol.noteattachment.ProtocolAttachmentVersioningUtilityBase;
 import org.kuali.kra.service.VersioningService;
 
 public class IacucProtocolAttachmentVersioningUtility extends ProtocolAttachmentVersioningUtilityBase {

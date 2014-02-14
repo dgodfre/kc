@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.protocol;
 
-import org.kuali.kra.protocol.protocol.ProtocolTypeBase;
+import org.kuali.coeus.common.protocol.impl.protocol.ProtocolTypeBase;
 
 public class ProtocolType extends ProtocolTypeBase {
 

@@ -26,6 +26,18 @@ import java.util.Map;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolFormBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBean;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionRequestServiceImpl;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionTypeBase;
+import org.kuali.coeus.common.protocol.impl.actions.correspondence.ProtocolActionsCorrespondenceBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
+import org.kuali.coeus.common.protocol.impl.auth.ProtocolTaskBase;
+import org.kuali.coeus.common.protocol.impl.notification.ProtocolNotification;
+import org.kuali.coeus.common.protocol.impl.notification.ProtocolNotificationContextBase;
+import org.kuali.coeus.common.protocol.impl.notification.ProtocolNotificationRequestBeanBase;
+import org.kuali.coeus.common.protocol.impl.questionnaire.ProtocolQuestionnaireAuditRuleBase;
 import org.kuali.kra.committee.bo.Committee;
 import org.kuali.kra.committee.service.CommitteeService;
 import org.kuali.kra.common.notification.bo.NotificationTypeRecipient;
@@ -101,18 +113,6 @@ import org.kuali.kra.irb.notification.IRBNotificationRenderer;
 import org.kuali.kra.irb.notification.IRBProtocolNotification;
 import org.kuali.kra.irb.onlinereview.ProtocolOnlineReview;
 import org.kuali.kra.irb.questionnaire.ProtocolQuestionnaireAuditRule;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.ProtocolFormBase;
-import org.kuali.kra.protocol.actions.ProtocolActionBean;
-import org.kuali.kra.protocol.actions.ProtocolActionRequestServiceImpl;
-import org.kuali.kra.protocol.actions.ProtocolActionTypeBase;
-import org.kuali.kra.protocol.actions.correspondence.ProtocolActionsCorrespondenceBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
-import org.kuali.kra.protocol.auth.ProtocolTaskBase;
-import org.kuali.kra.protocol.notification.ProtocolNotification;
-import org.kuali.kra.protocol.notification.ProtocolNotificationContextBase;
-import org.kuali.kra.protocol.notification.ProtocolNotificationRequestBeanBase;
-import org.kuali.kra.protocol.questionnaire.ProtocolQuestionnaireAuditRuleBase;
 import org.kuali.kra.questionnaire.answer.AnswerHeader;
 import org.kuali.kra.questionnaire.answer.ModuleQuestionnaireBean;
 import org.kuali.rice.kns.document.authorization.DocumentAuthorizerBase;
@@ -1558,7 +1558,7 @@ public class IrbProtocolActionRequestServiceImpl extends ProtocolActionRequestSe
     }
 
     @Override
-    protected Class<? extends org.kuali.kra.protocol.correspondence.ProtocolCorrespondence> getProtocolCorrespondenceBOClassHook() {
+    protected Class<? extends org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondence> getProtocolCorrespondenceBOClassHook() {
         return ProtocolCorrespondence.class;
     }
 

@@ -15,11 +15,11 @@
  */
 package org.kuali.kra.iacuc.auth;
 
-import org.kuali.kra.common.committee.bo.CommitteeDecisionMotionType;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeDecisionMotionType;
 import org.kuali.kra.iacuc.actions.IacucProtocolActionType;
 import org.kuali.kra.infrastructure.PermissionConstants;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
 
 /**
  * Is the user allowed to disapprove protocols and the action is currently not available?
@@ -28,7 +28,7 @@ public class DisapproveIacucProtocolUnavailableAuthorizer extends IacucProtocolA
 
     /**
      * {@inheritDoc}
-     * @see org.kuali.kra.protocol.auth.ProtocolAuthorizer#isAuthorized(java.lang.String, org.kuali.kra.protocol.auth.ProtocolTask)
+     * @see org.kuali.coeus.common.protocol.impl.auth.ProtocolAuthorizer#isAuthorized(java.lang.String, org.kuali.coeus.common.protocol.impl.auth.ProtocolTask)
      */
     public boolean isAuthorized(String userId, IacucProtocolTask task) {        
         ProtocolActionBase lastAction = task.getProtocol().getLastProtocolAction();

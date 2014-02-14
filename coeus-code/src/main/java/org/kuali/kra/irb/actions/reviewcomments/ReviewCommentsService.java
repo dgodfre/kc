@@ -17,6 +17,6 @@ package org.kuali.kra.irb.actions.reviewcomments;
 
 import org.kuali.kra.irb.onlinereview.ProtocolReviewAttachment;
 
-public interface ReviewCommentsService extends org.kuali.kra.protocol.actions.reviewcomments.ReviewCommentsService<ProtocolReviewAttachment> {
+public interface ReviewCommentsService extends org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewCommentsService<ProtocolReviewAttachment> {
 
 }

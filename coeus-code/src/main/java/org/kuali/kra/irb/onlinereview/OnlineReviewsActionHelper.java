@@ -15,15 +15,15 @@
  */
 package org.kuali.kra.irb.onlinereview;
 
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewAttachmentsBeanBase;
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewCommentsBeanBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.OnlineReviewsActionHelperBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewFormBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewService;
 import org.kuali.kra.irb.ProtocolForm;
 import org.kuali.kra.irb.actions.reviewcomments.ReviewAttachmentsBean;
 import org.kuali.kra.irb.actions.reviewcomments.ReviewCommentsBean;
 import org.kuali.kra.irb.actions.reviewcomments.ReviewCommentsService;
-import org.kuali.kra.protocol.actions.reviewcomments.ReviewAttachmentsBeanBase;
-import org.kuali.kra.protocol.actions.reviewcomments.ReviewCommentsBeanBase;
-import org.kuali.kra.protocol.onlinereview.OnlineReviewsActionHelperBase;
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewFormBase;
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewService;
 
 
 public class OnlineReviewsActionHelper extends  OnlineReviewsActionHelperBase {
@@ -58,7 +58,7 @@ public class OnlineReviewsActionHelper extends  OnlineReviewsActionHelperBase {
     }
 
     @Override
-    protected Class<? extends org.kuali.kra.protocol.actions.reviewcomments.ReviewCommentsService<ProtocolReviewAttachment>> getReviewCommentsServiceClassHook() {
+    protected Class<? extends org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewCommentsService<ProtocolReviewAttachment>> getReviewCommentsServiceClassHook() {
         return ReviewCommentsService.class;
     }    
 }

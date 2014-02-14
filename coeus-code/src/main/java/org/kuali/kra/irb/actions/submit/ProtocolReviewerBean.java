@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.irb.actions.submit;
 
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolReviewerBeanBase;
 import org.kuali.kra.committee.bo.CommitteeMembership;
-import org.kuali.kra.protocol.actions.submit.ProtocolReviewerBeanBase;
 
 /**
  * This class is really just a "form" for the reviewers that

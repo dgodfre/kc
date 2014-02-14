@@ -19,6 +19,6 @@ package org.kuali.kra.irb.correspondence;
  * The Protocol Correspondence Template Service provides a set of methods for
  * working with protocol correspondence templates.
  */
-public interface ProtocolCorrespondenceTemplateService extends org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceTemplateService {
+public interface ProtocolCorrespondenceTemplateService extends org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceTemplateService {
 
 }

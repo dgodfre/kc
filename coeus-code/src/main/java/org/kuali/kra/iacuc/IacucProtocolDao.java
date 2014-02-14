@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc;
 
-import org.kuali.kra.protocol.ProtocolDao;
+import org.kuali.coeus.common.protocol.impl.ProtocolDao;
 
 
 /**

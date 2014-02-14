@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.personnel;
 
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonTrainingServiceImplBase;
 import org.kuali.kra.iacuc.IacucPersonTraining;
-import org.kuali.kra.protocol.personnel.ProtocolPersonTrainingServiceImplBase;
 
 import java.util.HashMap;
 import java.util.List;

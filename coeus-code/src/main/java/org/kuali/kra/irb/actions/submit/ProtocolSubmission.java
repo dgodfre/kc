@@ -15,10 +15,10 @@
  */
 package org.kuali.kra.irb.actions.submit;
 
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionQualifierTypeBase;
 import org.kuali.kra.committee.bo.Committee;
 import org.kuali.kra.committee.bo.CommitteeSchedule;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionQualifierTypeBase;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -26,7 +26,7 @@ public class ApproveIacucProtocolAuthorizer extends IacucProtocolAuthorizer {
 
     /**
      * {@inheritDoc}
-     * @see org.kuali.kra.protocol.auth.ProtocolAuthorizer#isAuthorized(java.lang.String, org.kuali.kra.protocol.auth.ProtocolTask)
+     * @see org.kuali.coeus.common.protocol.impl.auth.ProtocolAuthorizer#isAuthorized(java.lang.String, org.kuali.coeus.common.protocol.impl.auth.ProtocolTask)
      */
     public boolean isAuthorized(String userId, IacucProtocolTask task) {
         IacucProtocolAction lastAction = (IacucProtocolAction) task.getProtocol().getLastProtocolAction();

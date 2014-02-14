@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.irb.actions.withdraw;
 
+import org.kuali.coeus.common.protocol.impl.actions.correspondence.ProtocolActionsCorrespondenceBase;
 import org.kuali.kra.irb.actions.ActionHelper;
 import org.kuali.kra.irb.actions.ProtocolActionBean;
-import org.kuali.kra.protocol.actions.correspondence.ProtocolActionsCorrespondenceBase;
 
 import java.sql.Date;
 
@@ -25,7 +25,7 @@ import java.sql.Date;
  * This class is really just a "form" containing the reason
  * for withdrawing a protocol.
  */
-public class ProtocolWithdrawBean extends ProtocolActionBean implements org.kuali.kra.protocol.actions.withdraw.ProtocolWithdrawBean {
+public class ProtocolWithdrawBean extends ProtocolActionBean implements org.kuali.coeus.common.protocol.impl.actions.withdraw.ProtocolWithdrawBean {
     
     private static final long serialVersionUID = -3244694733749584969L;
     

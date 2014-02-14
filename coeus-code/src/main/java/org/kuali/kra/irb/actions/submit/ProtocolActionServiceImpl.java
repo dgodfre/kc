@@ -16,6 +16,11 @@
 package org.kuali.kra.irb.actions.submit;
 
 import org.apache.commons.logging.Log;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ActionRightMapping;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolActionMappingBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolActionServiceImplBase;
 import org.kuali.kra.bo.CoeusModule;
 import org.kuali.kra.bo.CoeusSubModule;
 import org.kuali.kra.infrastructure.PermissionConstants;
@@ -23,11 +28,6 @@ import org.kuali.kra.irb.Protocol;
 import org.kuali.kra.irb.actions.ProtocolAction;
 import org.kuali.kra.irb.actions.ProtocolActionType;
 import org.kuali.kra.irb.actions.ProtocolSubmissionDoc;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.actions.submit.ActionRightMapping;
-import org.kuali.kra.protocol.actions.submit.ProtocolActionMappingBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolActionServiceImplBase;
 import org.kuali.kra.questionnaire.answer.AnswerHeader;
 
 import java.util.HashMap;
@@ -117,7 +117,7 @@ public class ProtocolActionServiceImpl extends ProtocolActionServiceImplBase imp
     }
     
     /**
-     * @see org.kuali.kra.protocol.actions.submit.ProtocolActionServiceImplBase#resetProtocolStatus(org.kuali.kra.protocol.actions.ProtocolActionBase, org.kuali.kra.protocol.ProtocolBase)
+     * @see org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolActionServiceImplBase#resetProtocolStatus(org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase, org.kuali.coeus.common.protocol.impl.ProtocolBase)
      */
     public void resetProtocolStatus(ProtocolActionBase protocolActionBo, ProtocolBase protocol) {
         ProtocolUndoActionMapping protocolAction = new ProtocolUndoActionMapping(protocolActionBo.getProtocolActionTypeCode(), 

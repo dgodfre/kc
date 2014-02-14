@@ -16,6 +16,6 @@
 package org.kuali.kra.irb.actions.undo;
 
 
-public interface UndoLastActionService extends org.kuali.kra.protocol.actions.undo.UndoLastActionService {
+public interface UndoLastActionService extends org.kuali.coeus.common.protocol.impl.actions.undo.UndoLastActionService {
     
 }

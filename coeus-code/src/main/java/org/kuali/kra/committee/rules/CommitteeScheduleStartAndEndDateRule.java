@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.committee.rules;
 
+import org.kuali.coeus.common.protocol.impl.committee.web.struts.form.schedule.ScheduleData;
+import org.kuali.coeus.common.protocol.impl.committee.web.struts.form.schedule.StyleKey;
 import org.kuali.kra.committee.rule.event.CommitteeScheduleStartAndEndDateEvent;
-import org.kuali.kra.common.committee.web.struts.form.schedule.ScheduleData;
-import org.kuali.kra.common.committee.web.struts.form.schedule.StyleKey;
 import org.kuali.kra.infrastructure.KeyConstants;
 import org.kuali.kra.rule.BusinessRuleInterface;
 import org.kuali.kra.rules.ResearchDocumentRuleBase;

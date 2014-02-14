@@ -19,6 +19,6 @@ package org.kuali.kra.irb.actions.correspondence;
  * 
  * This interface defines the functions needed generate a correspondence and attach it to a protocol.
  */
-public interface ProtocolActionCorrespondenceGenerationService extends org.kuali.kra.protocol.actions.correspondence.ProtocolActionCorrespondenceGenerationService {
+public interface ProtocolActionCorrespondenceGenerationService extends org.kuali.coeus.common.protocol.impl.actions.correspondence.ProtocolActionCorrespondenceGenerationService {
 
 }

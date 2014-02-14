@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.onlinereview;
 
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewDeterminationRecommendationBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewDeterminationRecommendationBase;
 
 public class ProtocolOnlineReviewDeterminationRecommendation extends ProtocolOnlineReviewDeterminationRecommendationBase {
 

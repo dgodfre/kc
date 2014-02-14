@@ -15,16 +15,16 @@
  */
 package org.kuali.kra.iacuc.onlinereview;
 
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewAttachmentsBeanBase;
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewCommentsBeanBase;
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewCommentsService;
+import org.kuali.coeus.common.protocol.impl.onlinereview.OnlineReviewsActionHelperBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewFormBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewService;
 import org.kuali.kra.iacuc.IacucProtocolForm;
 import org.kuali.kra.iacuc.actions.reviewcomments.IacucReviewAttachmentsBean;
 import org.kuali.kra.iacuc.actions.reviewcomments.IacucReviewCommentsBean;
 import org.kuali.kra.iacuc.actions.reviewcomments.IacucReviewCommentsService;
-import org.kuali.kra.protocol.actions.reviewcomments.ReviewAttachmentsBeanBase;
-import org.kuali.kra.protocol.actions.reviewcomments.ReviewCommentsBeanBase;
-import org.kuali.kra.protocol.actions.reviewcomments.ReviewCommentsService;
-import org.kuali.kra.protocol.onlinereview.OnlineReviewsActionHelperBase;
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewFormBase;
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewService;
 
 public class IacucOnlineReviewsActionHelper  extends  OnlineReviewsActionHelperBase {
    

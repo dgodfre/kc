@@ -15,12 +15,12 @@
  */
 package org.kuali.kra.iacuc.actions.noreview;
 
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolActionService;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.iacuc.IacucProtocolDocument;
 import org.kuali.kra.iacuc.actions.IacucProtocolAction;
 import org.kuali.kra.iacuc.actions.IacucProtocolActionType;
 import org.kuali.kra.iacuc.actions.submit.IacucProtocolSubmission;
-import org.kuali.kra.protocol.actions.submit.ProtocolActionService;
 import org.kuali.rice.krad.service.BusinessObjectService;
 
 import java.sql.Timestamp;
@@ -54,7 +54,7 @@ public class IacucProtocolReviewNotRequiredServiceImpl implements IacucProtocolR
     }
 
     /**
-     * @see org.kuali.kra.protocol.actions.noreview.ProtocolReviewNotRequiredService#reviewNotRequired(org.kuali.kra.protocol.ProtocolDocument, org.kuali.kra.protocol.actions.noreview.ProtocolReviewNotRequiredBean)
+     * @see org.kuali.coeus.common.protocol.impl.actions.noreview.ProtocolReviewNotRequiredService#reviewNotRequired(org.kuali.coeus.common.protocol.impl.ProtocolDocument, org.kuali.coeus.common.protocol.impl.actions.noreview.ProtocolReviewNotRequiredBean)
      */
     public void reviewNotRequired(IacucProtocolDocument protocolDocument, IacucProtocolReviewNotRequiredBean actionBean) {
         IacucProtocol protocol = protocolDocument.getIacucProtocol();

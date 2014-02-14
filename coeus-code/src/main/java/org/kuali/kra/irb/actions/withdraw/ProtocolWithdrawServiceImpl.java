@@ -16,6 +16,13 @@
 package org.kuali.kra.irb.actions.withdraw;
 
 import org.apache.commons.lang.StringUtils;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolDocumentBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
+import org.kuali.coeus.common.protocol.impl.actions.withdraw.ProtocolAdministrativelyIncompleteBean;
+import org.kuali.coeus.common.protocol.impl.actions.withdraw.ProtocolAdministrativelyWithdrawBean;
+import org.kuali.coeus.common.protocol.impl.actions.withdraw.ProtocolWithdrawBean;
+import org.kuali.coeus.common.protocol.impl.actions.withdraw.ProtocolWithdrawServiceImplBase;
 import org.kuali.kra.irb.Protocol;
 import org.kuali.kra.irb.ProtocolDocument;
 import org.kuali.kra.irb.actions.ProtocolAction;
@@ -25,13 +32,6 @@ import org.kuali.kra.irb.actions.assignagenda.ProtocolAssignToAgendaService;
 import org.kuali.kra.irb.actions.submit.ProtocolSubmission;
 import org.kuali.kra.irb.actions.submit.ProtocolSubmissionStatus;
 import org.kuali.kra.irb.actions.submit.ProtocolSubmissionType;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.ProtocolDocumentBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
-import org.kuali.kra.protocol.actions.withdraw.ProtocolAdministrativelyIncompleteBean;
-import org.kuali.kra.protocol.actions.withdraw.ProtocolAdministrativelyWithdrawBean;
-import org.kuali.kra.protocol.actions.withdraw.ProtocolWithdrawBean;
-import org.kuali.kra.protocol.actions.withdraw.ProtocolWithdrawServiceImplBase;
 
 import java.sql.Date;
 

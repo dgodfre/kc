@@ -18,13 +18,28 @@ package org.kuali.kra.irb.actions;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.time.DateUtils;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolDocumentBase;
+import org.kuali.coeus.common.protocol.impl.actions.ActionHelperBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolEditableBean;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolSubmissionDocBase;
+import org.kuali.coeus.common.protocol.impl.actions.amendrenew.ProtocolAmendRenewModuleBase;
+import org.kuali.coeus.common.protocol.impl.actions.amendrenew.ProtocolAmendRenewalBase;
+import org.kuali.coeus.common.protocol.impl.actions.notify.ProtocolActionAttachment;
+import org.kuali.coeus.common.protocol.impl.actions.print.CorrespondencePrintOption;
+import org.kuali.coeus.common.protocol.impl.auth.ProtocolTaskBase;
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeBase;
+import org.kuali.coeus.common.protocol.impl.committee.lookup.keyvalue.CommitteeIdByUnitValuesFinderService;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommitteeScheduleServiceBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.CorrespondenceTypeModuleIdConstants;
+import org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceAuthorizationService;
+import org.kuali.coeus.common.protocol.impl.questionnaire.ProtocolModuleQuestionnaireBeanBase;
+import org.kuali.coeus.common.protocol.impl.questionnaire.ProtocolSubmissionQuestionnaireHelper;
 import org.kuali.coeus.sys.framework.auth.task.TaskAuthorizationService;
 import org.kuali.kra.bo.CoeusModule;
 import org.kuali.kra.committee.lookup.keyvalue.IrbCommitteeIdByUnitValuesFinderService;
 import org.kuali.kra.committee.service.CommitteeScheduleService;
-import org.kuali.kra.common.committee.bo.CommitteeBase;
-import org.kuali.kra.common.committee.lookup.keyvalue.CommitteeIdByUnitValuesFinderService;
-import org.kuali.kra.common.committee.service.CommitteeScheduleServiceBase;
 import org.kuali.kra.infrastructure.*;
 import org.kuali.kra.irb.Protocol;
 import org.kuali.kra.irb.ProtocolDocument;
@@ -67,21 +82,6 @@ import org.kuali.kra.irb.correspondence.ProtocolCorrespondenceType;
 import org.kuali.kra.irb.questionnaire.IrbSubmissionQuestionnaireHelper;
 import org.kuali.kra.irb.questionnaire.ProtocolModuleQuestionnaireBean;
 import org.kuali.kra.meeting.CommitteeScheduleMinute;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.ProtocolDocumentBase;
-import org.kuali.kra.protocol.actions.ActionHelperBase;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.actions.ProtocolEditableBean;
-import org.kuali.kra.protocol.actions.ProtocolSubmissionDocBase;
-import org.kuali.kra.protocol.actions.amendrenew.ProtocolAmendRenewModuleBase;
-import org.kuali.kra.protocol.actions.amendrenew.ProtocolAmendRenewalBase;
-import org.kuali.kra.protocol.actions.notify.ProtocolActionAttachment;
-import org.kuali.kra.protocol.actions.print.CorrespondencePrintOption;
-import org.kuali.kra.protocol.auth.ProtocolTaskBase;
-import org.kuali.kra.protocol.correspondence.CorrespondenceTypeModuleIdConstants;
-import org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceAuthorizationService;
-import org.kuali.kra.protocol.questionnaire.ProtocolModuleQuestionnaireBeanBase;
-import org.kuali.kra.protocol.questionnaire.ProtocolSubmissionQuestionnaireHelper;
 import org.kuali.kra.questionnaire.answer.ModuleQuestionnaireBean;
 import org.kuali.kra.rules.ErrorReporter;
 import org.kuali.rice.core.api.util.KeyValue;
@@ -315,7 +315,7 @@ public class ActionHelper extends ActionHelperBase {
      * corresponding modules. 
      * @param amendmentBean
      */
-    protected void populateExistingAmendmentBean(org.kuali.kra.protocol.actions.amendrenew.ProtocolAmendmentBean amendmentBean, List<String> moduleTypeCodes) {
+    protected void populateExistingAmendmentBean(org.kuali.coeus.common.protocol.impl.actions.amendrenew.ProtocolAmendmentBean amendmentBean, List<String> moduleTypeCodes) {
         ProtocolAmendRenewal protocolAmendRenewal = (ProtocolAmendRenewal) getProtocol().getProtocolAmendRenewal();
         amendmentBean.setSummary(protocolAmendRenewal.getSummary());
         for (ProtocolAmendRenewModuleBase module : protocolAmendRenewal.getModules()) {
@@ -1408,12 +1408,12 @@ public class ActionHelper extends ActionHelperBase {
     }
 
     @Override
-    protected org.kuali.kra.protocol.actions.decision.CommitteeDecision<?> getNewCommitteeDecisionInstanceHook(ActionHelperBase actionHelper) {
+    protected org.kuali.coeus.common.protocol.impl.actions.decision.CommitteeDecision<?> getNewCommitteeDecisionInstanceHook(ActionHelperBase actionHelper) {
         return new CommitteeDecision((ActionHelper) actionHelper);
     }
 
     @Override
-    protected org.kuali.kra.protocol.actions.assignagenda.ProtocolAssignToAgendaBean getNewProtocolAssignToAgendaBeanInstanceHook(ActionHelperBase actionHelper) {
+    protected org.kuali.coeus.common.protocol.impl.actions.assignagenda.ProtocolAssignToAgendaBean getNewProtocolAssignToAgendaBeanInstanceHook(ActionHelperBase actionHelper) {
         return new ProtocolAssignToAgendaBean((ActionHelper) actionHelper);
     }
 
@@ -1648,7 +1648,7 @@ public class ActionHelper extends ActionHelperBase {
     }
 
     @Override
-    protected Class<? extends org.kuali.kra.protocol.actions.followup.FollowupActionService<?>> getFollowupActionServiceClassHook() {
+    protected Class<? extends org.kuali.coeus.common.protocol.impl.actions.followup.FollowupActionService<?>> getFollowupActionServiceClassHook() {
         return FollowupActionService.class;
     }
 
@@ -1663,7 +1663,7 @@ public class ActionHelper extends ActionHelperBase {
     }
 
     @Override
-    protected void enableModuleOption(org.kuali.kra.protocol.actions.amendrenew.ProtocolAmendmentBean amendmentBean, ProtocolAmendRenewalBase correctAmendment) {
+    protected void enableModuleOption(org.kuali.coeus.common.protocol.impl.actions.amendrenew.ProtocolAmendmentBean amendmentBean, ProtocolAmendRenewalBase correctAmendment) {
         // deliberately empty implementation since the calling method for this hook has been overridden making it a redundant
         // hook. See backfit notes.
         // do nothing

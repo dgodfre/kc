@@ -27,7 +27,7 @@ public class IacucProtocolCorrespondenceTemplateAuthorizationServiceImpl  implem
     
     /**
      * 
-     * @see org.kuali.kra.protocol.correspondence.ProtocolCorrespondenceTemplateAuthorizationService#hasPermission(java.lang.String)
+     * @see org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondenceTemplateAuthorizationService#hasPermission(java.lang.String)
      */
     public boolean hasPermission(String permissionName){
         KcPerson person = kcPersonService.getKcPersonByUserName(getUserName());       

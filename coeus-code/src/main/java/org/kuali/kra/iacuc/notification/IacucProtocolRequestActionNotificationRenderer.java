@@ -16,8 +16,8 @@
 package org.kuali.kra.iacuc.notification;
 
 import org.drools.core.util.StringUtils;
+import org.kuali.coeus.common.protocol.impl.notification.ProtocolReplacementParameters;
 import org.kuali.kra.iacuc.IacucProtocol;
-import org.kuali.kra.protocol.notification.ProtocolReplacementParameters;
 import org.kuali.rice.core.api.CoreApiServiceLocator;
 
 import java.util.Map;

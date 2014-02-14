@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.irb.onlinereview;
 
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewBase;
 import org.kuali.kra.infrastructure.RoleConstants;
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewBase;
 
 import java.util.ArrayList;
 import java.util.List;

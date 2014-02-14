@@ -18,6 +18,6 @@ package org.kuali.kra.irb.actions.delete;
 /**
  * Protocol Delete Service.
  */
-public interface ProtocolDeleteService extends org.kuali.kra.protocol.actions.delete.ProtocolDeleteService {
+public interface ProtocolDeleteService extends org.kuali.coeus.common.protocol.impl.actions.delete.ProtocolDeleteService {
 
 }

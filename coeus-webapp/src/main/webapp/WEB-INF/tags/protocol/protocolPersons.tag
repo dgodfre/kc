@@ -54,7 +54,7 @@
 		    <div id="workarea">
 				<h3>
 					<span class="subhead-left"><bean:write name="KualiForm" property="${protocolPersonProperty}.personName"/></span>
-				    <span class="subhead-right"><kul:help businessObjectClassName="org.kuali.kra.protocol.personnel.ProtocolPerson" altText="help"/></span>
+				    <span class="subhead-right"><kul:help businessObjectClassName="org.kuali.coeus.common.protocol.impl.personnel.ProtocolPerson" altText="help"/></span>
 				</h3>
 				<kra-protocol:personDetailsSection personIndex="${status.index}" protocolPerson="${protocolPersonProperty}" protocolPersonAttributes="${protocolPersonAttributes}" optionListClass="${optionListClass}"/>
 				<kra-protocol:personContactInformationSection personIndex="${status.index}" protocolPerson="${protocolPersonProperty}" personAttributes="${personAttributes}"/>

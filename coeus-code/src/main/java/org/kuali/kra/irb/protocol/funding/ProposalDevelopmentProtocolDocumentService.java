@@ -20,6 +20,6 @@ import org.kuali.kra.proposaldevelopment.document.ProposalDevelopmentDocument;
 import org.kuali.kra.proposaldevelopment.web.struts.form.ProposalDevelopmentForm;
 
 public interface ProposalDevelopmentProtocolDocumentService 
-        extends org.kuali.kra.protocol.protocol.funding.ProposalDevelopmentProtocolDocumentService<ProtocolDocument>{
+        extends org.kuali.coeus.common.protocol.impl.protocol.funding.ProposalDevelopmentProtocolDocumentService<ProtocolDocument>{
 
 }

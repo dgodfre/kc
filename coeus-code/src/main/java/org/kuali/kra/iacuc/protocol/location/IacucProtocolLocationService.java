@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.protocol.location;
 
-import org.kuali.kra.protocol.protocol.location.ProtocolLocationService;
+import org.kuali.coeus.common.protocol.impl.protocol.location.ProtocolLocationService;
 
 public interface IacucProtocolLocationService extends ProtocolLocationService {
 

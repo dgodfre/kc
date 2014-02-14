@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.protocol.location;
 
-import org.kuali.kra.protocol.protocol.location.ProtocolLocationBase;
+import org.kuali.coeus.common.protocol.impl.protocol.location.ProtocolLocationBase;
 
 /**
  * This class represents the Protocol Location Business Object.

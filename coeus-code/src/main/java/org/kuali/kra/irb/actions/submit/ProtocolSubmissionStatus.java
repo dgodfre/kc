@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.actions.submit;
 
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionStatusBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionStatusBase;
 
 public class ProtocolSubmissionStatus extends ProtocolSubmissionStatusBase {
 

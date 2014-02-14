@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.notification;
 
+import org.kuali.coeus.common.protocol.impl.actions.delete.ProtocolDeleteBean;
 import org.kuali.kra.iacuc.IacucProtocol;
-import org.kuali.kra.protocol.actions.delete.ProtocolDeleteBean;
 
 import java.util.Map;
 

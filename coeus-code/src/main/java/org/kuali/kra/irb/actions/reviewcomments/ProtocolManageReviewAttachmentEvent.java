@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.irb.actions.reviewcomments;
 
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ProtocolManageReviewAttachmentEventBase;
 import org.kuali.kra.irb.ProtocolDocument;
 import org.kuali.kra.irb.onlinereview.ProtocolReviewAttachment;
-import org.kuali.kra.protocol.actions.reviewcomments.ProtocolManageReviewAttachmentEventBase;
 
 import java.util.List;
 

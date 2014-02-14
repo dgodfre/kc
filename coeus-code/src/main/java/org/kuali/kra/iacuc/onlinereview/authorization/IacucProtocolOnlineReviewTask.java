@@ -15,10 +15,10 @@
  */
 package org.kuali.kra.iacuc.onlinereview.authorization;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolOnlineReviewDocumentBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewBase;
 import org.kuali.coeus.sys.framework.auth.task.Task;
 import org.kuali.kra.infrastructure.TaskGroupName;
-import org.kuali.kra.protocol.ProtocolOnlineReviewDocumentBase;
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewBase;
 
 public class IacucProtocolOnlineReviewTask extends Task {
     private ProtocolOnlineReviewBase protocolOnlineReview;

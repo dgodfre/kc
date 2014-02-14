@@ -15,6 +15,14 @@
  */
 package org.kuali.kra.iacuc;
 
+import org.kuali.coeus.common.protocol.impl.CriteriaFieldHelper;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolDaoOjbBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolLookupConstants;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolSubmissionBase;
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolPersonBase;
+import org.kuali.coeus.common.protocol.impl.personnel.ProtocolUnitBase;
 import org.kuali.kra.iacuc.actions.IacucProtocolAction;
 import org.kuali.kra.iacuc.actions.submit.IacucProtocolSubmission;
 import org.kuali.kra.iacuc.personnel.IacucProtocolPerson;
@@ -24,14 +32,6 @@ import org.kuali.kra.iacuc.protocol.location.IacucProtocolLocation;
 import org.kuali.kra.iacuc.protocol.research.IacucProtocolResearchArea;
 import org.kuali.kra.iacuc.species.IacucProtocolSpecies;
 import org.kuali.kra.iacuc.species.exception.IacucProtocolException;
-import org.kuali.kra.protocol.CriteriaFieldHelper;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.ProtocolDaoOjbBase;
-import org.kuali.kra.protocol.ProtocolLookupConstants;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
-import org.kuali.kra.protocol.personnel.ProtocolPersonBase;
-import org.kuali.kra.protocol.personnel.ProtocolUnitBase;
 import org.kuali.rice.krad.service.util.OjbCollectionAware;
 
 import java.util.ArrayList;

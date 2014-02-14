@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.irb.actions.reviewcomments;
 
-import org.kuali.kra.common.committee.meeting.CommitteeScheduleMinuteBase;
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewCommentsBeanBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommitteeScheduleMinuteBase;
 import org.kuali.kra.meeting.CommitteeScheduleMinute;
-import org.kuali.kra.protocol.actions.reviewcomments.ReviewCommentsBeanBase;
 
 /**
  * This class defines functions that need to be implemented in a "bean" that needs to provide support for reviewer comments.
@@ -36,7 +36,7 @@ public class ReviewCommentsBean extends ReviewCommentsBeanBase {
     }
 
     @Override
-    protected Class<? extends org.kuali.kra.protocol.actions.reviewcomments.ReviewCommentsService> getReviewCommentsServiceClassHook() {
+    protected Class<? extends org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewCommentsService> getReviewCommentsServiceClassHook() {
         return ReviewCommentsService.class;
     }
 }

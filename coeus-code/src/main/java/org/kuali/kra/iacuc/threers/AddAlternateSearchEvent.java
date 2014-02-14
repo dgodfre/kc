@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.threers;
 
-import org.kuali.kra.protocol.ProtocolDocumentBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolDocumentBase;
 import org.kuali.kra.rule.BusinessRuleInterface;
 import org.kuali.kra.rule.event.KraDocumentEventBaseExtension;
 

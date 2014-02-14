@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.protocol.research;
 
-import org.kuali.kra.protocol.protocol.research.ProtocolResearchAreaService;
+import org.kuali.coeus.common.protocol.impl.protocol.research.ProtocolResearchAreaService;
 
 public interface IacucProtocolResearchAreaService extends ProtocolResearchAreaService {
 

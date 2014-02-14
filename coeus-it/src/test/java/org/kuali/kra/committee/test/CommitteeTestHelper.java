@@ -16,12 +16,12 @@
 package org.kuali.kra.committee.test;
 
 import org.apache.commons.lang.StringUtils;
+import org.kuali.coeus.common.protocol.impl.correspondence.BatchCorrespondenceDetailBase;
 import org.kuali.kra.infrastructure.Constants;
 import org.kuali.kra.irb.correspondence.BatchCorrespondence;
 import org.kuali.kra.irb.correspondence.BatchCorrespondenceDetail;
 import org.kuali.kra.irb.correspondence.ProtocolCorrespondence;
 import org.kuali.kra.irb.correspondence.ProtocolCorrespondenceType;
-import org.kuali.kra.protocol.correspondence.BatchCorrespondenceDetailBase;
 import org.kuali.kra.service.impl.adapters.BusinessObjectServiceAdapter;
 import org.kuali.rice.krad.bo.PersistableBusinessObject;
 

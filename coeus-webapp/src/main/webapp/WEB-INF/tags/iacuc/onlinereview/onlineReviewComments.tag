@@ -17,7 +17,7 @@
 
 
 
-<%@ attribute name="bean" required="true" type="org.kuali.kra.protocol.actions.reviewcomments.ReviewCommentsBeanBase" %>
+<%@ attribute name="bean" required="true" type="org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewCommentsBeanBase" %>
 <%@ attribute name="documentNumber" required="true"%>
 <%@ attribute name="property" required="true" %>
 <%@ attribute name="action" required="true" %>

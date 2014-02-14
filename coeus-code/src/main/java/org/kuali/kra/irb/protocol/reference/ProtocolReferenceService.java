@@ -17,6 +17,6 @@ package org.kuali.kra.irb.protocol.reference;
 
 
 
-public interface ProtocolReferenceService extends org.kuali.kra.protocol.protocol.reference.ProtocolReferenceService {
+public interface ProtocolReferenceService extends org.kuali.coeus.common.protocol.impl.protocol.reference.ProtocolReferenceService {
     
 }

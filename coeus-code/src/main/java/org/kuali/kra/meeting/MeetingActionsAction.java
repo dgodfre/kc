@@ -19,14 +19,14 @@ import org.apache.commons.lang.StringUtils;
 import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionForward;
 import org.apache.struts.action.ActionMapping;
+import org.kuali.coeus.common.protocol.impl.committee.meeting.CommonMeetingService;
+import org.kuali.coeus.common.protocol.impl.committee.meeting.MeetingActionsActionBase;
+import org.kuali.coeus.common.protocol.impl.committee.meeting.ScheduleAgendaBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommScheduleMinuteDocBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommitteeScheduleBase;
 import org.kuali.kra.committee.bo.CommitteeSchedule;
 import org.kuali.kra.committee.service.CommitteePrintingService;
 import org.kuali.kra.committee.service.ScheduleCorrespondencePrint;
-import org.kuali.kra.common.committee.bo.CommitteeScheduleBase;
-import org.kuali.kra.common.committee.meeting.CommScheduleMinuteDocBase;
-import org.kuali.kra.common.committee.meeting.CommonMeetingService;
-import org.kuali.kra.common.committee.meeting.MeetingActionsActionBase;
-import org.kuali.kra.common.committee.meeting.ScheduleAgendaBase;
 import org.kuali.kra.common.printing.CorrespondencePrintingService;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.irb.Protocol;
@@ -95,7 +95,7 @@ public class MeetingActionsAction extends MeetingActionsActionBase {
 
         MeetingHelper meetingHelper = (MeetingHelper) ((MeetingForm) form).getMeetingHelper();
         meetingHelper.setRegeneratedCorrespondences((List)new ArrayList<ProtocolCorrespondence>());
-        for (org.kuali.kra.protocol.correspondence.ProtocolCorrespondence protocolCorrespondence : meetingHelper.getCorrespondences()) {
+        for (org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondence protocolCorrespondence : meetingHelper.getCorrespondences()) {
             if (protocolCorrespondence.isRegenerateFlag()) {
                 Protocol protocol = (Protocol) protocolCorrespondence.getProtocol();
                 AttachmentDataSource dataSource = generateCorrespondenceDocumentAndAttach(protocol, protocolCorrespondence.getProtoCorrespTypeCode());
@@ -168,7 +168,7 @@ public class MeetingActionsAction extends MeetingActionsActionBase {
     }
 
     @Override
-    protected org.kuali.kra.protocol.actions.reviewcomments.ReviewCommentsService<?> getReviewerCommentsService() {
+    protected org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewCommentsService<?> getReviewerCommentsService() {
         return KraServiceLocator.getService(ReviewCommentsService.class);
     }
 

@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.committee.meeting;
 
-import org.kuali.kra.common.committee.meeting.CommScheduleMinuteDocBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommScheduleMinuteDocBase;
 
 
 public class IacucCommScheduleMinuteDoc extends CommScheduleMinuteDocBase {

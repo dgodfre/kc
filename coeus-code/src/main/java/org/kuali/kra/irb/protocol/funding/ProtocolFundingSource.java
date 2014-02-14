@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.protocol.funding;
 
-import org.kuali.kra.protocol.protocol.funding.ProtocolFundingSourceBase;
+import org.kuali.coeus.common.protocol.impl.protocol.funding.ProtocolFundingSourceBase;
 
 /**
  * This class provides fundamental elements of protocol funding source data for Protocols.
@@ -42,7 +42,7 @@ public class ProtocolFundingSource extends ProtocolFundingSourceBase {
     }
 
     @Override
-    protected Class<? extends org.kuali.kra.protocol.protocol.funding.ProtocolFundingSourceService> getProtocolFundingSourceServiceClassHook() {
+    protected Class<? extends org.kuali.coeus.common.protocol.impl.protocol.funding.ProtocolFundingSourceService> getProtocolFundingSourceServiceClassHook() {
         return ProtocolFundingSourceService.class;
     }
 }

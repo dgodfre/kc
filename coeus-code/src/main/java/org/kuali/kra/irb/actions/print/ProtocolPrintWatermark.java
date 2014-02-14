@@ -15,11 +15,11 @@
  */
 package org.kuali.kra.irb.actions.print;
 
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.actions.print.ProtocolPrintWatermarkBase;
+import org.kuali.coeus.common.protocol.impl.notification.ProtocolNotificationRendererBase;
 import org.kuali.kra.irb.Protocol;
 import org.kuali.kra.irb.notification.IRBNotificationRenderer;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.actions.print.ProtocolPrintWatermarkBase;
-import org.kuali.kra.protocol.notification.ProtocolNotificationRendererBase;
 
 /**
  * 

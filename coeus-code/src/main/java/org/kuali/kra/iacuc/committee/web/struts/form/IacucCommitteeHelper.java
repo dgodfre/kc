@@ -21,15 +21,17 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.commons.lang.StringUtils;
-import org.kuali.kra.common.committee.bo.CommitteeBase;
-import org.kuali.kra.common.committee.bo.CommitteeMembershipBase;
-import org.kuali.kra.common.committee.bo.CommitteeMembershipExpertiseBase;
-import org.kuali.kra.common.committee.bo.CommitteeScheduleBase;
-import org.kuali.kra.common.committee.document.authorization.CommitteeScheduleTaskBase;
-import org.kuali.kra.common.committee.document.authorization.CommitteeTaskBase;
-import org.kuali.kra.common.committee.service.CommitteeScheduleServiceBase;
-import org.kuali.kra.common.committee.service.CommitteeServiceBase;
-import org.kuali.kra.common.committee.web.struts.form.CommitteeHelperBase;
+import org.kuali.coeus.common.protocol.impl.actions.print.CorrespondencePrintOption;
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeBase;
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeServiceBase;
+import org.kuali.coeus.common.protocol.impl.committee.membership.CommitteeMembershipBase;
+import org.kuali.coeus.common.protocol.impl.committee.membership.CommitteeMembershipExpertiseBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommitteeScheduleBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.CommitteeScheduleServiceBase;
+import org.kuali.coeus.common.protocol.impl.committee.schedule.task.CommitteeScheduleTaskBase;
+import org.kuali.coeus.common.protocol.impl.committee.task.CommitteeTaskBase;
+import org.kuali.coeus.common.protocol.impl.committee.web.struts.form.CommitteeHelperBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.CorrespondenceTypeModuleIdConstants;
 import org.kuali.kra.iacuc.committee.bo.IacucCommittee;
 import org.kuali.kra.iacuc.committee.bo.IacucCommitteeMembership;
 import org.kuali.kra.iacuc.committee.bo.IacucCommitteeMembershipExpertise;
@@ -40,8 +42,6 @@ import org.kuali.kra.iacuc.committee.service.IacucCommitteeService;
 import org.kuali.kra.iacuc.correspondence.IacucProtocolCorrespondenceType;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.infrastructure.TaskGroupName;
-import org.kuali.kra.protocol.actions.print.CorrespondencePrintOption;
-import org.kuali.kra.protocol.correspondence.CorrespondenceTypeModuleIdConstants;
 import org.kuali.rice.krad.service.BusinessObjectService;
 
 public class IacucCommitteeHelper extends CommitteeHelperBase {

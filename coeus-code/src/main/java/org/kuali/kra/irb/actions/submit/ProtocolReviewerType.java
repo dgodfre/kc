@@ -16,7 +16,7 @@
 package org.kuali.kra.irb.actions.submit;
 
 @SuppressWarnings("serial")
-public class ProtocolReviewerType extends org.kuali.kra.protocol.actions.submit.ProtocolReviewerType {
+public class ProtocolReviewerType extends org.kuali.coeus.common.protocol.impl.actions.submit.ProtocolReviewerType {
 
     public static final String PRIMARY = "1";
 

@@ -15,10 +15,10 @@
  */
 package org.kuali.kra.iacuc.actions.notifycommittee;
 
+import org.kuali.coeus.common.protocol.impl.actions.ActionHelperBase;
+import org.kuali.coeus.common.protocol.impl.actions.notifycommittee.ProtocolNotifyCommitteeBean;
 import org.kuali.kra.iacuc.actions.IacucProtocolActionBean;
 import org.kuali.kra.infrastructure.TaskName;
-import org.kuali.kra.protocol.actions.ActionHelperBase;
-import org.kuali.kra.protocol.actions.notifycommittee.ProtocolNotifyCommitteeBean;
 
 import java.sql.Date;
 

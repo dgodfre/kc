@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.actions;
 
-public class ProtocolEditableBean extends ProtocolActionBean implements org.kuali.kra.protocol.actions.ProtocolEditableBean {
+public class ProtocolEditableBean extends ProtocolActionBean implements org.kuali.coeus.common.protocol.impl.actions.ProtocolEditableBean {
     
     private static final long serialVersionUID = 8009752803115791560L;
     

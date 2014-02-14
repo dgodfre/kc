@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.actions.abandon;
 
-import org.kuali.kra.protocol.actions.abandon.ProtocolAbandonService;
+import org.kuali.coeus.common.protocol.impl.actions.abandon.ProtocolAbandonService;
 
 public interface IacucProtocolAbandonService extends ProtocolAbandonService {
 

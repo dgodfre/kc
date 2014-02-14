@@ -79,70 +79,70 @@
 "KC0078","cost element",NULL,"java.lang.Object","KC1046",3
 "KC0079","DevelopmentProposal",NULL,"org.kuali.kra.proposaldevelopment.bo.DevelopmentProposal","KC1047",1
 "KC0090","Narrative Type Code","Narrative Type Code","java.lang.String","KC1043",1
-"KC0095","IrbProtocol","Irb Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1049",1
-"KC0096","IrbProtocol","Irb Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1050",1
-"KC0097","IrbProtocol","Irb Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1051",1
+"KC0095","IrbProtocol","Irb Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1049",1
+"KC0096","IrbProtocol","Irb Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1050",1
+"KC0097","IrbProtocol","Irb Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1051",1
 "KC0098","Unit number","Unit number","java.lang.String","KC1051",2
-"KC0099","IrbProtocol","Irb Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1052",1
+"KC0099","IrbProtocol","Irb Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1052",1
 "KC0100","Organization Id","Organization Id","java.lang.String","KC1052",2
-"KC0101","IrbProtocol","Irb Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1053",1
+"KC0101","IrbProtocol","Irb Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1053",1
 "KC0102","Sponsor Code","Sponsor Code","java.lang.String","KC1053",2
-"KC0103","IrbProtocol","Irb Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1054",1
+"KC0103","IrbProtocol","Irb Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1054",1
 "KC0104","Unit number","Unit number","java.lang.String","KC1054",2
-"KC0105","IrbProtocol","Irb Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1055",1
+"KC0105","IrbProtocol","Irb Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1055",1
 "KC0106","Area of research code","Area of research code","java.lang.String","KC1055",2
-"KC0107","IrbProtocol","Irb Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1056",1
+"KC0107","IrbProtocol","Irb Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1056",1
 "KC0108","User Id","User Id","java.lang.String","KC1056",2
-"KC0109","IrbProtocol","Irb Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1057",1
+"KC0109","IrbProtocol","Irb Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1057",1
 "KC0110","Campus code","Campus code","java.lang.String","KC1057",2
-"KC0111","IrbProtocol","Irb Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1058",1
+"KC0111","IrbProtocol","Irb Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1058",1
 "KC0112","Document type code","Document type code","java.lang.String","KC1058",2
-"KC0113","IrbProtocol","Irb Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1059",1
+"KC0113","IrbProtocol","Irb Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1059",1
 "KC0114","Submission type code","Submission type code","java.lang.String","KC1059",2
-"KC0115","IrbProtocol","Irb Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1060",1
+"KC0115","IrbProtocol","Irb Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1060",1
 "KC0116","Submission number","Submission number","java.lang.Integer","KC1060",2
 "KC0117","Submission qualifier type code","Submission qualifier type code","java.lang.String","KC1060",3
-"KC0118","IrbProtocol","Irb Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1061",1
+"KC0118","IrbProtocol","Irb Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1061",1
 "KC0119","Submission number","Submission number","java.lang.Integer","KC1061",2
 "KC0120","Submission type code","Submission type code","java.lang.String","KC1061",3
-"KC0121","IrbProtocol","Irb Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1062",1
-"KC0122","IrbProtocol","Irb Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1063",1
-"KC0123","IrbProtocol","Irb Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1064",1
-"KC0124","IrbProtocol","Irb Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1065",1
-"KC0125","IrbProtocol","Irb Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1066",1
-"KC0126","IrbProtocol","Irb Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1067",1
-"KC0127","IacucProtocol","Iacuc Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1069",1
-"KC0128","IacucProtocol","Iacuc Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1070",1
-"KC0129","IacucProtocol","Iacuc Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1071",1
+"KC0121","IrbProtocol","Irb Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1062",1
+"KC0122","IrbProtocol","Irb Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1063",1
+"KC0123","IrbProtocol","Irb Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1064",1
+"KC0124","IrbProtocol","Irb Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1065",1
+"KC0125","IrbProtocol","Irb Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1066",1
+"KC0126","IrbProtocol","Irb Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1067",1
+"KC0127","IacucProtocol","Iacuc Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1069",1
+"KC0128","IacucProtocol","Iacuc Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1070",1
+"KC0129","IacucProtocol","Iacuc Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1071",1
 "KC0130","Unit number","Unit number","java.lang.String","KC1071",2
-"KC0131","IacucProtocol","Iacuc Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1072",1
+"KC0131","IacucProtocol","Iacuc Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1072",1
 "KC0132","Organization Id","Organization Id","java.lang.String","KC1072",2
-"KC0133","IacucProtocol","Iacuc Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1073",1
+"KC0133","IacucProtocol","Iacuc Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1073",1
 "KC0134","Sponsor Code","Sponsor Code","java.lang.String","KC1073",2
-"KC0135","IacucProtocol","Iacuc Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1074",1
+"KC0135","IacucProtocol","Iacuc Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1074",1
 "KC0136","Unit number","Unit number","java.lang.String","KC1074",2
-"KC0137","IacucProtocol","Iacuc Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1075",1
+"KC0137","IacucProtocol","Iacuc Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1075",1
 "KC0138","Area of research code","Area of research code","java.lang.String","KC1075",2
-"KC0139","IacucProtocol","Iacuc Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1076",1
+"KC0139","IacucProtocol","Iacuc Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1076",1
 "KC0140","User Id","User Id","java.lang.String","KC1076",2
-"KC0141","IacucProtocol","Iacuc Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1077",1
+"KC0141","IacucProtocol","Iacuc Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1077",1
 "KC0142","Campus code","Campus code","java.lang.String","KC1077",2
-"KC0143","IacucProtocol","Iacuc Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1078",1
+"KC0143","IacucProtocol","Iacuc Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1078",1
 "KC0144","Document type code","Document type code","java.lang.String","KC1078",2
-"KC0145","IacucProtocol","Iacuc Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1079",1
+"KC0145","IacucProtocol","Iacuc Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1079",1
 "KC0146","Submission type code","Submission type code","java.lang.String","KC1079",2
-"KC0147","IacucProtocol","Iacuc Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1080",1
+"KC0147","IacucProtocol","Iacuc Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1080",1
 "KC0148","Submission number","Submission number","java.lang.Integer","KC1080",2
 "KC0149","Submission qualifier type code","Submission qualifier type code","java.lang.String","KC1080",3
-"KC0150","IacucProtocol","Iacuc Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1081",1
+"KC0150","IacucProtocol","Iacuc Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1081",1
 "KC0151","Submission number","Submission number","java.lang.Integer","KC1081",2
 "KC0152","Submission type code","Submission type code","java.lang.String","KC1081",3
-"KC0153","IacucProtocol","Iacuc Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1082",1
-"KC0154","IacucProtocol","Iacuc Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1083",1
-"KC0155","IacucProtocol","Iacuc Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1084",1
-"KC0156","IacucProtocol","Iacuc Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1085",1
-"KC0157","IacucProtocol","Iacuc Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1086",1
-"KC0158","IacucProtocol","Iacuc Protocol BO","org.kuali.kra.protocol.ProtocolBase","KC1087",1
+"KC0153","IacucProtocol","Iacuc Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1082",1
+"KC0154","IacucProtocol","Iacuc Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1083",1
+"KC0155","IacucProtocol","Iacuc Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1084",1
+"KC0156","IacucProtocol","Iacuc Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1085",1
+"KC0157","IacucProtocol","Iacuc Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1086",1
+"KC0158","IacucProtocol","Iacuc Protocol BO","org.kuali.coeus.common.protocol.impl.ProtocolBase","KC1087",1
 "KC0159","IrbProtocol","Irb Protocol BO","org.kuali.kra.irb.Protocol","KC1088",1
 "KC0160","Subject Type Code","Subject Type Code","java.lang.String","KC1088",2
 "KC10000","CoiDisclosure","COI Disclosure","org.kuali.kra.coi.CoiDisclosure","KC10000",1

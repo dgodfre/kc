@@ -20,6 +20,6 @@ package org.kuali.kra.irb.actions.abandon;
  * 
  * This class is the Api for abandon protocol
  */
-public interface ProtocolAbandonService extends org.kuali.kra.protocol.actions.abandon.ProtocolAbandonService {
+public interface ProtocolAbandonService extends org.kuali.coeus.common.protocol.impl.actions.abandon.ProtocolAbandonService {
 
 }

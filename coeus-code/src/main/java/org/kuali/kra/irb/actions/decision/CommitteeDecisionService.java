@@ -18,6 +18,6 @@ package org.kuali.kra.irb.actions.decision;
 /**
  * The Committee Decision Service processes committee decisions.
  */
-public interface CommitteeDecisionService extends org.kuali.kra.protocol.actions.decision.CommitteeDecisionService<CommitteeDecision> {
+public interface CommitteeDecisionService extends org.kuali.coeus.common.protocol.impl.actions.decision.CommitteeDecisionService<CommitteeDecision> {
 
 }

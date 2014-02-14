@@ -21,7 +21,7 @@ import org.jmock.integration.junit4.JUnit4Mockery;
 import org.jmock.lib.concurrent.Synchroniser;
 import org.junit.Before;
 import org.junit.Test;
-import org.kuali.kra.common.committee.bo.CommitteeDecisionMotionType;
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeDecisionMotionType;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.irb.Protocol;
 import org.kuali.kra.irb.ProtocolDao;

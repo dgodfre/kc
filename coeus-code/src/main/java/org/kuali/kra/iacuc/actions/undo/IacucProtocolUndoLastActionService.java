@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.actions.undo;
 
-import org.kuali.kra.protocol.actions.undo.UndoLastActionService;
+import org.kuali.coeus.common.protocol.impl.actions.undo.UndoLastActionService;
 
 public interface IacucProtocolUndoLastActionService extends UndoLastActionService {
 

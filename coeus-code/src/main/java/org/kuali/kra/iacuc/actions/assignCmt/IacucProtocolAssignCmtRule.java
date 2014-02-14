@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc.actions.assignCmt;
 
-import org.kuali.kra.protocol.ProtocolDocumentBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolDocumentBase;
 import org.kuali.rice.krad.rules.rule.BusinessRule;
 
 public interface IacucProtocolAssignCmtRule extends BusinessRule {

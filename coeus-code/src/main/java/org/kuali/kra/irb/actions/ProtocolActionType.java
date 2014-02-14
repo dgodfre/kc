@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb.actions;
 
-import org.kuali.kra.protocol.actions.ProtocolActionTypeBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionTypeBase;
 
 /**
  * A Protocol Action Type refers to the type of actions that an

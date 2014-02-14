@@ -16,13 +16,16 @@
 package org.kuali.kra.committee.service.impl;
 
 import org.apache.commons.lang.StringUtils;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.actions.ProtocolActionBase;
+import org.kuali.coeus.common.protocol.impl.committee.corresp.CommitteeBatchCorrespondenceBase;
+import org.kuali.coeus.common.protocol.impl.committee.corresp.CommitteeBatchCorrespondenceDetailBase;
+import org.kuali.coeus.common.protocol.impl.committee.corresp.CommitteeBatchCorrespondenceServiceImplBase;
+import org.kuali.coeus.common.protocol.impl.correspondence.BatchCorrespondenceBase;
 import org.kuali.kra.committee.bo.CommitteeBatchCorrespondence;
 import org.kuali.kra.committee.bo.CommitteeBatchCorrespondenceDetail;
 import org.kuali.kra.committee.service.CommitteeBatchCorrespondenceService;
 import org.kuali.kra.committee.service.CommitteePrintingService;
-import org.kuali.kra.common.committee.bo.CommitteeBatchCorrespondenceBase;
-import org.kuali.kra.common.committee.bo.CommitteeBatchCorrespondenceDetailBase;
-import org.kuali.kra.common.committee.service.impl.CommitteeBatchCorrespondenceServiceImplBase;
 import org.kuali.kra.infrastructure.Constants;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.irb.Protocol;
@@ -36,9 +39,6 @@ import org.kuali.kra.irb.correspondence.BatchCorrespondence;
 import org.kuali.kra.irb.correspondence.ProtocolCorrespondence;
 import org.kuali.kra.irb.correspondence.ProtocolCorrespondenceType;
 import org.kuali.kra.irb.notification.IRBNotificationContext;
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.actions.ProtocolActionBase;
-import org.kuali.kra.protocol.correspondence.BatchCorrespondenceBase;
 
 import java.sql.Date;
 import java.util.List;
@@ -163,7 +163,7 @@ public class CommitteeBatchCorrespondenceServiceImpl extends CommitteeBatchCorre
     }
 
     @Override
-    protected Class<? extends org.kuali.kra.protocol.correspondence.ProtocolCorrespondence> getProtocolCorrespondenceBOClassHook() {
+    protected Class<? extends org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondence> getProtocolCorrespondenceBOClassHook() {
         return ProtocolCorrespondence.class;
     }
 
@@ -178,7 +178,7 @@ public class CommitteeBatchCorrespondenceServiceImpl extends CommitteeBatchCorre
     }
 
     @Override
-    protected org.kuali.kra.protocol.correspondence.ProtocolCorrespondence getNewProtocolCorrespondenceInstanceHook() {
+    protected org.kuali.coeus.common.protocol.impl.correspondence.ProtocolCorrespondence getNewProtocolCorrespondenceInstanceHook() {
         return new ProtocolCorrespondence();
     }
 

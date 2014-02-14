@@ -17,7 +17,7 @@ package org.kuali.kra.irb.actions.withdraw;
 
 import org.kuali.kra.irb.actions.ActionHelper;
 
-public class ProtocolAdministrativelyIncompleteBean extends ProtocolWithdrawBean implements org.kuali.kra.protocol.actions.withdraw.ProtocolAdministrativelyIncompleteBean {
+public class ProtocolAdministrativelyIncompleteBean extends ProtocolWithdrawBean implements org.kuali.coeus.common.protocol.impl.actions.withdraw.ProtocolAdministrativelyIncompleteBean {
 
     /**
      * Comment for <code>serialVersionUID</code>

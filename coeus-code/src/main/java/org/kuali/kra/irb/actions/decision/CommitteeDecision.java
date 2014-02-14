@@ -15,9 +15,10 @@
  */
 package org.kuali.kra.irb.actions.decision;
 
+import org.kuali.coeus.common.protocol.impl.actions.reviewcomments.ReviewCommentsBeanBase;
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeDecisionMotionType;
+import org.kuali.coeus.common.protocol.impl.committee.membership.CommitteeMembershipBase;
 import org.kuali.kra.committee.service.CommitteeService;
-import org.kuali.kra.common.committee.bo.CommitteeDecisionMotionType;
-import org.kuali.kra.common.committee.bo.CommitteeMembershipBase;
 import org.kuali.kra.infrastructure.Constants;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.irb.actions.ActionHelper;
@@ -27,7 +28,6 @@ import org.kuali.kra.irb.actions.reviewcomments.ReviewCommentsBean;
 import org.kuali.kra.irb.actions.submit.ProtocolSubmission;
 import org.kuali.kra.meeting.ProtocolVoteAbstainee;
 import org.kuali.kra.meeting.ProtocolVoteRecused;
-import org.kuali.kra.protocol.actions.reviewcomments.ReviewCommentsBeanBase;
 import org.kuali.rice.krad.service.BusinessObjectService;
 
 import java.util.*;
@@ -35,7 +35,7 @@ import java.util.*;
 /**
  * This class is a bean for managing the input for a committee decision.
  */
-public class CommitteeDecision extends ProtocolActionBean implements org.kuali.kra.protocol.actions.decision.CommitteeDecision<CommitteePerson> {
+public class CommitteeDecision extends ProtocolActionBean implements org.kuali.coeus.common.protocol.impl.actions.decision.CommitteeDecision<CommitteePerson> {
 
     private static final long serialVersionUID = -8052093280852074307L;
     

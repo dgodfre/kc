@@ -21,7 +21,7 @@ import org.kuali.kra.irb.actions.expeditedapprove.ProtocolExpeditedApproveBean;
 /**
  * Handles the processing of assigning a protocol to an agenda.
  */
-public interface ProtocolAssignToAgendaService extends org.kuali.kra.protocol.actions.assignagenda.ProtocolAssignToAgendaService {
+public interface ProtocolAssignToAgendaService extends org.kuali.coeus.common.protocol.impl.actions.assignagenda.ProtocolAssignToAgendaService {
 
     void assignToAgenda(Protocol protocol, ProtocolExpeditedApproveBean actionBean) throws Exception;
 }

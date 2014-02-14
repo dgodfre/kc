@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.actions.correction;
 
+import org.kuali.coeus.common.protocol.impl.actions.correction.AdminCorrectionBean;
 import org.kuali.kra.iacuc.actions.IacucActionHelper;
 import org.kuali.kra.iacuc.actions.IacucProtocolEditableBean;
-import org.kuali.kra.protocol.actions.correction.AdminCorrectionBean;
 
 public class IacucAdminCorrectionBean extends IacucProtocolEditableBean implements AdminCorrectionBean {
 

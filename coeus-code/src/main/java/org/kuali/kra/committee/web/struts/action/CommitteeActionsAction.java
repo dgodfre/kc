@@ -15,18 +15,18 @@
  */
 package org.kuali.kra.committee.web.struts.action;
 
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeBase;
+import org.kuali.coeus.common.protocol.impl.committee.corresp.CommitteeBatchCorrespondenceServiceBase;
+import org.kuali.coeus.common.protocol.impl.committee.corresp.event.CommitteeActionGenerateBatchCorrespondenceEventBase;
+import org.kuali.coeus.common.protocol.impl.committee.print.CommitteePrintingServiceBase;
+import org.kuali.coeus.common.protocol.impl.committee.task.CommitteeTaskBase;
+import org.kuali.coeus.common.protocol.impl.committee.web.struts.action.CommitteeActionsActionBase;
 import org.kuali.kra.committee.bo.Committee;
 import org.kuali.kra.committee.dao.CommitteeBatchCorrespondenceDao;
 import org.kuali.kra.committee.rule.event.CommitteeActionGenerateBatchCorrespondenceEvent;
 import org.kuali.kra.committee.service.CommitteeBatchCorrespondenceService;
 import org.kuali.kra.committee.service.CommitteeCorrespondencePrint;
 import org.kuali.kra.committee.service.CommitteePrintingService;
-import org.kuali.kra.common.committee.bo.CommitteeBase;
-import org.kuali.kra.common.committee.document.authorization.CommitteeTaskBase;
-import org.kuali.kra.common.committee.print.service.CommitteePrintingServiceBase;
-import org.kuali.kra.common.committee.rule.event.CommitteeActionGenerateBatchCorrespondenceEventBase;
-import org.kuali.kra.common.committee.service.CommitteeBatchCorrespondenceServiceBase;
-import org.kuali.kra.common.committee.web.struts.action.CommitteeActionsActionBase;
 import org.kuali.kra.common.printing.CorrespondencePrintingService;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.infrastructure.TaskGroupName;
@@ -65,7 +65,7 @@ public class CommitteeActionsAction extends CommitteeActionsActionBase {
     }
 
     @Override
-    protected org.kuali.kra.common.committee.dao.CommitteeBatchCorrespondenceDao getCommitteeBatchCorrespondenceDao() {
+    protected org.kuali.coeus.common.protocol.impl.committee.corresp.CommitteeBatchCorrespondenceDao getCommitteeBatchCorrespondenceDao() {
         return KraServiceLocator.getService(CommitteeBatchCorrespondenceDao.class);
     }
 

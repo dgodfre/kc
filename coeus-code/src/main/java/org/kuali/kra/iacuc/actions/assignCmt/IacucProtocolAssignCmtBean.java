@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.actions.assignCmt;
 
+import org.kuali.coeus.common.protocol.impl.actions.ActionHelperBase;
 import org.kuali.kra.iacuc.actions.IacucProtocolActionBean;
 import org.kuali.kra.infrastructure.KraServiceLocator;
-import org.kuali.kra.protocol.actions.ActionHelperBase;
 
 import java.io.Serializable;
 

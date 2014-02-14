@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.personnel;
 
-import org.kuali.kra.protocol.ProtocolDocumentBase;
-import org.kuali.kra.protocol.personnel.SaveProtocolPersonnelEventBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolDocumentBase;
+import org.kuali.coeus.common.protocol.impl.personnel.SaveProtocolPersonnelEventBase;
 import org.kuali.kra.rule.BusinessRuleInterface;
 
 /**

@@ -18,7 +18,7 @@ package org.kuali.kra.irb.personnel;
 import org.kuali.kra.irb.ProtocolDocument;
 import org.kuali.kra.irb.noteattachment.ProtocolAttachmentPersonnel;
 
-public class AddProtocolAttachmentPersonnelEvent extends org.kuali.kra.protocol.personnel.AddProtocolAttachmentPersonnelEvent {
+public class AddProtocolAttachmentPersonnelEvent extends org.kuali.coeus.common.protocol.impl.personnel.AddProtocolAttachmentPersonnelEvent {
     
     protected AddProtocolAttachmentPersonnelEvent(String errorPathPrefix, ProtocolDocument document, ProtocolAttachmentPersonnel protocolAttachmentPersonnel, int personIndex) {
         super(errorPathPrefix, document, protocolAttachmentPersonnel, personIndex);

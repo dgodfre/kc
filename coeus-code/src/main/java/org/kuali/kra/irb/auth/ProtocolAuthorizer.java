@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.irb.auth;
 
+import org.kuali.coeus.common.protocol.impl.auth.ProtocolAuthorizerBase;
+import org.kuali.coeus.common.protocol.impl.auth.ProtocolTaskBase;
 import org.kuali.kra.irb.Protocol;
-import org.kuali.kra.protocol.auth.ProtocolAuthorizerBase;
-import org.kuali.kra.protocol.auth.ProtocolTaskBase;
 
 /**
  * A Protocol Authorizer determines if a user can perform

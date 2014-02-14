@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.actions.approve;
 
+import org.kuali.coeus.common.protocol.impl.actions.approve.ProtocolApproveBean;
 import org.kuali.kra.iacuc.actions.IacucActionHelper;
 import org.kuali.kra.iacuc.actions.genericactions.IacucProtocolGenericActionBean;
-import org.kuali.kra.protocol.actions.approve.ProtocolApproveBean;
 
 import java.sql.Date;
 

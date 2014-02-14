@@ -17,6 +17,6 @@ package org.kuali.kra.irb.specialreview;
 
 
 
-public interface ProtocolSpecialReviewService extends org.kuali.kra.protocol.specialreview.ProtocolSpecialReviewService{
+public interface ProtocolSpecialReviewService extends org.kuali.coeus.common.protocol.impl.specialreview.ProtocolSpecialReviewService{
 
 }

@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.actions.approve;
 
+import org.kuali.coeus.common.protocol.impl.actions.approve.ProtocolApproveEventBase;
 import org.kuali.kra.iacuc.IacucProtocolDocument;
-import org.kuali.kra.protocol.actions.approve.ProtocolApproveEventBase;
 
 public class IacucProtocolApproveEvent extends ProtocolApproveEventBase {
 

@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.irb.noteattachment;
 
+import org.kuali.coeus.common.protocol.impl.noteattachment.ProtocolAttachmentProtocolBase;
 import org.kuali.kra.irb.Protocol;
-import org.kuali.kra.protocol.noteattachment.ProtocolAttachmentProtocolBase;
 
 /**
  * This class represents the Protocol Attachment Protocol.

@@ -15,11 +15,11 @@
  */
 package org.kuali.kra.irb.protocol;
 
+import org.kuali.coeus.common.protocol.impl.protocol.ProtocolReferenceTypeValuesFinderBase;
+import org.kuali.coeus.common.protocol.impl.protocol.reference.ProtocolReferenceTypeBase;
 import org.kuali.kra.infrastructure.KraServiceLocator;
 import org.kuali.kra.irb.protocol.reference.ProtocolReferenceType;
 import org.kuali.kra.lookup.keyvalue.PrefixValuesFinder;
-import org.kuali.kra.protocol.protocol.ProtocolReferenceTypeValuesFinderBase;
-import org.kuali.kra.protocol.protocol.reference.ProtocolReferenceTypeBase;
 import org.kuali.rice.core.api.util.ConcreteKeyValue;
 import org.kuali.rice.core.api.util.KeyValue;
 import org.kuali.rice.krad.service.KeyValuesService;

@@ -15,15 +15,15 @@
  */
 package org.kuali.kra.iacuc.auth;
 
-import org.kuali.kra.common.committee.bo.CommitteeDecisionMotionType;
+import org.kuali.coeus.common.protocol.impl.auth.ProtocolAuthorizerBase;
+import org.kuali.coeus.common.protocol.impl.auth.ProtocolTaskBase;
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeDecisionMotionType;
 import org.kuali.kra.iacuc.actions.IacucProtocolAction;
 import org.kuali.kra.iacuc.actions.IacucProtocolActionType;
 import org.kuali.kra.iacuc.actions.IacucProtocolStatus;
 import org.kuali.kra.iacuc.actions.submit.IacucProtocolReviewType;
 import org.kuali.kra.iacuc.actions.submit.IacucProtocolSubmission;
 import org.kuali.kra.iacuc.actions.submit.IacucProtocolSubmissionStatus;
-import org.kuali.kra.protocol.auth.ProtocolAuthorizerBase;
-import org.kuali.kra.protocol.auth.ProtocolTaskBase;
 import org.kuali.rice.krad.util.ObjectUtils;
 
 public abstract class IacucProtocolAuthorizer extends ProtocolAuthorizerBase {

@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.onlinereview;
 
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewRedirectActionBase;
+import org.kuali.coeus.common.protocol.impl.onlinereview.ProtocolOnlineReviewService;
 import org.kuali.kra.iacuc.IacucProtocol;
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewRedirectActionBase;
-import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewService;
 
 public class IacucProtocolOnlineReviewRedirectAction extends ProtocolOnlineReviewRedirectActionBase{
 

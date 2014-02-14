@@ -15,11 +15,12 @@
  */
 package org.kuali.kra.iacuc.service.impl;
 
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeBase;
+import org.kuali.coeus.common.protocol.impl.committee.CommitteeResearchAreaBase;
+import org.kuali.coeus.common.protocol.impl.committee.membership.CommitteeMembershipBase;
+import org.kuali.coeus.common.protocol.impl.committee.membership.CommitteeMembershipExpertiseBase;
+import org.kuali.coeus.common.protocol.impl.protocol.research.ProtocolResearchAreaBase;
 import org.kuali.kra.bo.ResearchAreaBase;
-import org.kuali.kra.common.committee.bo.CommitteeBase;
-import org.kuali.kra.common.committee.bo.CommitteeMembershipBase;
-import org.kuali.kra.common.committee.bo.CommitteeMembershipExpertiseBase;
-import org.kuali.kra.common.committee.bo.CommitteeResearchAreaBase;
 import org.kuali.kra.iacuc.IacucResearchArea;
 import org.kuali.kra.iacuc.committee.bo.IacucCommittee;
 import org.kuali.kra.iacuc.committee.bo.IacucCommitteeMembership;
@@ -27,7 +28,6 @@ import org.kuali.kra.iacuc.committee.bo.IacucCommitteeMembershipExpertise;
 import org.kuali.kra.iacuc.committee.bo.IacucCommitteeResearchArea;
 import org.kuali.kra.iacuc.protocol.research.IacucProtocolResearchArea;
 import org.kuali.kra.iacuc.service.IacucResearchAreasService;
-import org.kuali.kra.protocol.protocol.research.ProtocolResearchAreaBase;
 import org.kuali.kra.service.impl.ResearchAreasServiceBaseImpl;
 
 public class IacucResearchAreasServiceImpl extends ResearchAreasServiceBaseImpl implements IacucResearchAreasService {

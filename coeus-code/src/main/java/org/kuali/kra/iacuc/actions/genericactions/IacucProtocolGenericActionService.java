@@ -15,9 +15,9 @@
  */
 package org.kuali.kra.iacuc.actions.genericactions;
 
-import org.kuali.kra.protocol.ProtocolBase;
-import org.kuali.kra.protocol.actions.genericactions.ProtocolGenericActionBean;
-import org.kuali.kra.protocol.actions.genericactions.ProtocolGenericActionService;
+import org.kuali.coeus.common.protocol.impl.ProtocolBase;
+import org.kuali.coeus.common.protocol.impl.actions.genericactions.ProtocolGenericActionBean;
+import org.kuali.coeus.common.protocol.impl.actions.genericactions.ProtocolGenericActionService;
 
 public interface IacucProtocolGenericActionService extends ProtocolGenericActionService {
     

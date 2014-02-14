@@ -15,8 +15,8 @@
  */
 package org.kuali.kra.iacuc.actions.followup;
 
+import org.kuali.coeus.common.protocol.impl.actions.followup.FollowupActionService;
 import org.kuali.kra.iacuc.actions.submit.IacucValidProtocolActionAction;
-import org.kuali.kra.protocol.actions.followup.FollowupActionService;
 
 public interface IacucFollowupActionService extends FollowupActionService<IacucValidProtocolActionAction> {    
 

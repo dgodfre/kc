@@ -18,7 +18,7 @@ package org.kuali.kra.iacuc;
 import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionForward;
 import org.apache.struts.action.ActionMapping;
-import org.kuali.kra.protocol.ProtocolFormBase;
+import org.kuali.coeus.common.protocol.impl.ProtocolFormBase;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

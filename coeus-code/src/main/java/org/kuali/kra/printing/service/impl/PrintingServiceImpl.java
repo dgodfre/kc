@@ -34,6 +34,8 @@ import org.kuali.kra.printing.service.WatermarkService;
 import org.kuali.kra.proposaldevelopment.bo.AttachmentDataSource;
 import org.kuali.rice.core.api.config.property.ConfigurationService;
 import org.kuali.rice.core.api.datetime.DateTimeService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 import javax.xml.transform.*;
 import javax.xml.transform.sax.SAXResult;
@@ -55,9 +57,16 @@ public class PrintingServiceImpl implements PrintingService {
 
     private static final Log LOG = LogFactory.getLog(PrintingServiceImpl.class);
 
+    @Autowired
+    @Qualifier("dateTimeService")
     private DateTimeService dateTimeService = null;
+    
+    @Autowired
+    @Qualifier("watermarkService")
     private WatermarkService watermarkService;
 
+    @Autowired
+    @Qualifier("configurationService")
     private ConfigurationService kualiConfigurationService;
 
 
