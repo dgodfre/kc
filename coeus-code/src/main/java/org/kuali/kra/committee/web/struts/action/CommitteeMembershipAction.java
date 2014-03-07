@@ -22,7 +22,7 @@ import org.kuali.coeus.common.committee.impl.rule.event.DeleteCommitteeMemberEve
 import org.kuali.coeus.common.committee.impl.rules.CommitteeDocumentRuleBase;
 import org.kuali.coeus.common.committee.impl.service.CommitteeMembershipServiceBase;
 import org.kuali.coeus.common.committee.impl.web.struts.action.CommitteeMembershipActionBase;
-import org.kuali.kra.bo.ResearchAreaBase;
+import org.kuali.coeus.common.framework.research.area.ResearchAreaBase;
 import org.kuali.kra.committee.bo.Committee;
 import org.kuali.kra.committee.bo.CommitteeMembership;
 import org.kuali.kra.committee.rule.event.DeleteCommitteeMemberEvent;

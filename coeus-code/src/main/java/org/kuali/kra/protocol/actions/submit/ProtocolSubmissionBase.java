@@ -22,7 +22,7 @@ import org.kuali.coeus.common.committee.impl.bo.CommitteeScheduleBase;
 import org.kuali.coeus.common.committee.impl.meeting.CommitteeScheduleMinuteBase;
 import org.kuali.coeus.common.committee.impl.meeting.ProtocolVoteAbstaineeBase;
 import org.kuali.coeus.common.committee.impl.meeting.ProtocolVoteRecusedBase;
-import org.kuali.kra.SkipVersioning;
+import org.kuali.coeus.common.framework.version.SkipVersioning;
 import org.kuali.kra.protocol.ProtocolAssociateBase;
 import org.kuali.kra.protocol.onlinereview.ProtocolOnlineReviewBase;
 import org.kuali.kra.protocol.onlinereview.ProtocolReviewAttachmentBase;

@@ -19,7 +19,7 @@ import org.kuali.coeus.common.committee.impl.bo.CommitteeBase;
 import org.kuali.coeus.common.committee.impl.bo.CommitteeMembershipBase;
 import org.kuali.coeus.common.committee.impl.bo.CommitteeMembershipExpertiseBase;
 import org.kuali.coeus.common.committee.impl.bo.CommitteeResearchAreaBase;
-import org.kuali.kra.bo.ResearchAreaBase;
+import org.kuali.coeus.common.framework.research.area.ResearchAreaBase;
 import org.kuali.kra.iacuc.IacucResearchArea;
 import org.kuali.kra.iacuc.committee.bo.IacucCommittee;
 import org.kuali.kra.iacuc.committee.bo.IacucCommitteeMembership;

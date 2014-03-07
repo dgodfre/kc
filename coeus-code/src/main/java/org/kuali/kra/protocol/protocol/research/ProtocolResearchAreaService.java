@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.protocol.protocol.research;
 
-import org.kuali.kra.bo.ResearchAreaBase;
+import org.kuali.coeus.common.framework.research.area.ResearchAreaBase;
 import org.kuali.kra.protocol.ProtocolBase;
 
 import java.util.Collection;

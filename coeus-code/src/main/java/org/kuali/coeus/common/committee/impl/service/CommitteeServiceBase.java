@@ -18,7 +18,7 @@ package org.kuali.coeus.common.committee.impl.service;
 import org.kuali.coeus.common.committee.impl.bo.CommitteeBase;
 import org.kuali.coeus.common.committee.impl.bo.CommitteeMembershipBase;
 import org.kuali.coeus.common.committee.impl.bo.CommitteeScheduleBase;
-import org.kuali.kra.bo.ResearchAreaBase;
+import org.kuali.coeus.common.framework.research.area.ResearchAreaBase;
 import org.kuali.rice.core.api.util.KeyValue;
 
 import java.util.Collection;

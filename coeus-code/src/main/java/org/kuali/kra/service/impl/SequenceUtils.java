@@ -22,6 +22,7 @@ import org.apache.commons.logging.LogFactory;
 import org.kuali.coeus.common.framework.sequence.Sequenceable;
 import org.kuali.coeus.common.framework.sequence.associate.SequenceAssociate;
 import org.kuali.coeus.common.framework.sequence.owner.SequenceOwner;
+import org.kuali.coeus.common.framework.version.SkipVersioning;
 import org.kuali.coeus.common.framework.version.VersionException;
 import org.kuali.kra.*;
 import org.kuali.rice.krad.bo.PersistableBusinessObject;

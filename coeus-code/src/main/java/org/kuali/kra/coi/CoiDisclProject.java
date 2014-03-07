@@ -17,8 +17,8 @@ package org.kuali.kra.coi;
 
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.kuali.coeus.common.framework.version.SkipVersioning;
 import org.kuali.coeus.sys.framework.model.KcPersistableBusinessObjectBase;
-import org.kuali.kra.SkipVersioning;
 import org.kuali.kra.award.home.Award;
 import org.kuali.kra.iacuc.IacucProtocol;
 import org.kuali.kra.iacuc.protocol.IacucProtocolType;

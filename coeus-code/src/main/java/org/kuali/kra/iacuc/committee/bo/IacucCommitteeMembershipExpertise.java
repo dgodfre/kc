@@ -16,7 +16,7 @@
 package org.kuali.kra.iacuc.committee.bo;
 
 import org.kuali.coeus.common.committee.impl.bo.CommitteeMembershipExpertiseBase;
-import org.kuali.kra.bo.ResearchAreaBase;
+import org.kuali.coeus.common.framework.research.area.ResearchAreaBase;
 import org.kuali.kra.iacuc.IacucResearchArea;
 
 public class IacucCommitteeMembershipExpertise extends CommitteeMembershipExpertiseBase {

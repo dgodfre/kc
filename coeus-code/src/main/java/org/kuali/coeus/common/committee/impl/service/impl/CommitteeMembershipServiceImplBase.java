@@ -20,7 +20,7 @@ import org.kuali.coeus.common.committee.impl.bo.*;
 import org.kuali.coeus.common.committee.impl.meeting.CommitteeScheduleAttendanceBase;
 import org.kuali.coeus.common.committee.impl.service.CommitteeMembershipServiceBase;
 import org.kuali.coeus.common.committee.impl.service.CommitteeServiceBase;
-import org.kuali.kra.bo.ResearchAreaBase;
+import org.kuali.coeus.common.framework.research.area.ResearchAreaBase;
 import org.kuali.kra.protocol.actions.submit.ProtocolReviewer;
 import org.kuali.kra.protocol.actions.submit.ProtocolSubmissionBase;
 import org.kuali.rice.krad.service.BusinessObjectService;

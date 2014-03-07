@@ -20,7 +20,7 @@ import org.kuali.coeus.common.committee.impl.document.authorization.CommitteeTas
 import org.kuali.coeus.common.committee.impl.rules.CommitteeDocumentRuleBase;
 import org.kuali.coeus.common.committee.impl.service.CommitteeServiceBase;
 import org.kuali.coeus.common.committee.impl.web.struts.action.CommitteeCommitteeActionBase;
-import org.kuali.kra.bo.ResearchAreaBase;
+import org.kuali.coeus.common.framework.research.area.ResearchAreaBase;
 import org.kuali.kra.committee.bo.Committee;
 import org.kuali.kra.committee.rules.CommitteeDocumentRule;
 import org.kuali.kra.committee.service.CommitteeService;

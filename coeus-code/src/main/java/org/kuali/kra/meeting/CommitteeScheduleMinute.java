@@ -16,8 +16,8 @@
 package org.kuali.kra.meeting;
 
 import org.kuali.coeus.common.committee.impl.meeting.CommitteeScheduleMinuteBase;
+import org.kuali.coeus.common.framework.version.SkipVersioning;
 import org.kuali.coeus.sys.framework.service.KcServiceLocator;
-import org.kuali.kra.SkipVersioning;
 import org.kuali.kra.committee.bo.CommitteeSchedule;
 import org.kuali.kra.infrastructure.RoleConstants;
 import org.kuali.kra.irb.actions.submit.ProtocolSubmission;

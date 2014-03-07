@@ -25,8 +25,8 @@ import org.kuali.coeus.common.committee.impl.document.authorization.CommitteeTas
 import org.kuali.coeus.common.committee.impl.rules.CommitteeDocumentRuleBase;
 import org.kuali.coeus.common.committee.impl.service.CommitteeServiceBase;
 import org.kuali.coeus.common.committee.impl.web.struts.form.CommitteeFormBase;
+import org.kuali.coeus.common.framework.research.area.ResearchAreaBase;
 import org.kuali.coeus.sys.framework.service.KcServiceLocator;
-import org.kuali.kra.bo.ResearchAreaBase;
 import org.kuali.kra.infrastructure.Constants;
 import org.kuali.kra.infrastructure.TaskName;
 import org.kuali.rice.krad.bo.PersistableBusinessObject;

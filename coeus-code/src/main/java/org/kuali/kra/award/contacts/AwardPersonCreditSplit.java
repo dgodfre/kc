@@ -16,9 +16,9 @@
 package org.kuali.kra.award.contacts;
 
 import org.kuali.coeus.common.framework.sequence.associate.SequenceAssociate;
+import org.kuali.coeus.common.framework.version.SkipVersioning;
 import org.kuali.coeus.sys.framework.model.KcPersistableBusinessObjectBase;
 import org.kuali.coeus.sys.framework.service.KcServiceLocator;
-import org.kuali.kra.SkipVersioning;
 import org.kuali.kra.award.home.Award;
 import org.kuali.kra.proposaldevelopment.bo.CreditSplit;
 import org.kuali.kra.proposaldevelopment.bo.InvestigatorCreditType;

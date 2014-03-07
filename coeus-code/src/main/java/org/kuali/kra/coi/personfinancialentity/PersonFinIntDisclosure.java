@@ -17,8 +17,8 @@ package org.kuali.kra.coi.personfinancialentity;
 
 import org.apache.commons.lang3.StringUtils;
 import org.kuali.coeus.common.framework.sequence.owner.SequenceOwner;
+import org.kuali.coeus.common.framework.version.SkipVersioning;
 import org.kuali.coeus.sys.framework.model.KcPersistableBusinessObjectBase;
-import org.kuali.kra.SkipVersioning;
 import org.kuali.kra.bo.OrganizationTypeList;
 import org.kuali.kra.bo.Sponsor;
 import org.kuali.kra.coi.notesandattachments.attachments.FinancialEntityAttachment;

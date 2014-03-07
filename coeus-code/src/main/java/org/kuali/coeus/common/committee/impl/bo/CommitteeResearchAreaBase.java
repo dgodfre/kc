@@ -15,7 +15,7 @@
  */
 package org.kuali.coeus.common.committee.impl.bo;
 
-import org.kuali.kra.bo.ResearchAreaBase;
+import org.kuali.coeus.common.framework.research.area.ResearchAreaBase;
 
 /**
  * This class implements the committee research area business object.

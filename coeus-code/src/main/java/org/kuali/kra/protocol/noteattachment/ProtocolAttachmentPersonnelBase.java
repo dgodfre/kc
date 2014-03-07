@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.protocol.noteattachment;
 
-import org.kuali.kra.SkipVersioning;
+import org.kuali.coeus.common.framework.version.SkipVersioning;
 import org.kuali.kra.protocol.ProtocolBase;
 import org.kuali.kra.protocol.personnel.ProtocolPersonBase;
 

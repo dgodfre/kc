@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.irb;
 
-import org.kuali.kra.bo.ResearchAreaBase;
+import org.kuali.coeus.common.framework.research.area.ResearchAreaBase;
 
 
 public class ResearchArea extends ResearchAreaBase {

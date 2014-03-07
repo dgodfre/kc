@@ -16,7 +16,7 @@
 package org.kuali.kra.service.impl.versioningartifacts;
 
 import org.kuali.coeus.common.framework.sequence.owner.SequenceOwner;
-import org.kuali.kra.SkipVersioning;
+import org.kuali.coeus.common.framework.version.SkipVersioning;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -19,8 +19,8 @@ package org.kuali.kra.award.notesandattachments.notes;
 
 import org.kuali.coeus.common.framework.person.KcPerson;
 import org.kuali.coeus.common.framework.person.KcPersonService;
+import org.kuali.coeus.common.framework.version.SkipVersioning;
 import org.kuali.coeus.sys.framework.service.KcServiceLocator;
-import org.kuali.kra.SkipVersioning;
 import org.kuali.kra.award.AwardAssociate;
 import org.kuali.kra.infrastructure.KraNotepadInterface;
 

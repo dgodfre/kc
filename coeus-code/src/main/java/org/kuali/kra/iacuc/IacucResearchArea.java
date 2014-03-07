@@ -15,7 +15,7 @@
  */
 package org.kuali.kra.iacuc;
 
-import org.kuali.kra.bo.ResearchAreaBase;
+import org.kuali.coeus.common.framework.research.area.ResearchAreaBase;
 
 public class IacucResearchArea extends ResearchAreaBase {
 
